@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b776810ebfa374d7ba8f0fb5ed6e3265, type: 3}
+  m_Name: Demo_SettingsManager
+  m_EditorClassIdentifier: 
+  saveFileName: AdventureCreator_Demo
+  saveTimeDisplay: 0
+  takeSaveScreenshots: 0
+  actionListOnStart: {fileID: 0}
+  playerSwitching: 1
+  player: {fileID: 11400004, guid: 0f5b84e91ea55416889c97bf7e999a0c, type: 2}
+  players: []
+  shareInventory: 0
+  movementMethod: 1
+  inputMethod: 0
+  interactionMethod: 0
+  cancelInteractions: 0
+  seeInteractions: 0
+  selectInteractions: 0
+  cycleInventoryCursors: 1
+  hideLockedCursor: 0
+  lockCursorOnStart: 0
+  inventoryDragDrop: 0
+  inventoryDropLook: 0
+  useOuya: 0
+  inventoryInteractions: 1
+  inventoryActiveEffect: 2
+  activeWhenHover: 0
+  inventoryDisableLeft: 0
+  inventoryPulseSpeed: 1
+  activeWhenUnhandled: 0
+  canReorderItems: 0
+  hideSelectedFromMenu: 0
+  rightClickInventory: 0
+  reverseInventoryCombinations: 1
+  canMoveWhenActive: 1
+  clickPrefab: {fileID: 400000, guid: 5afa28bedf2ed4d77b1485bcdd7c48d9, type: 2}
+  directMovementType: 0
+  destinationAccuracy: .899999976
+  walkableClickRange: .5
+  dragAffects: 0
+  verticalReductionFactor: 1
+  doubleClickMovement: 0
+  jumpSpeed: 4
+  singleTapStraight: 0
+  dragRayLength: 100
+  cameraInfluence: 200
+  freeAimTouchSpeed: .00999999978
+  dragWalkThreshold: 5
+  dragRunThreshold: 20
+  drawDragLine: 1
+  dragLineWidth: 3
+  dragLineColor: {r: 1, g: 1, b: 1, a: 1}
+  offsetTouchCursor: 0
+  doubleTapHotspots: 0
+  forceAspectRatio: 0
+  wantedAspectRatio: 1.33000004
+  landscapeModeOnly: 0
+  cameraPerspective: 2
+  movingTurning: 3
+  hotspotDetection: 0
+  hotspotsInVicinity: 0
+  hotspotIconDisplay: 0
+  hotspotIcon: 1
+  hotspotIconTexture: {fileID: 0}
+  hotspotIconSize: .0399999991
+  playerFacesHotspots: 1
+  navMeshRaycastLength: 100
+  hotspotRaycastLength: 100
+  moveableRaycastLength: 30
+  hotspotLayer: Default
+  navMeshLayer: NavMesh
+  backgroundImageLayer: BackgroundImage
+  deactivatedLayer: Ignore Raycast
+  useLoadingScreen: 0
+  loadingScene: 0

@@ -1,0 +1,854 @@
+fileFormatVersion: 2
+guid: 8cf23a0b6a445e642970297d6a7fb7ec
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: book_bunch_A
+    100002: book_bunch_A 1
+    100004: book_bunch_A 2
+    100006: book_bunch_A 3
+    100008: book_bunch_A1
+    100010: book_bunch_A1 1
+    100012: book_bunch_A1 2
+    100014: book_bunch_A1 3
+    100016: book_bunch_A2
+    100018: book_bunch_A2 1
+    100020: book_bunch_A2 2
+    100022: book_bunch_A2 3
+    100024: book_bunch_A3
+    100026: book_bunch_A3 1
+    100028: book_bunch_A3 2
+    100030: book_bunch_A3 3
+    100032: book_bunch_A4
+    100034: book_bunch_A4 1
+    100036: book_bunch_B
+    100038: book_bunch_B 1
+    100040: book_bunch_B 2
+    100042: book_bunch_B 3
+    100044: book_bunch_B1
+    100046: book_bunch_B1 1
+    100048: book_bunch_B1 2
+    100050: book_bunch_B1 3
+    100052: book_bunch_B2
+    100054: book_bunch_B2 1
+    100056: book_bunch_B3
+    100058: book_bunch_B3 1
+    100060: book_bunch_C
+    100062: book_bunch_C 1
+    100064: book_bunch_C 2
+    100066: book_bunch_C 3
+    100068: book_bunch_C1
+    100070: book_bunch_C1 1
+    100072: book_bunch_C1 2
+    100074: book_bunch_C1 3
+    100076: book_bunch_C2
+    100078: book_bunch_C2 1
+    100080: book_bunch_C2 2
+    100082: book_bunch_C2 3
+    100084: book_bunch_C3
+    100086: book_bunch_C3 1
+    100088: book_bunch_C5
+    100090: book_bunch_C5 1
+    100092: book_bunch_C6
+    100094: book_bunch_D
+    100096: book_bunch_D 1
+    100098: book_bunch_D 2
+    100100: book_bunch_D 3
+    100102: book_bunch_D1
+    100104: book_bunch_D1 1
+    100106: book_bunch_D1 2
+    100108: book_bunch_D1 3
+    100110: book_bunch_D2
+    100112: book_bunch_D2 1
+    100114: book_bunch_D2 2
+    100116: book_bunch_D2 3
+    100118: book_bunch_D3
+    100120: book_bunch_D3 1
+    100122: book_bunch_D4
+    100124: book_bunch_D4 1
+    100126: book_bunch_D5
+    100128: book_bunch_D5 1
+    100130: book_bunch_E
+    100132: book_bunch_E 1
+    100134: book_bunch_E 2
+    100136: book_bunch_E 3
+    100138: book_bunch_E1
+    100140: book_bunch_E1 1
+    100142: book_bunch_E1 2
+    100144: book_bunch_E1 3
+    100146: book_bunch_F
+    100148: book_bunch_F 1
+    100150: book_bunch_F 2
+    100152: book_bunch_F 3
+    100154: book_bunch_F1
+    100156: book_bunch_F1 1
+    100158: book_bunch_F1 2
+    100160: book_bunch_F1 3
+    100162: book_bunch_F2
+    100164: book_bunch_F2 1
+    100166: book_bunch_F2 2
+    100168: book_bunch_F2 3
+    100170: book_bunch_F3
+    100172: book_bunch_F3 1
+    100174: book_bunch_F4
+    100176: book_bunch_F4 1
+    100178: book_bunch_F5
+    100180: book_bunch_G
+    100182: book_bunch_G 1
+    100184: book_bunch_G 2
+    100186: book_bunch_G 3
+    100188: book_bunch_G1
+    100190: book_bunch_G1 1
+    100192: book_bunch_G1 2
+    100194: book_bunch_G1 3
+    100196: book_bunch_G2
+    100198: book_bunch_G2 1
+    100200: book_bunch_G3
+    100202: book_bunch_H
+    100204: book_bunch_H 1
+    100206: book_bunch_H 2
+    100208: book_bunch_H 3
+    100210: book_bunch_H1
+    100212: book_bunch_H1 1
+    100214: book_bunch_H1 2
+    100216: book_bunch_H1 3
+    100218: book_bunch_H2
+    100220: book_bunch_H2 1
+    100222: book_bunch_H3
+    100224: book_series_01
+    100226: book_series_010
+    100228: book_series_011
+    100230: book_series_012
+    100232: book_series_013
+    100234: book_series_014
+    100236: book_series_015
+    100238: book_series_016
+    100240: book_series_02
+    100242: book_series_03
+    100244: book_series_04
+    100246: book_series_05
+    100248: book_series_06
+    100250: book_series_07
+    100252: book_series_08
+    100254: book_series_09
+    100256: //RootNode
+    100258: single_book_A
+    100260: single_book_A 1
+    100262: single_book_A 2
+    100264: single_book_A 3
+    100266: single_book_A1
+    100268: single_book_A1 1
+    100270: single_book_A1 2
+    100272: single_book_A1 3
+    100274: single_book_A2
+    100276: single_book_A2 1
+    100278: single_book_A2 2
+    100280: single_book_A2 3
+    100282: single_book_A3
+    100284: single_book_A4
+    100286: single_book_B
+    100288: single_book_B 1
+    100290: single_book_B 2
+    100292: single_book_B 3
+    100294: single_book_B1
+    100296: single_book_B1 1
+    100298: single_book_B1 2
+    100300: single_book_B1 3
+    100302: single_book_B2
+    100304: single_book_B2 1
+    100306: single_book_B3
+    100308: single_book_C
+    100310: single_book_C 1
+    100312: single_book_C 2
+    100314: single_book_C 3
+    100316: single_book_C1
+    100318: single_book_C1 1
+    100320: single_book_C1 2
+    100322: single_book_C1 3
+    100324: single_book_C2
+    100326: single_book_C2 1
+    100328: single_book_C2 2
+    100330: single_book_C3
+    100332: single_book_C4
+    100334: single_book_C5
+    100336: single_book_C5 1
+    400000: book_bunch_A
+    400002: book_bunch_A 1
+    400004: book_bunch_A 2
+    400006: book_bunch_A 3
+    400008: book_bunch_A1
+    400010: book_bunch_A1 1
+    400012: book_bunch_A1 2
+    400014: book_bunch_A1 3
+    400016: book_bunch_A2
+    400018: book_bunch_A2 1
+    400020: book_bunch_A2 2
+    400022: book_bunch_A2 3
+    400024: book_bunch_A3
+    400026: book_bunch_A3 1
+    400028: book_bunch_A3 2
+    400030: book_bunch_A3 3
+    400032: book_bunch_A4
+    400034: book_bunch_A4 1
+    400036: book_bunch_B
+    400038: book_bunch_B 1
+    400040: book_bunch_B 2
+    400042: book_bunch_B 3
+    400044: book_bunch_B1
+    400046: book_bunch_B1 1
+    400048: book_bunch_B1 2
+    400050: book_bunch_B1 3
+    400052: book_bunch_B2
+    400054: book_bunch_B2 1
+    400056: book_bunch_B3
+    400058: book_bunch_B3 1
+    400060: book_bunch_C
+    400062: book_bunch_C 1
+    400064: book_bunch_C 2
+    400066: book_bunch_C 3
+    400068: book_bunch_C1
+    400070: book_bunch_C1 1
+    400072: book_bunch_C1 2
+    400074: book_bunch_C1 3
+    400076: book_bunch_C2
+    400078: book_bunch_C2 1
+    400080: book_bunch_C2 2
+    400082: book_bunch_C2 3
+    400084: book_bunch_C3
+    400086: book_bunch_C3 1
+    400088: book_bunch_C5
+    400090: book_bunch_C5 1
+    400092: book_bunch_C6
+    400094: book_bunch_D
+    400096: book_bunch_D 1
+    400098: book_bunch_D 2
+    400100: book_bunch_D 3
+    400102: book_bunch_D1
+    400104: book_bunch_D1 1
+    400106: book_bunch_D1 2
+    400108: book_bunch_D1 3
+    400110: book_bunch_D2
+    400112: book_bunch_D2 1
+    400114: book_bunch_D2 2
+    400116: book_bunch_D2 3
+    400118: book_bunch_D3
+    400120: book_bunch_D3 1
+    400122: book_bunch_D4
+    400124: book_bunch_D4 1
+    400126: book_bunch_D5
+    400128: book_bunch_D5 1
+    400130: book_bunch_E
+    400132: book_bunch_E 1
+    400134: book_bunch_E 2
+    400136: book_bunch_E 3
+    400138: book_bunch_E1
+    400140: book_bunch_E1 1
+    400142: book_bunch_E1 2
+    400144: book_bunch_E1 3
+    400146: book_bunch_F
+    400148: book_bunch_F 1
+    400150: book_bunch_F 2
+    400152: book_bunch_F 3
+    400154: book_bunch_F1
+    400156: book_bunch_F1 1
+    400158: book_bunch_F1 2
+    400160: book_bunch_F1 3
+    400162: book_bunch_F2
+    400164: book_bunch_F2 1
+    400166: book_bunch_F2 2
+    400168: book_bunch_F2 3
+    400170: book_bunch_F3
+    400172: book_bunch_F3 1
+    400174: book_bunch_F4
+    400176: book_bunch_F4 1
+    400178: book_bunch_F5
+    400180: book_bunch_G
+    400182: book_bunch_G 1
+    400184: book_bunch_G 2
+    400186: book_bunch_G 3
+    400188: book_bunch_G1
+    400190: book_bunch_G1 1
+    400192: book_bunch_G1 2
+    400194: book_bunch_G1 3
+    400196: book_bunch_G2
+    400198: book_bunch_G2 1
+    400200: book_bunch_G3
+    400202: book_bunch_H
+    400204: book_bunch_H 1
+    400206: book_bunch_H 2
+    400208: book_bunch_H 3
+    400210: book_bunch_H1
+    400212: book_bunch_H1 1
+    400214: book_bunch_H1 2
+    400216: book_bunch_H1 3
+    400218: book_bunch_H2
+    400220: book_bunch_H2 1
+    400222: book_bunch_H3
+    400224: book_series_01
+    400226: book_series_010
+    400228: book_series_011
+    400230: book_series_012
+    400232: book_series_013
+    400234: book_series_014
+    400236: book_series_015
+    400238: book_series_016
+    400240: book_series_02
+    400242: book_series_03
+    400244: book_series_04
+    400246: book_series_05
+    400248: book_series_06
+    400250: book_series_07
+    400252: book_series_08
+    400254: book_series_09
+    400256: //RootNode
+    400258: single_book_A
+    400260: single_book_A 1
+    400262: single_book_A 2
+    400264: single_book_A 3
+    400266: single_book_A1
+    400268: single_book_A1 1
+    400270: single_book_A1 2
+    400272: single_book_A1 3
+    400274: single_book_A2
+    400276: single_book_A2 1
+    400278: single_book_A2 2
+    400280: single_book_A2 3
+    400282: single_book_A3
+    400284: single_book_A4
+    400286: single_book_B
+    400288: single_book_B 1
+    400290: single_book_B 2
+    400292: single_book_B 3
+    400294: single_book_B1
+    400296: single_book_B1 1
+    400298: single_book_B1 2
+    400300: single_book_B1 3
+    400302: single_book_B2
+    400304: single_book_B2 1
+    400306: single_book_B3
+    400308: single_book_C
+    400310: single_book_C 1
+    400312: single_book_C 2
+    400314: single_book_C 3
+    400316: single_book_C1
+    400318: single_book_C1 1
+    400320: single_book_C1 2
+    400322: single_book_C1 3
+    400324: single_book_C2
+    400326: single_book_C2 1
+    400328: single_book_C2 2
+    400330: single_book_C3
+    400332: single_book_C4
+    400334: single_book_C5
+    400336: single_book_C5 1
+    2300000: book_bunch_A
+    2300002: book_bunch_A 1
+    2300004: book_bunch_A 2
+    2300006: book_bunch_A 3
+    2300008: book_bunch_A1
+    2300010: book_bunch_A1 1
+    2300012: book_bunch_A1 2
+    2300014: book_bunch_A1 3
+    2300016: book_bunch_A2
+    2300018: book_bunch_A2 1
+    2300020: book_bunch_A2 2
+    2300022: book_bunch_A2 3
+    2300024: book_bunch_A3
+    2300026: book_bunch_A3 1
+    2300028: book_bunch_A3 2
+    2300030: book_bunch_A3 3
+    2300032: book_bunch_A4
+    2300034: book_bunch_A4 1
+    2300036: book_bunch_B
+    2300038: book_bunch_B 1
+    2300040: book_bunch_B 2
+    2300042: book_bunch_B 3
+    2300044: book_bunch_B1
+    2300046: book_bunch_B1 1
+    2300048: book_bunch_B1 2
+    2300050: book_bunch_B1 3
+    2300052: book_bunch_B2
+    2300054: book_bunch_B2 1
+    2300056: book_bunch_B3
+    2300058: book_bunch_B3 1
+    2300060: book_bunch_C
+    2300062: book_bunch_C 1
+    2300064: book_bunch_C 2
+    2300066: book_bunch_C 3
+    2300068: book_bunch_C1
+    2300070: book_bunch_C1 1
+    2300072: book_bunch_C1 2
+    2300074: book_bunch_C1 3
+    2300076: book_bunch_C2
+    2300078: book_bunch_C2 1
+    2300080: book_bunch_C2 2
+    2300082: book_bunch_C2 3
+    2300084: book_bunch_C3
+    2300086: book_bunch_C3 1
+    2300088: book_bunch_C5
+    2300090: book_bunch_C5 1
+    2300092: book_bunch_C6
+    2300094: book_bunch_D
+    2300096: book_bunch_D 1
+    2300098: book_bunch_D 2
+    2300100: book_bunch_D 3
+    2300102: book_bunch_D1
+    2300104: book_bunch_D1 1
+    2300106: book_bunch_D1 2
+    2300108: book_bunch_D1 3
+    2300110: book_bunch_D2
+    2300112: book_bunch_D2 1
+    2300114: book_bunch_D2 2
+    2300116: book_bunch_D2 3
+    2300118: book_bunch_D3
+    2300120: book_bunch_D3 1
+    2300122: book_bunch_D4
+    2300124: book_bunch_D4 1
+    2300126: book_bunch_D5
+    2300128: book_bunch_D5 1
+    2300130: book_bunch_E
+    2300132: book_bunch_E 1
+    2300134: book_bunch_E 2
+    2300136: book_bunch_E 3
+    2300138: book_bunch_E1
+    2300140: book_bunch_E1 1
+    2300142: book_bunch_E1 2
+    2300144: book_bunch_E1 3
+    2300146: book_bunch_F
+    2300148: book_bunch_F 1
+    2300150: book_bunch_F 2
+    2300152: book_bunch_F 3
+    2300154: book_bunch_F1
+    2300156: book_bunch_F1 1
+    2300158: book_bunch_F1 2
+    2300160: book_bunch_F1 3
+    2300162: book_bunch_F2
+    2300164: book_bunch_F2 1
+    2300166: book_bunch_F2 2
+    2300168: book_bunch_F2 3
+    2300170: book_bunch_F3
+    2300172: book_bunch_F3 1
+    2300174: book_bunch_F4
+    2300176: book_bunch_F4 1
+    2300178: book_bunch_F5
+    2300180: book_bunch_G
+    2300182: book_bunch_G 1
+    2300184: book_bunch_G 2
+    2300186: book_bunch_G 3
+    2300188: book_bunch_G1
+    2300190: book_bunch_G1 1
+    2300192: book_bunch_G1 2
+    2300194: book_bunch_G1 3
+    2300196: book_bunch_G2
+    2300198: book_bunch_G2 1
+    2300200: book_bunch_G3
+    2300202: book_bunch_H
+    2300204: book_bunch_H 1
+    2300206: book_bunch_H 2
+    2300208: book_bunch_H 3
+    2300210: book_bunch_H1
+    2300212: book_bunch_H1 1
+    2300214: book_bunch_H1 2
+    2300216: book_bunch_H1 3
+    2300218: book_bunch_H2
+    2300220: book_bunch_H2 1
+    2300222: book_bunch_H3
+    2300224: single_book_A
+    2300226: single_book_A 1
+    2300228: single_book_A 2
+    2300230: single_book_A 3
+    2300232: single_book_A1
+    2300234: single_book_A1 1
+    2300236: single_book_A1 2
+    2300238: single_book_A1 3
+    2300240: single_book_A2
+    2300242: single_book_A2 1
+    2300244: single_book_A2 2
+    2300246: single_book_A2 3
+    2300248: single_book_A3
+    2300250: single_book_A4
+    2300252: single_book_B
+    2300254: single_book_B 1
+    2300256: single_book_B 2
+    2300258: single_book_B 3
+    2300260: single_book_B1
+    2300262: single_book_B1 1
+    2300264: single_book_B1 2
+    2300266: single_book_B1 3
+    2300268: single_book_B2
+    2300270: single_book_B2 1
+    2300272: single_book_B3
+    2300274: single_book_C
+    2300276: single_book_C 1
+    2300278: single_book_C 2
+    2300280: single_book_C 3
+    2300282: single_book_C1
+    2300284: single_book_C1 1
+    2300286: single_book_C1 2
+    2300288: single_book_C1 3
+    2300290: single_book_C2
+    2300292: single_book_C2 1
+    2300294: single_book_C2 2
+    2300296: single_book_C3
+    2300298: single_book_C4
+    2300300: single_book_C5
+    2300302: single_book_C5 1
+    3300000: book_bunch_A
+    3300002: book_bunch_A 1
+    3300004: book_bunch_A 2
+    3300006: book_bunch_A 3
+    3300008: book_bunch_A1
+    3300010: book_bunch_A1 1
+    3300012: book_bunch_A1 2
+    3300014: book_bunch_A1 3
+    3300016: book_bunch_A2
+    3300018: book_bunch_A2 1
+    3300020: book_bunch_A2 2
+    3300022: book_bunch_A2 3
+    3300024: book_bunch_A3
+    3300026: book_bunch_A3 1
+    3300028: book_bunch_A3 2
+    3300030: book_bunch_A3 3
+    3300032: book_bunch_A4
+    3300034: book_bunch_A4 1
+    3300036: book_bunch_B
+    3300038: book_bunch_B 1
+    3300040: book_bunch_B 2
+    3300042: book_bunch_B 3
+    3300044: book_bunch_B1
+    3300046: book_bunch_B1 1
+    3300048: book_bunch_B1 2
+    3300050: book_bunch_B1 3
+    3300052: book_bunch_B2
+    3300054: book_bunch_B2 1
+    3300056: book_bunch_B3
+    3300058: book_bunch_B3 1
+    3300060: book_bunch_C
+    3300062: book_bunch_C 1
+    3300064: book_bunch_C 2
+    3300066: book_bunch_C 3
+    3300068: book_bunch_C1
+    3300070: book_bunch_C1 1
+    3300072: book_bunch_C1 2
+    3300074: book_bunch_C1 3
+    3300076: book_bunch_C2
+    3300078: book_bunch_C2 1
+    3300080: book_bunch_C2 2
+    3300082: book_bunch_C2 3
+    3300084: book_bunch_C3
+    3300086: book_bunch_C3 1
+    3300088: book_bunch_C5
+    3300090: book_bunch_C5 1
+    3300092: book_bunch_C6
+    3300094: book_bunch_D
+    3300096: book_bunch_D 1
+    3300098: book_bunch_D 2
+    3300100: book_bunch_D 3
+    3300102: book_bunch_D1
+    3300104: book_bunch_D1 1
+    3300106: book_bunch_D1 2
+    3300108: book_bunch_D1 3
+    3300110: book_bunch_D2
+    3300112: book_bunch_D2 1
+    3300114: book_bunch_D2 2
+    3300116: book_bunch_D2 3
+    3300118: book_bunch_D3
+    3300120: book_bunch_D3 1
+    3300122: book_bunch_D4
+    3300124: book_bunch_D4 1
+    3300126: book_bunch_D5
+    3300128: book_bunch_D5 1
+    3300130: book_bunch_E
+    3300132: book_bunch_E 1
+    3300134: book_bunch_E 2
+    3300136: book_bunch_E 3
+    3300138: book_bunch_E1
+    3300140: book_bunch_E1 1
+    3300142: book_bunch_E1 2
+    3300144: book_bunch_E1 3
+    3300146: book_bunch_F
+    3300148: book_bunch_F 1
+    3300150: book_bunch_F 2
+    3300152: book_bunch_F 3
+    3300154: book_bunch_F1
+    3300156: book_bunch_F1 1
+    3300158: book_bunch_F1 2
+    3300160: book_bunch_F1 3
+    3300162: book_bunch_F2
+    3300164: book_bunch_F2 1
+    3300166: book_bunch_F2 2
+    3300168: book_bunch_F2 3
+    3300170: book_bunch_F3
+    3300172: book_bunch_F3 1
+    3300174: book_bunch_F4
+    3300176: book_bunch_F4 1
+    3300178: book_bunch_F5
+    3300180: book_bunch_G
+    3300182: book_bunch_G 1
+    3300184: book_bunch_G 2
+    3300186: book_bunch_G 3
+    3300188: book_bunch_G1
+    3300190: book_bunch_G1 1
+    3300192: book_bunch_G1 2
+    3300194: book_bunch_G1 3
+    3300196: book_bunch_G2
+    3300198: book_bunch_G2 1
+    3300200: book_bunch_G3
+    3300202: book_bunch_H
+    3300204: book_bunch_H 1
+    3300206: book_bunch_H 2
+    3300208: book_bunch_H 3
+    3300210: book_bunch_H1
+    3300212: book_bunch_H1 1
+    3300214: book_bunch_H1 2
+    3300216: book_bunch_H1 3
+    3300218: book_bunch_H2
+    3300220: book_bunch_H2 1
+    3300222: book_bunch_H3
+    3300224: single_book_A
+    3300226: single_book_A 1
+    3300228: single_book_A 2
+    3300230: single_book_A 3
+    3300232: single_book_A1
+    3300234: single_book_A1 1
+    3300236: single_book_A1 2
+    3300238: single_book_A1 3
+    3300240: single_book_A2
+    3300242: single_book_A2 1
+    3300244: single_book_A2 2
+    3300246: single_book_A2 3
+    3300248: single_book_A3
+    3300250: single_book_A4
+    3300252: single_book_B
+    3300254: single_book_B 1
+    3300256: single_book_B 2
+    3300258: single_book_B 3
+    3300260: single_book_B1
+    3300262: single_book_B1 1
+    3300264: single_book_B1 2
+    3300266: single_book_B1 3
+    3300268: single_book_B2
+    3300270: single_book_B2 1
+    3300272: single_book_B3
+    3300274: single_book_C
+    3300276: single_book_C 1
+    3300278: single_book_C 2
+    3300280: single_book_C 3
+    3300282: single_book_C1
+    3300284: single_book_C1 1
+    3300286: single_book_C1 2
+    3300288: single_book_C1 3
+    3300290: single_book_C2
+    3300292: single_book_C2 1
+    3300294: single_book_C2 2
+    3300296: single_book_C3
+    3300298: single_book_C4
+    3300300: single_book_C5
+    3300302: single_book_C5 1
+    4300000: book_bunch_F
+    4300002: book_bunch_E
+    4300004: book_bunch_D
+    4300006: book_bunch_H
+    4300008: book_bunch_A
+    4300010: single_book_B
+    4300012: single_book_C
+    4300014: single_book_A
+    4300016: book_bunch_B
+    4300018: book_bunch_A1
+    4300020: book_bunch_G
+    4300022: book_bunch_D1
+    4300024: book_bunch_C
+    4300026: single_book_C1
+    4300028: single_book_A1
+    4300030: book_bunch_G1
+    4300032: book_bunch_D2
+    4300034: book_bunch_F1
+    4300036: single_book_B2
+    4300038: single_book_B1
+    4300040: single_book_A2
+    4300042: single_book_C2
+    4300044: book_bunch_C1
+    4300046: book_bunch_E1
+    4300048: book_bunch_A2
+    4300050: book_bunch_B1
+    4300052: book_bunch_H1
+    4300054: book_bunch_C2
+    4300056: book_bunch_A3
+    4300058: book_bunch_F2
+    4300060: book_bunch_F
+    4300062: book_bunch_E
+    4300064: book_bunch_D
+    4300066: book_bunch_H
+    4300068: book_bunch_A
+    4300070: single_book_B
+    4300072: single_book_C
+    4300074: single_book_A
+    4300076: single_book_A3
+    4300078: book_bunch_B
+    4300080: book_bunch_A1
+    4300082: book_bunch_G
+    4300084: book_bunch_D1
+    4300086: book_bunch_C
+    4300088: single_book_C1
+    4300090: single_book_A1
+    4300092: single_book_C3
+    4300094: single_book_C4
+    4300096: book_bunch_G1
+    4300098: book_bunch_D2
+    4300100: book_bunch_F1
+    4300102: single_book_B2
+    4300104: single_book_B1
+    4300106: single_book_A2
+    4300108: book_bunch_C1
+    4300110: book_bunch_E1
+    4300112: single_book_A4
+    4300114: single_book_B3
+    4300116: book_bunch_A2
+    4300118: book_bunch_B1
+    4300120: book_bunch_H1
+    4300122: book_bunch_C2
+    4300124: book_bunch_A3
+    4300126: book_bunch_F2
+    4300128: book_bunch_F
+    4300130: book_bunch_E
+    4300132: book_bunch_D
+    4300134: book_bunch_H
+    4300136: book_bunch_A
+    4300138: single_book_B
+    4300140: single_book_C
+    4300142: single_book_A
+    4300144: book_bunch_H2
+    4300146: book_bunch_D3
+    4300148: book_bunch_F3
+    4300150: book_bunch_A4
+    4300152: book_bunch_B
+    4300154: book_bunch_A1
+    4300156: book_bunch_G
+    4300158: book_bunch_D1
+    4300160: book_bunch_C
+    4300162: single_book_C1
+    4300164: single_book_A1
+    4300166: book_bunch_B2
+    4300168: book_bunch_G2
+    4300170: book_bunch_D4
+    4300172: single_book_C5
+    4300174: book_bunch_G1
+    4300176: book_bunch_D2
+    4300178: book_bunch_F1
+    4300180: single_book_B1
+    4300182: single_book_A2
+    4300184: single_book_C2
+    4300186: book_bunch_C1
+    4300188: book_bunch_E1
+    4300190: book_bunch_D5
+    4300192: book_bunch_C3
+    4300194: book_bunch_G3
+    4300196: book_bunch_A2
+    4300198: book_bunch_B1
+    4300200: book_bunch_H1
+    4300202: book_bunch_C2
+    4300204: book_bunch_A3
+    4300206: book_bunch_F2
+    4300208: book_bunch_F4
+    4300210: book_bunch_C5
+    4300212: book_bunch_B3
+    4300214: book_bunch_H3
+    4300216: book_bunch_A2
+    4300218: book_bunch_B1
+    4300220: book_bunch_H1
+    4300222: book_bunch_C2
+    4300224: book_bunch_A3
+    4300226: book_bunch_F2
+    4300228: book_bunch_F4
+    4300230: book_bunch_C5
+    4300232: book_bunch_C6
+    4300234: book_bunch_B3
+    4300236: book_bunch_G1
+    4300238: book_bunch_D2
+    4300240: book_bunch_F1
+    4300242: single_book_B1
+    4300244: single_book_A2
+    4300246: single_book_C2
+    4300248: book_bunch_C1
+    4300250: book_bunch_E1
+    4300252: book_bunch_D5
+    4300254: book_bunch_C3
+    4300256: book_bunch_F5
+    4300258: book_bunch_B
+    4300260: book_bunch_A1
+    4300262: book_bunch_G
+    4300264: book_bunch_D1
+    4300266: book_bunch_C
+    4300268: single_book_C1
+    4300270: single_book_A1
+    4300272: book_bunch_B2
+    4300274: book_bunch_G2
+    4300276: book_bunch_D4
+    4300278: single_book_C5
+    4300280: book_bunch_F
+    4300282: book_bunch_E
+    4300284: book_bunch_D
+    4300286: book_bunch_H
+    4300288: book_bunch_A
+    4300290: single_book_B
+    4300292: single_book_C
+    4300294: single_book_A
+    4300296: book_bunch_H2
+    4300298: book_bunch_D3
+    4300300: book_bunch_F3
+    4300302: book_bunch_A4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
