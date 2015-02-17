@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 4174d5eba6587c4439799657a4b9bf84
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: bayWindowOBJ
+    100002: bayWindowOBJ1
+    100004: bayWindowOBJ2
+    100006: bayWindowOBJ3
+    100008: ceiling
+    100010: cello
+    100012: door
+    100014: floor
+    100016: frame01
+    100018: frame02
+    100020: frame03
+    100022: frame04
+    100024: glass
+    100026: glass 1
+    100028: glass 2
+    100030: glass 3
+    100032: harp
+    100034: harp_stool
+    100036: moulding_Ceiling
+    100038: moulding_floor
+    100040: music_sheet_cabinet
+    100042: music_stand
+    100044: //RootNode
+    100046: panes
+    100048: panes 1
+    100050: panes 2
+    100052: panes 3
+    100054: phonograph
+    100056: piano_all
+    100058: piano_stool
+    100060: polySurface10
+    100062: polySurface10 1
+    100064: polySurface10 2
+    100066: polySurface10 3
+    100068: polySurface11
+    100070: polySurface11 1
+    100072: polySurface11 2
+    100074: polySurface11 3
+    100076: polySurface12
+    100078: polySurface12 1
+    100080: polySurface12 2
+    100082: polySurface12 3
+    100084: polySurface13
+    100086: polySurface13 1
+    100088: polySurface13 2
+    100090: polySurface13 3
+    100092: polySurface14
+    100094: polySurface14 1
+    100096: polySurface14 2
+    100098: polySurface14 3
+    100100: polySurface15
+    100102: polySurface15 1
+    100104: polySurface15 2
+    100106: polySurface15 3
+    100108: polySurface16
+    100110: polySurface17
+    100112: polySurface18
+    100114: polySurface19
+    100116: polySurface20
+    100118: polySurface21
+    100120: polySurface22
+    100122: polySurface23
+    100124: polySurface24
+    100126: polySurface25
+    100128: polySurface26
+    100130: polySurface27
+    100132: polySurface28
+    100134: polySurface29
+    100136: polySurface30
+    100138: polySurface31
+    100140: polySurface32
+    100142: polySurface33
+    100144: polySurface34
+    100146: polySurface35
+    100148: polySurface36
+    100150: polySurface37
+    100152: polySurface38
+    100154: polySurface39
+    100156: polySurface40
+    100158: polySurface41
+    100160: polySurface42
+    100162: polySurface43
+    100164: polySurface44
+    100166: polySurface45
+    100168: polySurface46
+    100170: polySurface47
+    100172: polySurface48
+    100174: polySurface49
+    100176: polySurface50
+    100178: polySurface51
+    100180: polySurface52
+    100182: polySurface6
+    100184: polySurface6 1
+    100186: polySurface6 2
+    100188: polySurface6 3
+    100190: polySurface7
+    100192: polySurface7 1
+    100194: polySurface7 2
+    100196: polySurface7 3
+    100198: polySurface8
+    100200: polySurface8 1
+    100202: polySurface8 2
+    100204: polySurface8 3
+    100206: polySurface9
+    100208: polySurface9 1
+    100210: polySurface9 2
+    100212: polySurface9 3
+    100214: record_cabinet_all
+    100216: record_shelf
+    100218: secretHandle
+    100220: secretPanel
+    100222: stool
+    100224: wall01
+    100226: wall02
+    100228: wall03
+    100230: wall04
+    100232: window
+    100234: window 1
+    100236: window 2
+    100238: window 3
+    100240: window_frames
+    400000: bayWindowOBJ
+    400002: bayWindowOBJ1
+    400004: bayWindowOBJ2
+    400006: bayWindowOBJ3
+    400008: ceiling
+    400010: cello
+    400012: door
+    400014: floor
+    400016: frame01
+    400018: frame02
+    400020: frame03
+    400022: frame04
+    400024: glass
+    400026: glass 1
+    400028: glass 2
+    400030: glass 3
+    400032: harp
+    400034: harp_stool
+    400036: moulding_Ceiling
+    400038: moulding_floor
+    400040: music_sheet_cabinet
+    400042: music_stand
+    400044: //RootNode
+    400046: panes
+    400048: panes 1
+    400050: panes 2
+    400052: panes 3
+    400054: phonograph
+    400056: piano_all
+    400058: piano_stool
+    400060: polySurface10
+    400062: polySurface10 1
+    400064: polySurface10 2
+    400066: polySurface10 3
+    400068: polySurface11
+    400070: polySurface11 1
+    400072: polySurface11 2
+    400074: polySurface11 3
+    400076: polySurface12
+    400078: polySurface12 1
+    400080: polySurface12 2
+    400082: polySurface12 3
+    400084: polySurface13
+    400086: polySurface13 1
+    400088: polySurface13 2
+    400090: polySurface13 3
+    400092: polySurface14
+    400094: polySurface14 1
+    400096: polySurface14 2
+    400098: polySurface14 3
+    400100: polySurface15
+    400102: polySurface15 1
+    400104: polySurface15 2
+    400106: polySurface15 3
+    400108: polySurface16
+    400110: polySurface17
+    400112: polySurface18
+    400114: polySurface19
+    400116: polySurface20
+    400118: polySurface21
+    400120: polySurface22
+    400122: polySurface23
+    400124: polySurface24
+    400126: polySurface25
+    400128: polySurface26
+    400130: polySurface27
+    400132: polySurface28
+    400134: polySurface29
+    400136: polySurface30
+    400138: polySurface31
+    400140: polySurface32
+    400142: polySurface33
+    400144: polySurface34
+    400146: polySurface35
+    400148: polySurface36
+    400150: polySurface37
+    400152: polySurface38
+    400154: polySurface39
+    400156: polySurface40
+    400158: polySurface41
+    400160: polySurface42
+    400162: polySurface43
+    400164: polySurface44
+    400166: polySurface45
+    400168: polySurface46
+    400170: polySurface47
+    400172: polySurface48
+    400174: polySurface49
+    400176: polySurface50
+    400178: polySurface51
+    400180: polySurface52
+    400182: polySurface6
+    400184: polySurface6 1
+    400186: polySurface6 2
+    400188: polySurface6 3
+    400190: polySurface7
+    400192: polySurface7 1
+    400194: polySurface7 2
+    400196: polySurface7 3
+    400198: polySurface8
+    400200: polySurface8 1
+    400202: polySurface8 2
+    400204: polySurface8 3
+    400206: polySurface9
+    400208: polySurface9 1
+    400210: polySurface9 2
+    400212: polySurface9 3
+    400214: record_cabinet_all
+    400216: record_shelf
+    400218: secretHandle
+    400220: secretPanel
+    400222: stool
+    400224: wall01
+    400226: wall02
+    400228: wall03
+    400230: wall04
+    400232: window
+    400234: window 1
+    400236: window 2
+    400238: window 3
+    400240: window_frames
+    2300000: ceiling
+    2300002: cello
+    2300004: floor
+    2300006: frame01
+    2300008: frame02
+    2300010: frame03
+    2300012: frame04
+    2300014: harp
+    2300016: harp_stool
+    2300018: moulding_Ceiling
+    2300020: moulding_floor
+    2300022: music_sheet_cabinet
+    2300024: music_stand
+    2300026: phonograph
+    2300028: piano_stool
+    2300030: polySurface10
+    2300032: polySurface10 1
+    2300034: polySurface10 2
+    2300036: polySurface10 3
+    2300038: polySurface11
+    2300040: polySurface11 1
+    2300042: polySurface11 2
+    2300044: polySurface11 3
+    2300046: polySurface12
+    2300048: polySurface12 1
+    2300050: polySurface12 2
+    2300052: polySurface12 3
+    2300054: polySurface13
+    2300056: polySurface13 1
+    2300058: polySurface13 2
+    2300060: polySurface13 3
+    2300062: polySurface14
+    2300064: polySurface14 1
+    2300066: polySurface14 2
+    2300068: polySurface14 3
+    2300070: polySurface15
+    2300072: polySurface15 1
+    2300074: polySurface15 2
+    2300076: polySurface15 3
+    2300078: polySurface16
+    2300080: polySurface17
+    2300082: polySurface18
+    2300084: polySurface19
+    2300086: polySurface20
+    2300088: polySurface21
+    2300090: polySurface22
+    2300092: polySurface23
+    2300094: polySurface24
+    2300096: polySurface25
+    2300098: polySurface26
+    2300100: polySurface27
+    2300102: polySurface28
+    2300104: polySurface29
+    2300106: polySurface30
+    2300108: polySurface31
+    2300110: polySurface32
+    2300112: polySurface33
+    2300114: polySurface34
+    2300116: polySurface35
+    2300118: polySurface36
+    2300120: polySurface37
+    2300122: polySurface38
+    2300124: polySurface39
+    2300126: polySurface40
+    2300128: polySurface41
+    2300130: polySurface42
+    2300132: polySurface43
+    2300134: polySurface44
+    2300136: polySurface45
+    2300138: polySurface46
+    2300140: polySurface47
+    2300142: polySurface48
+    2300144: polySurface49
+    2300146: polySurface50
+    2300148: polySurface51
+    2300150: polySurface52
+    2300152: polySurface6
+    2300154: polySurface6 1
+    2300156: polySurface6 2
+    2300158: polySurface6 3
+    2300160: polySurface7
+    2300162: polySurface7 1
+    2300164: polySurface7 2
+    2300166: polySurface7 3
+    2300168: polySurface8
+    2300170: polySurface8 1
+    2300172: polySurface8 2
+    2300174: polySurface8 3
+    2300176: polySurface9
+    2300178: polySurface9 1
+    2300180: polySurface9 2
+    2300182: polySurface9 3
+    2300184: record_shelf
+    2300186: secretHandle
+    2300188: secretPanel
+    2300190: wall01
+    2300192: wall02
+    2300194: wall03
+    2300196: wall04
+    2300198: window
+    2300200: window 1
+    2300202: window 2
+    2300204: window 3
+    3300000: ceiling
+    3300002: cello
+    3300004: floor
+    3300006: frame01
+    3300008: frame02
+    3300010: frame03
+    3300012: frame04
+    3300014: harp
+    3300016: harp_stool
+    3300018: moulding_Ceiling
+    3300020: moulding_floor
+    3300022: music_sheet_cabinet
+    3300024: music_stand
+    3300026: phonograph
+    3300028: piano_stool
+    3300030: polySurface10
+    3300032: polySurface10 1
+    3300034: polySurface10 2
+    3300036: polySurface10 3
+    3300038: polySurface11
+    3300040: polySurface11 1
+    3300042: polySurface11 2
+    3300044: polySurface11 3
+    3300046: polySurface12
+    3300048: polySurface12 1
+    3300050: polySurface12 2
+    3300052: polySurface12 3
+    3300054: polySurface13
+    3300056: polySurface13 1
+    3300058: polySurface13 2
+    3300060: polySurface13 3
+    3300062: polySurface14
+    3300064: polySurface14 1
+    3300066: polySurface14 2
+    3300068: polySurface14 3
+    3300070: polySurface15
+    3300072: polySurface15 1
+    3300074: polySurface15 2
+    3300076: polySurface15 3
+    3300078: polySurface16
+    3300080: polySurface17
+    3300082: polySurface18
+    3300084: polySurface19
+    3300086: polySurface20
+    3300088: polySurface21
+    3300090: polySurface22
+    3300092: polySurface23
+    3300094: polySurface24
+    3300096: polySurface25
+    3300098: polySurface26
+    3300100: polySurface27
+    3300102: polySurface28
+    3300104: polySurface29
+    3300106: polySurface30
+    3300108: polySurface31
+    3300110: polySurface32
+    3300112: polySurface33
+    3300114: polySurface34
+    3300116: polySurface35
+    3300118: polySurface36
+    3300120: polySurface37
+    3300122: polySurface38
+    3300124: polySurface39
+    3300126: polySurface40
+    3300128: polySurface41
+    3300130: polySurface42
+    3300132: polySurface43
+    3300134: polySurface44
+    3300136: polySurface45
+    3300138: polySurface46
+    3300140: polySurface47
+    3300142: polySurface48
+    3300144: polySurface49
+    3300146: polySurface50
+    3300148: polySurface51
+    3300150: polySurface52
+    3300152: polySurface6
+    3300154: polySurface6 1
+    3300156: polySurface6 2
+    3300158: polySurface6 3
+    3300160: polySurface7
+    3300162: polySurface7 1
+    3300164: polySurface7 2
+    3300166: polySurface7 3
+    3300168: polySurface8
+    3300170: polySurface8 1
+    3300172: polySurface8 2
+    3300174: polySurface8 3
+    3300176: polySurface9
+    3300178: polySurface9 1
+    3300180: polySurface9 2
+    3300182: polySurface9 3
+    3300184: record_shelf
+    3300186: secretHandle
+    3300188: secretPanel
+    3300190: wall01
+    3300192: wall02
+    3300194: wall03
+    3300196: wall04
+    3300198: window
+    3300200: window 1
+    3300202: window 2
+    3300204: window 3
+    4300000: secretPanel
+    4300002: secretHandle
+    4300004: ceiling
+    4300006: floor
+    4300008: wall01
+    4300010: wall02
+    4300012: wall03
+    4300014: wall04
+    4300016: polySurface16
+    4300018: polySurface17
+    4300020: polySurface18
+    4300022: polySurface19
+    4300024: harp_stool
+    4300026: phonograph
+    4300028: harp
+    4300030: cello
+    4300032: music_stand
+    4300034: window
+    4300036: polySurface15
+    4300038: polySurface14
+    4300040: polySurface13
+    4300042: polySurface12
+    4300044: polySurface11
+    4300046: polySurface10
+    4300048: polySurface9
+    4300050: polySurface8
+    4300052: polySurface7
+    4300054: polySurface6
+    4300056: window
+    4300058: polySurface15
+    4300060: polySurface14
+    4300062: polySurface13
+    4300064: polySurface12
+    4300066: polySurface11
+    4300068: polySurface10
+    4300070: polySurface9
+    4300072: polySurface8
+    4300074: polySurface7
+    4300076: polySurface6
+    4300078: window
+    4300080: polySurface15
+    4300082: polySurface14
+    4300084: polySurface13
+    4300086: polySurface12
+    4300088: polySurface11
+    4300090: polySurface10
+    4300092: polySurface9
+    4300094: polySurface8
+    4300096: polySurface7
+    4300098: polySurface6
+    4300100: window
+    4300102: polySurface15
+    4300104: polySurface14
+    4300106: polySurface13
+    4300108: polySurface12
+    4300110: polySurface11
+    4300112: polySurface10
+    4300114: polySurface9
+    4300116: polySurface8
+    4300118: polySurface7
+    4300120: polySurface6
+    4300122: moulding_Ceiling
+    4300124: moulding_floor
+    4300126: music_sheet_cabinet
+    4300128: polySurface20
+    4300130: polySurface21
+    4300132: polySurface22
+    4300134: polySurface23
+    4300136: polySurface24
+    4300138: polySurface25
+    4300140: polySurface26
+    4300142: polySurface27
+    4300144: polySurface28
+    4300146: polySurface29
+    4300148: polySurface30
+    4300150: piano_stool
+    4300152: polySurface31
+    4300154: polySurface32
+    4300156: polySurface33
+    4300158: polySurface34
+    4300160: polySurface35
+    4300162: polySurface36
+    4300164: polySurface37
+    4300166: polySurface38
+    4300168: polySurface39
+    4300170: record_shelf
+    4300172: polySurface40
+    4300174: polySurface41
+    4300176: polySurface42
+    4300178: polySurface43
+    4300180: polySurface44
+    4300182: polySurface45
+    4300184: polySurface46
+    4300186: polySurface47
+    4300188: polySurface48
+    4300190: polySurface49
+    4300192: polySurface50
+    4300194: polySurface51
+    4300196: polySurface52
+    4300198: frame04
+    4300200: frame03
+    4300202: frame02
+    4300204: frame01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

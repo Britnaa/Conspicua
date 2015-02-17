@@ -43,7 +43,7 @@ MonoBehaviour:
   reverseInventoryCombinations: 1
   canMoveWhenActive: 1
   clickPrefab: {fileID: 400000, guid: 5afa28bedf2ed4d77b1485bcdd7c48d9, type: 2}
-  directMovementType: 0
+  directMovementType: 1
   destinationAccuracy: .899999976
   walkableClickRange: .5
   dragAffects: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
   landscapeModeOnly: 0
   cameraPerspective: 2
   movingTurning: 3
-  hotspotDetection: 0
+  hotspotDetection: 1
   hotspotsInVicinity: 0
   hotspotIconDisplay: 0
   hotspotIcon: 1
