@@ -2154,7 +2154,7 @@ MonoBehaviour:
   blendMode: 0
   playMode: 0
   animationEngine: 0
-  animEngine: {fileID: 493717282}
+  animEngine: {fileID: 1307868370}
 --- !u!1 &53601970
 GameObject:
   m_ObjectHideFlags: 0
@@ -5153,7 +5153,7 @@ MonoBehaviour:
   blendMode: 0
   playMode: 1
   animationEngine: 0
-  animEngine: {fileID: 965435928}
+  animEngine: {fileID: 2085669244}
 --- !u!1 &129097539
 GameObject:
   m_ObjectHideFlags: 0
@@ -9486,7 +9486,7 @@ MonoBehaviour:
   blendMode: 0
   playMode: 0
   animationEngine: 0
-  animEngine: {fileID: 0}
+  animEngine: {fileID: 1696244198}
 --- !u!1 &233094528
 GameObject:
   m_ObjectHideFlags: 0
@@ -10532,7 +10532,7 @@ MonoBehaviour:
   blendMode: 0
   playMode: 2
   animationEngine: 0
-  animEngine: {fileID: 1040479296}
+  animEngine: {fileID: 586223879}
 --- !u!1 &261998519
 GameObject:
   m_ObjectHideFlags: 0
@@ -11787,17 +11787,6 @@ Transform:
   - {fileID: 691358445}
   m_Father: {fileID: 1981259394}
   m_RootOrder: 3
---- !u!114 &313692954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4ea41b93bbb1407eabd39a6fc5e9998, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &315767480
 Prefab:
   m_ObjectHideFlags: 0
@@ -15596,6 +15585,44 @@ Renderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
+--- !u!114 &415057486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3339a0ba7074d969436b88c517d06f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Object: Add or remove'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  gameObject: {fileID: 258401033}
+  parameterID: -1
+  constantID: 0
+  invAction: 1
+  positionRelativeTo: 0
 --- !u!114 &421950197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16529,6 +16556,44 @@ Light:
   m_ShadowAngle: 0
   m_IndirectIntensity: 1
   m_AreaSize: {x: 1, y: 1}
+--- !u!114 &443383270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3339a0ba7074d969436b88c517d06f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Object: Add or remove'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  gameObject: {fileID: 1303069288}
+  parameterID: -1
+  constantID: 0
+  invAction: 1
+  positionRelativeTo: 0
 --- !u!1 &449619457
 GameObject:
   m_ObjectHideFlags: 0
@@ -17941,21 +18006,6 @@ Transform:
   - {fileID: 151406500}
   m_Father: {fileID: 1981259394}
   m_RootOrder: 6
---- !u!114 &493717282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  turningIsLinear: 0
-  rootMotion: 0
-  isSpriteBased: 0
 --- !u!1 &496299701
 GameObject:
   m_ObjectHideFlags: 0
@@ -17993,6 +18043,7 @@ MonoBehaviour:
   - {fileID: 668081453}
   - {fileID: 171360749}
   - {fileID: 397262304}
+  - {fileID: 1232564763}
   conversation: {fileID: 0}
   assetFile: {fileID: 0}
   source: 0
@@ -22572,6 +22623,21 @@ Prefab:
   m_RootGameObject: {fileID: 1875602381}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!114 &586223879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  turningIsLinear: 0
+  rootMotion: 0
+  isSpriteBased: 0
 --- !u!114 &586377053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24273,6 +24339,44 @@ Transform:
   m_Children: []
   m_Father: {fileID: 922202442}
   m_RootOrder: 0
+--- !u!114 &631498076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3339a0ba7074d969436b88c517d06f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Object: Add or remove'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  gameObject: {fileID: 1223147347}
+  parameterID: -1
+  constantID: 0
+  invAction: 1
+  positionRelativeTo: 0
 --- !u!1 &632964491
 GameObject:
   m_ObjectHideFlags: 0
@@ -24690,6 +24794,44 @@ MonoBehaviour:
   boolCondition: 0
   stringValue: 
   location: 1
+--- !u!114 &639957944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3339a0ba7074d969436b88c517d06f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Object: Add or remove'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  gameObject: {fileID: 152892256}
+  parameterID: -1
+  constantID: 0
+  invAction: 1
+  positionRelativeTo: 0
 --- !u!1001 &640148765
 Prefab:
   m_ObjectHideFlags: 0
@@ -24950,6 +25092,21 @@ MonoBehaviour:
   interactionType: 0
   changeType: 0
   number: 0
+--- !u!114 &654884188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  turningIsLinear: 0
+  rootMotion: 0
+  isSpriteBased: 0
 --- !u!1 &658751123
 GameObject:
   m_ObjectHideFlags: 0
@@ -26426,21 +26583,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 34
---- !u!114 &670325045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  turningIsLinear: 0
-  rootMotion: 0
-  isSpriteBased: 0
 --- !u!1 &673958781
 GameObject:
   m_ObjectHideFlags: 0
@@ -27916,6 +28058,7 @@ MonoBehaviour:
   - {fileID: 2001248381}
   - {fileID: 276867329}
   - {fileID: 1881015634}
+  - {fileID: 415057486}
   conversation: {fileID: 0}
   assetFile: {fileID: 0}
   source: 0
@@ -29914,6 +30057,10 @@ Prefab:
       propertyPath: m_LightmapTilingOffset.w
       value: .498046875
       objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 9a1bc5153bff5ce43810e0c0141fb508, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9a1bc5153bff5ce43810e0c0141fb508, type: 3}
   m_RootGameObject: {fileID: 442052815}
@@ -30084,21 +30231,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 93655195}
   m_GameObject: {fileID: 778864642}
   m_Mesh: {fileID: 4300026, guid: 15068ec6cf57f934d81168e3a3e8df4a, type: 3}
---- !u!114 &779770693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  turningIsLinear: 0
-  rootMotion: 0
-  isSpriteBased: 0
 --- !u!1 &779783925
 GameObject:
   m_ObjectHideFlags: 0
@@ -33910,6 +34042,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 64.3082047, y: 37.4313126, z: 154.348328}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &826384679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  turningIsLinear: 0
+  rootMotion: 0
+  isSpriteBased: 0
 --- !u!1 &827879849
 GameObject:
   m_ObjectHideFlags: 0
@@ -35479,7 +35626,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_LocalPosition.x
@@ -35533,6 +35680,10 @@ Prefab:
       propertyPath: actions.Array.data[3]
       value: 
       objectReference: {fileID: 397262304}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[4]
+      value: 
+      objectReference: {fileID: 1232564763}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_RootGameObject: {fileID: 496299701}
@@ -36688,6 +36839,21 @@ Transform:
   - {fileID: 544648244}
   m_Father: {fileID: 395777353}
   m_RootOrder: 1
+--- !u!114 &932529977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  turningIsLinear: 0
+  rootMotion: 0
+  isSpriteBased: 0
 --- !u!1 &933930258
 GameObject:
   m_ObjectHideFlags: 0
@@ -37357,7 +37523,7 @@ MonoBehaviour:
   blendMode: 0
   playMode: 1
   animationEngine: 0
-  animEngine: {fileID: 1632239512}
+  animEngine: {fileID: 654884188}
 --- !u!1 &960614417
 GameObject:
   m_ObjectHideFlags: 0
@@ -37470,21 +37636,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1199010762}
   m_RootOrder: 0
---- !u!114 &965435928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  turningIsLinear: 0
-  rootMotion: 0
-  isSpriteBased: 0
 --- !u!1001 &966550998
 Prefab:
   m_ObjectHideFlags: 0
@@ -37710,6 +37861,44 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 37.7986336, y: 80.0565338, z: 24.8799}
   m_Center: {x: -7.182231e-06, y: 39.8299103, z: -15.0043144}
+--- !u!114 &968041024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3339a0ba7074d969436b88c517d06f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Object: Add or remove'
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  gameObject: {fileID: 292925098}
+  parameterID: -1
+  constantID: 0
+  invAction: 1
+  positionRelativeTo: 0
 --- !u!1 &968621635
 GameObject:
   m_ObjectHideFlags: 0
@@ -40868,21 +41057,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1013121725}
   m_RootOrder: 1
---- !u!114 &1040479296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  turningIsLinear: 0
-  rootMotion: 0
-  isSpriteBased: 0
 --- !u!1 &1040849739
 GameObject:
   m_ObjectHideFlags: 0
@@ -43537,7 +43711,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.size
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_LocalPosition.x
@@ -43603,6 +43777,14 @@ Prefab:
       propertyPath: actions.Array.data[6]
       value: 
       objectReference: {fileID: 400077004}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[7]
+      value: 
+      objectReference: {fileID: 968041024}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[8]
+      value: 
+      objectReference: {fileID: 1655889408}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_RootGameObject: {fileID: 1749515421}
@@ -45345,7 +45527,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_LocalPosition.x
@@ -45399,6 +45581,10 @@ Prefab:
       propertyPath: actions.Array.data[3]
       value: 
       objectReference: {fileID: 1881015634}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[4]
+      value: 
+      objectReference: {fileID: 415057486}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_RootGameObject: {fileID: 724441975}
@@ -47600,7 +47786,7 @@ MonoBehaviour:
   blendMode: 0
   playMode: 2
   animationEngine: 0
-  animEngine: {fileID: 670325045}
+  animEngine: {fileID: 1422972859}
 --- !u!1 &1188684893
 GameObject:
   m_ObjectHideFlags: 0
@@ -48037,7 +48223,7 @@ Prefab:
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: useButtons.Array.data[0].interaction
       value: 
-      objectReference: {fileID: 1151454082}
+      objectReference: {fileID: 1431075555}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: useButtons.Array.data[0].isDisabled
       value: 1
@@ -49614,7 +49800,7 @@ Prefab:
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: useButtons.Array.data[0].interaction
       value: 
-      objectReference: {fileID: 1151454082}
+      objectReference: {fileID: 591213495}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: useButtons.Array.data[0].isDisabled
       value: 1
@@ -49751,7 +49937,7 @@ MonoBehaviour:
   blendMode: 0
   playMode: 0
   animationEngine: 0
-  animEngine: {fileID: 779770693}
+  animEngine: {fileID: 932529977}
 --- !u!1 &1206762980
 GameObject:
   m_ObjectHideFlags: 0
@@ -50502,6 +50688,44 @@ Transform:
   - {fileID: 1401146322}
   m_Father: {fileID: 442052816}
   m_RootOrder: 1
+--- !u!114 &1232564763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3339a0ba7074d969436b88c517d06f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Object: Add or remove'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  gameObject: {fileID: 56724038}
+  parameterID: -1
+  constantID: 0
+  invAction: 1
+  positionRelativeTo: 0
 --- !u!114 &1232906433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50843,21 +51067,6 @@ Transform:
   - {fileID: 2122589455}
   m_Father: {fileID: 1298417962}
   m_RootOrder: 12
---- !u!114 &1242488502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  turningIsLinear: 0
-  rootMotion: 0
-  isSpriteBased: 0
 --- !u!1 &1242840311
 GameObject:
   m_ObjectHideFlags: 0
@@ -52562,7 +52771,7 @@ MonoBehaviour:
   blendMode: 0
   playMode: 1
   animationEngine: 0
-  animEngine: {fileID: 1685139410}
+  animEngine: {fileID: 1929952670}
 --- !u!1 &1296076003
 GameObject:
   m_ObjectHideFlags: 0
@@ -53291,6 +53500,21 @@ Transform:
   - {fileID: 995870825}
   m_Father: {fileID: 320515936}
   m_RootOrder: 5
+--- !u!114 &1307868370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  turningIsLinear: 0
+  rootMotion: 0
+  isSpriteBased: 0
 --- !u!114 &1309271968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54132,7 +54356,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_LocalPosition.x
@@ -54194,6 +54418,10 @@ Prefab:
       propertyPath: actions.Array.data[5]
       value: 
       objectReference: {fileID: 1926652544}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[6]
+      value: 
+      objectReference: {fileID: 631498076}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_RootGameObject: {fileID: 1984746755}
@@ -57938,6 +58166,21 @@ Prefab:
   m_RootGameObject: {fileID: 1407079792}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!114 &1422972859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  turningIsLinear: 0
+  rootMotion: 0
+  isSpriteBased: 0
 --- !u!1001 &1423039692
 Prefab:
   m_ObjectHideFlags: 0
@@ -67273,7 +67516,7 @@ GameObject:
   - 33: {fileID: 1612493470}
   - 23: {fileID: 1612493469}
   - 65: {fileID: 1612493471}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: pCube8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67702,7 +67945,7 @@ MonoBehaviour:
     faceAfter: 0
     isBlocking: 0
   useButtons:
-  - interaction: {fileID: 1151454082}
+  - interaction: {fileID: 1431075555}
     assetFile: {fileID: 0}
     isDisabled: 1
     invID: 0
@@ -68147,21 +68390,6 @@ MonoBehaviour:
   doCount: 0
   intValue: 1
   intCondition: 0
---- !u!114 &1632239512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  turningIsLinear: 0
-  rootMotion: 0
-  isSpriteBased: 0
 --- !u!1 &1633571894
 GameObject:
   m_ObjectHideFlags: 0
@@ -69084,6 +69312,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1754511407}
   m_RootOrder: 0
+--- !u!114 &1655889408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Dialogue: Play speech'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 0
+  parameterID: -1
+  isPlayer: 0
+  speaker: {fileID: 0}
+  messageText: I don't have anything to wind it with.
+  lineID: -1
+  isBackground: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!1 &1655912886
 GameObject:
   m_ObjectHideFlags: 0
@@ -70961,6 +71238,7 @@ MonoBehaviour:
   actions:
   - {fileID: 106671422}
   - {fileID: 588120856}
+  - {fileID: 443383270}
   conversation: {fileID: 0}
   assetFile: {fileID: 0}
   source: 0
@@ -71056,21 +71334,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!114 &1685139410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  turningIsLinear: 0
-  rootMotion: 0
-  isSpriteBased: 0
 --- !u!1001 &1690825191
 Prefab:
   m_ObjectHideFlags: 0
@@ -71770,6 +72033,21 @@ MonoBehaviour:
   doCount: 0
   intValue: 1
   intCondition: 0
+--- !u!114 &1696244198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  turningIsLinear: 0
+  rootMotion: 0
+  isSpriteBased: 0
 --- !u!1 &1696911099
 GameObject:
   m_ObjectHideFlags: 0
@@ -73997,7 +74275,6 @@ MonoBehaviour:
   m_Script: {fileID: 1997211142, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AllowActivationOnStandalone: 0
 --- !u!114 &1730364046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74009,12 +74286,6 @@ MonoBehaviour:
   m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_AllowActivationOnMobileDevice: 0
 --- !u!114 &1730364047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74026,9 +74297,6 @@ MonoBehaviour:
   m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 5
 --- !u!4 &1730364048
 Transform:
   m_ObjectHideFlags: 0
@@ -74294,7 +74562,7 @@ Prefab:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[3]
       value: 
-      objectReference: {fileID: 1792287719}
+      objectReference: {fileID: 639957944}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_RootGameObject: {fileID: 2092242673}
@@ -75729,6 +75997,8 @@ MonoBehaviour:
   - {fileID: 261639053}
   - {fileID: 1915538429}
   - {fileID: 400077004}
+  - {fileID: 968041024}
+  - {fileID: 1655889408}
   conversation: {fileID: 0}
   assetFile: {fileID: 0}
   source: 0
@@ -77164,44 +77434,6 @@ MonoBehaviour:
   invID: 1
   setAmount: 0
   amount: 1
---- !u!114 &1792287719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fadbe8a8547c845659eb5618f68e5019, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult: -10
-  id: 0
-  isDisplayed: 1
-  title: 'Hotspot: Change interaction'
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isMarked: 0
-  isEnabled: 1
-  isAssetFile: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  constantID: 0
-  hotspot: {fileID: 152892257}
-  interactionType: 0
-  changeType: 1
-  number: 0
 --- !u!114 &1796317052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77257,7 +77489,7 @@ MonoBehaviour:
   blendMode: 0
   playMode: 1
   animationEngine: 0
-  animEngine: {fileID: 1242488502}
+  animEngine: {fileID: 826384679}
 --- !u!1 &1799824596
 GameObject:
   m_ObjectHideFlags: 0
@@ -83421,6 +83653,21 @@ Light:
   m_ShadowAngle: 0
   m_IndirectIntensity: 1
   m_AreaSize: {x: 1, y: 1}
+--- !u!114 &1929952670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  turningIsLinear: 0
+  rootMotion: 0
+  isSpriteBased: 0
 --- !u!1001 &1930928903
 Prefab:
   m_ObjectHideFlags: 0
@@ -84215,7 +84462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9657d6d6e7aaf4f7c8ecc4ee18d3e9f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  navigationEngine: {fileID: 313692954}
+  navigationEngine: {fileID: 1300341871}
 --- !u!114 &1950766154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85960,6 +86207,7 @@ MonoBehaviour:
   - {fileID: 1668242595}
   - {fileID: 24139908}
   - {fileID: 1926652544}
+  - {fileID: 631498076}
   conversation: {fileID: 0}
   assetFile: {fileID: 0}
   source: 0
@@ -86670,9 +86918,9 @@ MonoBehaviour:
   skipActionTrueActual: {fileID: 0}
   linkedCutsceneTrue: {fileID: 0}
   linkedAssetTrue: {fileID: 0}
-  resultActionFail: 1
-  skipActionFail: -1
-  skipActionFailActual: {fileID: 0}
+  resultActionFail: 2
+  skipActionFail: 8
+  skipActionFailActual: {fileID: 1655889408}
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
   parameterID: -1
@@ -88191,7 +88439,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_LocalPosition.x
@@ -88237,6 +88485,10 @@ Prefab:
       propertyPath: actions.Array.data[1]
       value: 
       objectReference: {fileID: 588120856}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[2]
+      value: 
+      objectReference: {fileID: 443383270}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_RootGameObject: {fileID: 1680168555}
@@ -88303,7 +88555,7 @@ MonoBehaviour:
     faceAfter: 0
     isBlocking: 0
   useButtons:
-  - interaction: {fileID: 1151454082}
+  - interaction: {fileID: 591213495}
     assetFile: {fileID: 0}
     isDisabled: 1
     invID: 0
@@ -89170,6 +89422,21 @@ MonoBehaviour:
   interactionType: 0
   changeType: 0
   number: 0
+--- !u!114 &2085669244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  turningIsLinear: 0
+  rootMotion: 0
+  isSpriteBased: 0
 --- !u!114 &2085672538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89438,7 +89705,7 @@ MonoBehaviour:
   - {fileID: 1210800768}
   - {fileID: 1681603713}
   - {fileID: 851231125}
-  - {fileID: 1792287719}
+  - {fileID: 639957944}
   conversation: {fileID: 0}
   assetFile: {fileID: 0}
   source: 0

@@ -15,9 +15,12 @@ MonoBehaviour:
   saveTimeDisplay: 0
   takeSaveScreenshots: 0
   actionListOnStart: {fileID: 0}
-  playerSwitching: 1
-  player: {fileID: 11400004, guid: 0f5b84e91ea55416889c97bf7e999a0c, type: 2}
-  players: []
+  playerSwitching: 0
+  player: {fileID: 0}
+  players:
+  - playerOb: {fileID: 11400004, guid: f13b8bf4ba1106b4b8356de53d65ec7e, type: 2}
+    ID: 0
+    isDefault: 1
   shareInventory: 0
   movementMethod: 1
   inputMethod: 0
@@ -67,7 +70,7 @@ MonoBehaviour:
   cameraPerspective: 2
   movingTurning: 3
   hotspotDetection: 1
-  hotspotsInVicinity: 0
+  hotspotsInVicinity: 1
   hotspotIconDisplay: 0
   hotspotIcon: 1
   hotspotIconTexture: {fileID: 0}
