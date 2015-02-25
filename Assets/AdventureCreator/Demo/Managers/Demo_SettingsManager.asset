@@ -21,6 +21,9 @@ MonoBehaviour:
   - playerOb: {fileID: 11400004, guid: f13b8bf4ba1106b4b8356de53d65ec7e, type: 2}
     ID: 0
     isDefault: 1
+  - playerOb: {fileID: 11493632, guid: 1876f131c9980364aa485e50fc587e7f, type: 2}
+    ID: 1
+    isDefault: 0
   shareInventory: 0
   movementMethod: 1
   inputMethod: 0
@@ -69,7 +72,7 @@ MonoBehaviour:
   landscapeModeOnly: 0
   cameraPerspective: 2
   movingTurning: 3
-  hotspotDetection: 1
+  hotspotDetection: 0
   hotspotsInVicinity: 1
   hotspotIconDisplay: 0
   hotspotIcon: 1
