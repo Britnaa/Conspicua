@@ -668,7 +668,7 @@ GameObject:
   m_Icon: {fileID: -1203168336, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &23741902
 Transform:
   m_ObjectHideFlags: 0
@@ -676,7 +676,7 @@ Transform:
   m_PrefabInternal: {fileID: 2100165978}
   m_GameObject: {fileID: 23741901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.2000008, y: 5.76000023, z: -9.52000046}
+  m_LocalPosition: {x: 27.1000004, y: 5.76000023, z: -9.89000034}
   m_LocalScale: {x: 27.9447517, y: 2.75985932, z: 2.40505362}
   m_Children: []
   m_Father: {fileID: 139646760}
@@ -695,7 +695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   showInEditor: 1
   interactionSource: 0
-  hotspotName: Stairs
+  hotspotName: ' '
   highlight: {fileID: 0}
   playUseAnim: 0
   walkToMarker: {fileID: 0}
@@ -1078,44 +1078,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &44615569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d33593da7d3524e1998da7151086b1b3, type: 3}
-  m_Name: (Clone)
-  m_EditorClassIdentifier: 
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult: -10
-  id: 0
-  isDisplayed: 1
-  title: 'Object: Visibility'
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isMarked: 0
-  isEnabled: 1
-  isAssetFile: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  parameterID: -1
-  constantID: 4747448
-  obToAffect: {fileID: 2127114760}
-  affectChildren: 0
-  visState: 0
 --- !u!1001 &44908286
 Prefab:
   m_ObjectHideFlags: 0
@@ -2295,6 +2257,43 @@ MeshFilter:
   m_PrefabInternal: {fileID: 346518866}
   m_GameObject: {fileID: 84704547}
   m_Mesh: {fileID: 4300034, guid: df6501fc391d4104fbf4d347894d67e9, type: 3}
+--- !u!114 &84765938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbc8aeecf7646480ea6b0298158ca7e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Hotspot: Rename'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 0
+  parameterID: -1
+  hotspot: {fileID: 23741903}
+  newName: Stairs
 --- !u!1 &85073628
 GameObject:
   m_ObjectHideFlags: 0
@@ -6067,7 +6066,7 @@ Transform:
   - {fileID: 1602589182}
   - {fileID: 1913121140}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
 --- !u!1 &202051336
 GameObject:
   m_ObjectHideFlags: 0
@@ -8132,8 +8131,8 @@ MonoBehaviour:
   - {fileID: 1996771820}
   - {fileID: 1111125710}
   - {fileID: 1713764917}
-  - {fileID: 496968912}
-  - {fileID: 1556191882}
+  - {fileID: 84765938}
+  - {fileID: 1211649678}
   conversation: {fileID: 0}
   assetFile: {fileID: 0}
   source: 0
@@ -8245,7 +8244,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400002, guid: 4e4d49fd1ed164d27b03fc4e366bd29a, type: 2}
       propertyPath: actions.Array.size
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4e4d49fd1ed164d27b03fc4e366bd29a, type: 2}
       propertyPath: m_LocalPosition.x
@@ -8302,7 +8301,7 @@ Prefab:
     - target: {fileID: 11400002, guid: 4e4d49fd1ed164d27b03fc4e366bd29a, type: 2}
       propertyPath: actions.Array.data[2]
       value: 
-      objectReference: {fileID: 747878436}
+      objectReference: {fileID: 1037507808}
     - target: {fileID: 11400002, guid: 4e4d49fd1ed164d27b03fc4e366bd29a, type: 2}
       propertyPath: actions.Array.data[3]
       value: 
@@ -11282,7 +11281,7 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 4747448
+  constantID: 0
   hotspot: {fileID: 2127114761}
   interactionType: 0
   changeType: 0
@@ -14137,44 +14136,6 @@ MonoBehaviour:
   doCount: 0
   intValue: 1
   intCondition: 0
---- !u!114 &496968912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d33593da7d3524e1998da7151086b1b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult: -10
-  id: 0
-  isDisplayed: 1
-  title: 'Object: Visibility'
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isMarked: 0
-  isEnabled: 1
-  isAssetFile: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  parameterID: -1
-  constantID: 4747450
-  obToAffect: {fileID: 23741901}
-  affectChildren: 0
-  visState: 0
 --- !u!1 &497124091
 GameObject:
   m_ObjectHideFlags: 0
@@ -14625,7 +14586,7 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 4747448
+  constantID: 0
   hotspot: {fileID: 2127114761}
   interactionType: 0
   changeType: 0
@@ -18253,7 +18214,7 @@ Transform:
   - {fileID: 1502120797}
   - {fileID: 195767111}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
 --- !u!1 &668145505
 GameObject:
   m_ObjectHideFlags: 0
@@ -19561,44 +19522,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 135153299}
   m_GameObject: {fileID: 745315878}
   m_Mesh: {fileID: 4300224, guid: 4ead0d1105b87e847b4b0bf01a70756a, type: 3}
---- !u!114 &747878436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d33593da7d3524e1998da7151086b1b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult: -10
-  id: 0
-  isDisplayed: 1
-  title: 'Object: Visibility'
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isMarked: 0
-  isEnabled: 1
-  isAssetFile: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  parameterID: -1
-  constantID: 0
-  obToAffect: {fileID: 0}
-  affectChildren: 1
-  visState: 1
 --- !u!114 &749830148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21069,7 +20992,7 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 4747450
+  constantID: 0
   hotspot: {fileID: 23741903}
   interactionType: 0
   changeType: 0
@@ -22015,8 +21938,8 @@ MonoBehaviour:
   - {fileID: 1953984019}
   - {fileID: 1454932035}
   - {fileID: 1015531124}
-  - {fileID: 1404570282}
-  - {fileID: 44615569}
+  - {fileID: 1625422920}
+  - {fileID: 1824857753}
   conversation: {fileID: 0}
   assetFile: {fileID: 0}
   source: 0
@@ -24234,7 +24157,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: .579999983
+      value: .629999995
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -24290,7 +24213,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: hotspotName
-      value: Stairs
+      value: ' '
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: drawGizmos
@@ -24298,7 +24221,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
@@ -27526,9 +27449,9 @@ MonoBehaviour:
     height: 60
   parameterID: -1
   constantID: 0
-  obToAffect: {fileID: 0}
+  obToAffect: {fileID: 2127114760}
   affectChildren: 1
-  visState: 0
+  visState: 1
 --- !u!114 &1043091113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28836,11 +28759,11 @@ Prefab:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[11]
       value: 
-      objectReference: {fileID: 496968912}
+      objectReference: {fileID: 84765938}
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[12]
       value: 
-      objectReference: {fileID: 1556191882}
+      objectReference: {fileID: 1211649678}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_RootGameObject: {fileID: 313176686}
@@ -30282,6 +30205,43 @@ MeshFilter:
   m_PrefabInternal: {fileID: 346518866}
   m_GameObject: {fileID: 1208026668}
   m_Mesh: {fileID: 4300200, guid: df6501fc391d4104fbf4d347894d67e9, type: 3}
+--- !u!114 &1211649678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbc8aeecf7646480ea6b0298158ca7e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Hotspot: Rename'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 0
+  parameterID: -1
+  hotspot: {fileID: 2127114761}
+  newName: Stairs
 --- !u!1001 &1212109598
 Prefab:
   m_ObjectHideFlags: 0
@@ -33069,7 +33029,7 @@ Transform:
   - {fileID: 1809194010}
   - {fileID: 811207789}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
 --- !u!95 &1329059124
 Animator:
   serializedVersion: 3
@@ -34684,8 +34644,6 @@ MonoBehaviour:
   actions:
   - {fileID: 689556968}
   - {fileID: 1288445162}
-  - {fileID: 747878436}
-  - {fileID: 1037507808}
   conversation: {fileID: 0}
   assetFile: {fileID: 0}
   source: 0
@@ -34994,44 +34952,6 @@ Prefab:
   m_RootGameObject: {fileID: 1907454028}
   m_IsPrefabParent: 0
   m_IsExploded: 1
---- !u!114 &1404570282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d33593da7d3524e1998da7151086b1b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult: -10
-  id: 0
-  isDisplayed: 1
-  title: 'Object: Visibility'
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isMarked: 0
-  isEnabled: 1
-  isAssetFile: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  parameterID: -1
-  constantID: 4747450
-  obToAffect: {fileID: 23741901}
-  affectChildren: 0
-  visState: 0
 --- !u!1 &1407074405
 GameObject:
   m_ObjectHideFlags: 0
@@ -38655,44 +38575,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 135153299}
   m_GameObject: {fileID: 1554176774}
   m_Mesh: {fileID: 4300040, guid: 4ead0d1105b87e847b4b0bf01a70756a, type: 3}
---- !u!114 &1556191882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d33593da7d3524e1998da7151086b1b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult: -10
-  id: 0
-  isDisplayed: 1
-  title: 'Object: Visibility'
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isMarked: 0
-  isEnabled: 1
-  isAssetFile: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  parameterID: -1
-  constantID: 4747448
-  obToAffect: {fileID: 2127114760}
-  affectChildren: 0
-  visState: 0
 --- !u!114 &1557427117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40196,6 +40078,43 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1625422920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbc8aeecf7646480ea6b0298158ca7e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Hotspot: Rename'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 0
+  parameterID: -1
+  hotspot: {fileID: 23741903}
+  newName: Stairs
 --- !u!1 &1625598736
 GameObject:
   m_ObjectHideFlags: 0
@@ -41934,7 +41853,7 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 4747448
+  constantID: 0
   hotspot: {fileID: 2127114761}
   interactionType: 0
   changeType: 0
@@ -43529,11 +43448,11 @@ Prefab:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[10]
       value: 
-      objectReference: {fileID: 1404570282}
+      objectReference: {fileID: 1625422920}
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[11]
       value: 
-      objectReference: {fileID: 44615569}
+      objectReference: {fileID: 1824857753}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_RootGameObject: {fileID: 865899369}
@@ -45252,6 +45171,43 @@ MeshFilter:
   m_PrefabInternal: {fileID: 135153299}
   m_GameObject: {fileID: 1821831225}
   m_Mesh: {fileID: 4300250, guid: 4ead0d1105b87e847b4b0bf01a70756a, type: 3}
+--- !u!114 &1824857753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbc8aeecf7646480ea6b0298158ca7e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Hotspot: Rename'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 0
+  parameterID: -1
+  hotspot: {fileID: 2127114761}
+  newName: Stairs
 --- !u!114 &1830134272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49894,7 +49850,7 @@ Transform:
   m_LocalScale: {x: 1, y: .40820992, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
 --- !u!1 &2051377174
 GameObject:
   m_ObjectHideFlags: 0
@@ -50910,7 +50866,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 33.2000008
+      value: 27.1000004
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.y
@@ -50918,7 +50874,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -9.52000046
+      value: -9.89000034
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -50974,11 +50930,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: hotspotName
-      value: Stairs
+      value: ' '
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: drawGizmos
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
@@ -51653,7 +51613,7 @@ GameObject:
   m_Icon: {fileID: -1203168336, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2127114761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51668,7 +51628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   showInEditor: 1
   interactionSource: 0
-  hotspotName: Stairs
+  hotspotName: ' '
   highlight: {fileID: 0}
   playUseAnim: 0
   walkToMarker: {fileID: 0}
@@ -51721,7 +51681,7 @@ Transform:
   m_PrefabInternal: {fileID: 934734805}
   m_GameObject: {fileID: 2127114760}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: .579999983}
+  m_LocalPosition: {x: 0, y: 0, z: .629999995}
   m_LocalScale: {x: 1, y: 1, z: 1.08601367}
   m_Children: []
   m_Father: {fileID: 642659106}
