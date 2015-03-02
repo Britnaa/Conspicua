@@ -1,0 +1,1046 @@
+fileFormatVersion: 2
+guid: 9645dc56615e99b4eb5014b5e4a64f75
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: character_spencer
+    100002: eyebrow_left
+    100004: eyebrow_right
+    100006: eyes_and_teeth
+    100008: hair_and_brows
+    100010: Head
+    100012: Hips
+    100014: LeftArm
+    100016: LeftEye
+    100018: LeftForeArm
+    100020: LeftHand
+    100022: LeftLeg
+    100024: LeftShoulder
+    100026: LeftUpLeg
+    100028: Neck
+    100030: polySurface1
+    100032: polySurface2
+    100034: polySurface2 1
+    100036: polySurface3
+    100038: polySurface4
+    100040: polySurface5
+    100042: polySurface6
+    100044: polySurface7
+    100046: pSphere1
+    100048: pSphere2
+    100050: RightArm
+    100052: RightEye
+    100054: RightForeArm
+    100056: RightHand
+    100058: RightLeg
+    100060: RightShoulder
+    100062: RightUpLeg
+    100064: spencer_hair
+    100066: //RootNode
+    100068: Spine
+    100070: Spine1
+    100072: Spine2
+    100074: sunDirection1
+    100076: teeth_lower
+    100078: teeth_upper
+    100080: transform1
+    100082: transform10
+    100084: transform11
+    100086: transform13
+    100088: transform14
+    100090: transform15
+    100092: transform16
+    100094: transform2
+    100096: transform21
+    100098: transform22
+    100100: transform3
+    100102: transform4
+    100104: transform5
+    100106: transform6
+    100108: transform7
+    100110: transform8
+    100112: transform9
+    100114: Trish:Character1_LeftFoot
+    100116: Trish:Character1_LeftHandIndex1
+    100118: Trish:Character1_LeftHandIndex2
+    100120: Trish:Character1_LeftHandIndex3
+    100122: Trish:Character1_LeftHandIndex4
+    100124: Trish:Character1_LeftHandMiddle1
+    100126: Trish:Character1_LeftHandMiddle2
+    100128: Trish:Character1_LeftHandMiddle3
+    100130: Trish:Character1_LeftHandMiddle4
+    100132: Trish:Character1_LeftHandPinky1
+    100134: Trish:Character1_LeftHandPinky2
+    100136: Trish:Character1_LeftHandPinky3
+    100138: Trish:Character1_LeftHandPinky4
+    100140: Trish:Character1_LeftHandRing1
+    100142: Trish:Character1_LeftHandRing2
+    100144: Trish:Character1_LeftHandRing3
+    100146: Trish:Character1_LeftHandRing4
+    100148: Trish:Character1_LeftHandThumb1
+    100150: Trish:Character1_LeftHandThumb2
+    100152: Trish:Character1_LeftHandThumb3
+    100154: Trish:Character1_LeftHandThumb4
+    100156: Trish:Character1_LeftToeBase
+    100158: Trish:Character1_RightFoot
+    100160: Trish:Character1_RightHandIndex1
+    100162: Trish:Character1_RightHandIndex2
+    100164: Trish:Character1_RightHandIndex3
+    100166: Trish:Character1_RightHandIndex4
+    100168: Trish:Character1_RightHandMiddle1
+    100170: Trish:Character1_RightHandMiddle2
+    100172: Trish:Character1_RightHandMiddle3
+    100174: Trish:Character1_RightHandMiddle4
+    100176: Trish:Character1_RightHandPinky1
+    100178: Trish:Character1_RightHandPinky2
+    100180: Trish:Character1_RightHandPinky3
+    100182: Trish:Character1_RightHandPinky4
+    100184: Trish:Character1_RightHandRing1
+    100186: Trish:Character1_RightHandRing2
+    100188: Trish:Character1_RightHandRing3
+    100190: Trish:Character1_RightHandRing4
+    100192: Trish:Character1_RightHandThumb1
+    100194: Trish:Character1_RightHandThumb2
+    100196: Trish:Character1_RightHandThumb3
+    100198: Trish:Character1_RightHandThumb4
+    100200: Trish:Character1_RightToeBase
+    100202: Trish:transform15
+    100204: Trish:transform16
+    100206: Trish:transform17
+    100208: Trish:transform18
+    100210: Trish:transform19
+    100212: Trish:transform20
+    100214: Trish:transform21
+    100216: Trish:transform22
+    100218: Trish:transform23
+    100220: Trish:transform24
+    100222: Trish:transform27
+    400000: character_spencer
+    400002: eyebrow_left
+    400004: eyebrow_right
+    400006: eyes_and_teeth
+    400008: hair_and_brows
+    400010: Head
+    400012: Hips
+    400014: LeftArm
+    400016: LeftEye
+    400018: LeftForeArm
+    400020: LeftHand
+    400022: LeftLeg
+    400024: LeftShoulder
+    400026: LeftUpLeg
+    400028: Neck
+    400030: polySurface1
+    400032: polySurface2
+    400034: polySurface2 1
+    400036: polySurface3
+    400038: polySurface4
+    400040: polySurface5
+    400042: polySurface6
+    400044: polySurface7
+    400046: pSphere1
+    400048: pSphere2
+    400050: RightArm
+    400052: RightEye
+    400054: RightForeArm
+    400056: RightHand
+    400058: RightLeg
+    400060: RightShoulder
+    400062: RightUpLeg
+    400064: spencer_hair
+    400066: //RootNode
+    400068: Spine
+    400070: Spine1
+    400072: Spine2
+    400074: sunDirection1
+    400076: teeth_lower
+    400078: teeth_upper
+    400080: transform1
+    400082: transform10
+    400084: transform11
+    400086: transform13
+    400088: transform14
+    400090: transform15
+    400092: transform16
+    400094: transform2
+    400096: transform21
+    400098: transform22
+    400100: transform3
+    400102: transform4
+    400104: transform5
+    400106: transform6
+    400108: transform7
+    400110: transform8
+    400112: transform9
+    400114: Trish:Character1_LeftFoot
+    400116: Trish:Character1_LeftHandIndex1
+    400118: Trish:Character1_LeftHandIndex2
+    400120: Trish:Character1_LeftHandIndex3
+    400122: Trish:Character1_LeftHandIndex4
+    400124: Trish:Character1_LeftHandMiddle1
+    400126: Trish:Character1_LeftHandMiddle2
+    400128: Trish:Character1_LeftHandMiddle3
+    400130: Trish:Character1_LeftHandMiddle4
+    400132: Trish:Character1_LeftHandPinky1
+    400134: Trish:Character1_LeftHandPinky2
+    400136: Trish:Character1_LeftHandPinky3
+    400138: Trish:Character1_LeftHandPinky4
+    400140: Trish:Character1_LeftHandRing1
+    400142: Trish:Character1_LeftHandRing2
+    400144: Trish:Character1_LeftHandRing3
+    400146: Trish:Character1_LeftHandRing4
+    400148: Trish:Character1_LeftHandThumb1
+    400150: Trish:Character1_LeftHandThumb2
+    400152: Trish:Character1_LeftHandThumb3
+    400154: Trish:Character1_LeftHandThumb4
+    400156: Trish:Character1_LeftToeBase
+    400158: Trish:Character1_RightFoot
+    400160: Trish:Character1_RightHandIndex1
+    400162: Trish:Character1_RightHandIndex2
+    400164: Trish:Character1_RightHandIndex3
+    400166: Trish:Character1_RightHandIndex4
+    400168: Trish:Character1_RightHandMiddle1
+    400170: Trish:Character1_RightHandMiddle2
+    400172: Trish:Character1_RightHandMiddle3
+    400174: Trish:Character1_RightHandMiddle4
+    400176: Trish:Character1_RightHandPinky1
+    400178: Trish:Character1_RightHandPinky2
+    400180: Trish:Character1_RightHandPinky3
+    400182: Trish:Character1_RightHandPinky4
+    400184: Trish:Character1_RightHandRing1
+    400186: Trish:Character1_RightHandRing2
+    400188: Trish:Character1_RightHandRing3
+    400190: Trish:Character1_RightHandRing4
+    400192: Trish:Character1_RightHandThumb1
+    400194: Trish:Character1_RightHandThumb2
+    400196: Trish:Character1_RightHandThumb3
+    400198: Trish:Character1_RightHandThumb4
+    400200: Trish:Character1_RightToeBase
+    400202: Trish:transform15
+    400204: Trish:transform16
+    400206: Trish:transform17
+    400208: Trish:transform18
+    400210: Trish:transform19
+    400212: Trish:transform20
+    400214: Trish:transform21
+    400216: Trish:transform22
+    400218: Trish:transform23
+    400220: Trish:transform24
+    400222: Trish:transform27
+    2300000: polySurface4
+    2300002: polySurface6
+    3300000: polySurface4
+    3300002: polySurface6
+    4300000: polySurface4
+    4300002: polySurface6
+    4300004: polySurface7
+    7400000: Walk
+    7400002: Idle
+    7400004: Interact
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: polySurface7
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: character_spencer
+        weight: 1
+      - path: character_spencer/eyes_and_teeth
+        weight: 1
+      - path: character_spencer/eyes_and_teeth/teeth_lower
+        weight: 1
+      - path: character_spencer/eyes_and_teeth/teeth_lower/transform10
+        weight: 1
+      - path: character_spencer/eyes_and_teeth/teeth_upper
+        weight: 1
+      - path: character_spencer/eyes_and_teeth/teeth_upper/transform11
+        weight: 1
+      - path: character_spencer/hair_and_brows
+        weight: 1
+      - path: character_spencer/hair_and_brows/eyebrow_left
+        weight: 1
+      - path: character_spencer/hair_and_brows/eyebrow_left/transform8
+        weight: 1
+      - path: character_spencer/hair_and_brows/eyebrow_right
+        weight: 1
+      - path: character_spencer/hair_and_brows/eyebrow_right/transform9
+        weight: 1
+      - path: polySurface2
+        weight: 1
+      - path: polySurface2/transform4
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform7
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform6
+        weight: 1
+      - path: spencer_hair
+        weight: 1
+      - path: spencer_hair/polySurface1
+        weight: 1
+      - path: spencer_hair/polySurface1/transform5
+        weight: 1
+      - path: spencer_hair/polySurface2 1
+        weight: 1
+      - path: spencer_hair/polySurface2 1/transform3
+        weight: 1
+      - path: spencer_hair/polySurface3
+        weight: 1
+      - path: spencer_hair/polySurface3/transform2
+        weight: 1
+      - path: spencer_hair/transform1
+        weight: 1
+      - path: sunDirection1
+        weight: 1
+      - path: sunDirection1/polySurface4
+        weight: 1
+      - path: sunDirection1/polySurface5
+        weight: 1
+      - path: sunDirection1/polySurface5/polySurface6
+        weight: 1
+      - path: sunDirection1/polySurface5/polySurface7
+        weight: 1
+      - path: sunDirection1/polySurface5/transform14
+        weight: 1
+      - path: sunDirection1/transform13
+        weight: 1
+      - path: Trish:transform27
+        weight: 1
+      - path: Trish:transform27/Hips
+        weight: 1
+      - path: Trish:transform27/Hips/LeftUpLeg
+        weight: 1
+      - path: Trish:transform27/Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Trish:transform27/Hips/LeftUpLeg/LeftLeg/Trish:Character1_LeftFoot
+        weight: 1
+      - path: Trish:transform27/Hips/LeftUpLeg/LeftLeg/Trish:Character1_LeftFoot/Trish:Character1_LeftToeBase
+        weight: 1
+      - path: Trish:transform27/Hips/RightUpLeg
+        weight: 1
+      - path: Trish:transform27/Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Trish:transform27/Hips/RightUpLeg/RightLeg/Trish:Character1_RightFoot
+        weight: 1
+      - path: Trish:transform27/Hips/RightUpLeg/RightLeg/Trish:Character1_RightFoot/Trish:Character1_RightToeBase
+        weight: 1
+      - path: Trish:transform27/Hips/Spine
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandIndex1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandIndex1/Trish:Character1_LeftHandIndex2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandIndex1/Trish:Character1_LeftHandIndex2/Trish:Character1_LeftHandIndex3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandIndex1/Trish:Character1_LeftHandIndex2/Trish:Character1_LeftHandIndex3/Trish:Character1_LeftHandIndex4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandMiddle1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandMiddle1/Trish:Character1_LeftHandMiddle2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandMiddle1/Trish:Character1_LeftHandMiddle2/Trish:Character1_LeftHandMiddle3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandMiddle1/Trish:Character1_LeftHandMiddle2/Trish:Character1_LeftHandMiddle3/Trish:Character1_LeftHandMiddle4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandPinky1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandPinky1/Trish:Character1_LeftHandPinky2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandPinky1/Trish:Character1_LeftHandPinky2/Trish:Character1_LeftHandPinky3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandPinky1/Trish:Character1_LeftHandPinky2/Trish:Character1_LeftHandPinky3/Trish:Character1_LeftHandPinky4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandRing1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandRing1/Trish:Character1_LeftHandRing2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandRing1/Trish:Character1_LeftHandRing2/Trish:Character1_LeftHandRing3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandRing1/Trish:Character1_LeftHandRing2/Trish:Character1_LeftHandRing3/Trish:Character1_LeftHandRing4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandThumb1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandThumb1/Trish:Character1_LeftHandThumb2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandThumb1/Trish:Character1_LeftHandThumb2/Trish:Character1_LeftHandThumb3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandThumb1/Trish:Character1_LeftHandThumb2/Trish:Character1_LeftHandThumb3/Trish:Character1_LeftHandThumb4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/transform15
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/transform15/RightEye
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/transform16
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/transform16/LeftEye
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform15
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform16
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform17
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform18
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform19
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform20
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform21
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform22
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform23
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform24
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandIndex1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandIndex1/Trish:Character1_RightHandIndex2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandIndex1/Trish:Character1_RightHandIndex2/Trish:Character1_RightHandIndex3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandIndex1/Trish:Character1_RightHandIndex2/Trish:Character1_RightHandIndex3/Trish:Character1_RightHandIndex4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandMiddle1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandMiddle1/Trish:Character1_RightHandMiddle2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandMiddle1/Trish:Character1_RightHandMiddle2/Trish:Character1_RightHandMiddle3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandMiddle1/Trish:Character1_RightHandMiddle2/Trish:Character1_RightHandMiddle3/Trish:Character1_RightHandMiddle4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandPinky1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandPinky1/Trish:Character1_RightHandPinky2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandPinky1/Trish:Character1_RightHandPinky2/Trish:Character1_RightHandPinky3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandPinky1/Trish:Character1_RightHandPinky2/Trish:Character1_RightHandPinky3/Trish:Character1_RightHandPinky4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandRing1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandRing1/Trish:Character1_RightHandRing2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandRing1/Trish:Character1_RightHandRing2/Trish:Character1_RightHandRing3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandRing1/Trish:Character1_RightHandRing2/Trish:Character1_RightHandRing3/Trish:Character1_RightHandRing4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandThumb1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandThumb1/Trish:Character1_RightHandThumb2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandThumb1/Trish:Character1_RightHandThumb2/Trish:Character1_RightHandThumb3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandThumb1/Trish:Character1_RightHandThumb2/Trish:Character1_RightHandThumb3/Trish:Character1_RightHandThumb4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 209
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: character_spencer
+        weight: 1
+      - path: character_spencer/eyes_and_teeth
+        weight: 1
+      - path: character_spencer/eyes_and_teeth/teeth_lower
+        weight: 1
+      - path: character_spencer/eyes_and_teeth/teeth_lower/transform10
+        weight: 1
+      - path: character_spencer/eyes_and_teeth/teeth_upper
+        weight: 1
+      - path: character_spencer/eyes_and_teeth/teeth_upper/transform11
+        weight: 1
+      - path: character_spencer/hair_and_brows
+        weight: 1
+      - path: character_spencer/hair_and_brows/eyebrow_left
+        weight: 1
+      - path: character_spencer/hair_and_brows/eyebrow_left/transform8
+        weight: 1
+      - path: character_spencer/hair_and_brows/eyebrow_right
+        weight: 1
+      - path: character_spencer/hair_and_brows/eyebrow_right/transform9
+        weight: 1
+      - path: polySurface2
+        weight: 1
+      - path: polySurface2/transform4
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform7
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform6
+        weight: 1
+      - path: spencer_hair
+        weight: 1
+      - path: spencer_hair/polySurface1
+        weight: 1
+      - path: spencer_hair/polySurface1/transform5
+        weight: 1
+      - path: spencer_hair/polySurface2 1
+        weight: 1
+      - path: spencer_hair/polySurface2 1/transform3
+        weight: 1
+      - path: spencer_hair/polySurface3
+        weight: 1
+      - path: spencer_hair/polySurface3/transform2
+        weight: 1
+      - path: spencer_hair/transform1
+        weight: 1
+      - path: sunDirection1
+        weight: 1
+      - path: sunDirection1/polySurface4
+        weight: 1
+      - path: sunDirection1/polySurface5
+        weight: 1
+      - path: sunDirection1/polySurface5/polySurface6
+        weight: 1
+      - path: sunDirection1/polySurface5/polySurface7
+        weight: 1
+      - path: sunDirection1/polySurface5/transform14
+        weight: 1
+      - path: sunDirection1/transform13
+        weight: 1
+      - path: Trish:transform27
+        weight: 1
+      - path: Trish:transform27/Hips
+        weight: 1
+      - path: Trish:transform27/Hips/LeftUpLeg
+        weight: 1
+      - path: Trish:transform27/Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Trish:transform27/Hips/LeftUpLeg/LeftLeg/Trish:Character1_LeftFoot
+        weight: 1
+      - path: Trish:transform27/Hips/LeftUpLeg/LeftLeg/Trish:Character1_LeftFoot/Trish:Character1_LeftToeBase
+        weight: 1
+      - path: Trish:transform27/Hips/RightUpLeg
+        weight: 1
+      - path: Trish:transform27/Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Trish:transform27/Hips/RightUpLeg/RightLeg/Trish:Character1_RightFoot
+        weight: 1
+      - path: Trish:transform27/Hips/RightUpLeg/RightLeg/Trish:Character1_RightFoot/Trish:Character1_RightToeBase
+        weight: 1
+      - path: Trish:transform27/Hips/Spine
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandIndex1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandIndex1/Trish:Character1_LeftHandIndex2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandIndex1/Trish:Character1_LeftHandIndex2/Trish:Character1_LeftHandIndex3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandIndex1/Trish:Character1_LeftHandIndex2/Trish:Character1_LeftHandIndex3/Trish:Character1_LeftHandIndex4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandMiddle1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandMiddle1/Trish:Character1_LeftHandMiddle2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandMiddle1/Trish:Character1_LeftHandMiddle2/Trish:Character1_LeftHandMiddle3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandMiddle1/Trish:Character1_LeftHandMiddle2/Trish:Character1_LeftHandMiddle3/Trish:Character1_LeftHandMiddle4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandPinky1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandPinky1/Trish:Character1_LeftHandPinky2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandPinky1/Trish:Character1_LeftHandPinky2/Trish:Character1_LeftHandPinky3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandPinky1/Trish:Character1_LeftHandPinky2/Trish:Character1_LeftHandPinky3/Trish:Character1_LeftHandPinky4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandRing1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandRing1/Trish:Character1_LeftHandRing2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandRing1/Trish:Character1_LeftHandRing2/Trish:Character1_LeftHandRing3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandRing1/Trish:Character1_LeftHandRing2/Trish:Character1_LeftHandRing3/Trish:Character1_LeftHandRing4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandThumb1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandThumb1/Trish:Character1_LeftHandThumb2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandThumb1/Trish:Character1_LeftHandThumb2/Trish:Character1_LeftHandThumb3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandThumb1/Trish:Character1_LeftHandThumb2/Trish:Character1_LeftHandThumb3/Trish:Character1_LeftHandThumb4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/transform15
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/transform15/RightEye
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/transform16
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/transform16/LeftEye
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform15
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform16
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform17
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform18
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform19
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform20
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform21
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform22
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform23
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform24
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandIndex1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandIndex1/Trish:Character1_RightHandIndex2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandIndex1/Trish:Character1_RightHandIndex2/Trish:Character1_RightHandIndex3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandIndex1/Trish:Character1_RightHandIndex2/Trish:Character1_RightHandIndex3/Trish:Character1_RightHandIndex4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandMiddle1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandMiddle1/Trish:Character1_RightHandMiddle2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandMiddle1/Trish:Character1_RightHandMiddle2/Trish:Character1_RightHandMiddle3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandMiddle1/Trish:Character1_RightHandMiddle2/Trish:Character1_RightHandMiddle3/Trish:Character1_RightHandMiddle4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandPinky1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandPinky1/Trish:Character1_RightHandPinky2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandPinky1/Trish:Character1_RightHandPinky2/Trish:Character1_RightHandPinky3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandPinky1/Trish:Character1_RightHandPinky2/Trish:Character1_RightHandPinky3/Trish:Character1_RightHandPinky4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandRing1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandRing1/Trish:Character1_RightHandRing2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandRing1/Trish:Character1_RightHandRing2/Trish:Character1_RightHandRing3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandRing1/Trish:Character1_RightHandRing2/Trish:Character1_RightHandRing3/Trish:Character1_RightHandRing4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandThumb1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandThumb1/Trish:Character1_RightHandThumb2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandThumb1/Trish:Character1_RightHandThumb2/Trish:Character1_RightHandThumb3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandThumb1/Trish:Character1_RightHandThumb2/Trish:Character1_RightHandThumb3/Trish:Character1_RightHandThumb4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Interact
+      takeName: Take 001
+      firstFrame: 350
+      lastFrame: 380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: character_spencer
+        weight: 1
+      - path: character_spencer/eyes_and_teeth
+        weight: 1
+      - path: character_spencer/eyes_and_teeth/teeth_lower
+        weight: 1
+      - path: character_spencer/eyes_and_teeth/teeth_lower/transform10
+        weight: 1
+      - path: character_spencer/eyes_and_teeth/teeth_upper
+        weight: 1
+      - path: character_spencer/eyes_and_teeth/teeth_upper/transform11
+        weight: 1
+      - path: character_spencer/hair_and_brows
+        weight: 1
+      - path: character_spencer/hair_and_brows/eyebrow_left
+        weight: 1
+      - path: character_spencer/hair_and_brows/eyebrow_left/transform8
+        weight: 1
+      - path: character_spencer/hair_and_brows/eyebrow_right
+        weight: 1
+      - path: character_spencer/hair_and_brows/eyebrow_right/transform9
+        weight: 1
+      - path: polySurface2
+        weight: 1
+      - path: polySurface2/transform4
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform7
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform6
+        weight: 1
+      - path: spencer_hair
+        weight: 1
+      - path: spencer_hair/polySurface1
+        weight: 1
+      - path: spencer_hair/polySurface1/transform5
+        weight: 1
+      - path: spencer_hair/polySurface2 1
+        weight: 1
+      - path: spencer_hair/polySurface2 1/transform3
+        weight: 1
+      - path: spencer_hair/polySurface3
+        weight: 1
+      - path: spencer_hair/polySurface3/transform2
+        weight: 1
+      - path: spencer_hair/transform1
+        weight: 1
+      - path: sunDirection1
+        weight: 1
+      - path: sunDirection1/polySurface4
+        weight: 1
+      - path: sunDirection1/polySurface5
+        weight: 1
+      - path: sunDirection1/polySurface5/polySurface6
+        weight: 1
+      - path: sunDirection1/polySurface5/polySurface7
+        weight: 1
+      - path: sunDirection1/polySurface5/transform14
+        weight: 1
+      - path: sunDirection1/transform13
+        weight: 1
+      - path: Trish:transform27
+        weight: 1
+      - path: Trish:transform27/Hips
+        weight: 1
+      - path: Trish:transform27/Hips/LeftUpLeg
+        weight: 1
+      - path: Trish:transform27/Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Trish:transform27/Hips/LeftUpLeg/LeftLeg/Trish:Character1_LeftFoot
+        weight: 1
+      - path: Trish:transform27/Hips/LeftUpLeg/LeftLeg/Trish:Character1_LeftFoot/Trish:Character1_LeftToeBase
+        weight: 1
+      - path: Trish:transform27/Hips/RightUpLeg
+        weight: 1
+      - path: Trish:transform27/Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Trish:transform27/Hips/RightUpLeg/RightLeg/Trish:Character1_RightFoot
+        weight: 1
+      - path: Trish:transform27/Hips/RightUpLeg/RightLeg/Trish:Character1_RightFoot/Trish:Character1_RightToeBase
+        weight: 1
+      - path: Trish:transform27/Hips/Spine
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandIndex1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandIndex1/Trish:Character1_LeftHandIndex2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandIndex1/Trish:Character1_LeftHandIndex2/Trish:Character1_LeftHandIndex3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandIndex1/Trish:Character1_LeftHandIndex2/Trish:Character1_LeftHandIndex3/Trish:Character1_LeftHandIndex4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandMiddle1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandMiddle1/Trish:Character1_LeftHandMiddle2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandMiddle1/Trish:Character1_LeftHandMiddle2/Trish:Character1_LeftHandMiddle3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandMiddle1/Trish:Character1_LeftHandMiddle2/Trish:Character1_LeftHandMiddle3/Trish:Character1_LeftHandMiddle4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandPinky1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandPinky1/Trish:Character1_LeftHandPinky2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandPinky1/Trish:Character1_LeftHandPinky2/Trish:Character1_LeftHandPinky3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandPinky1/Trish:Character1_LeftHandPinky2/Trish:Character1_LeftHandPinky3/Trish:Character1_LeftHandPinky4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandRing1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandRing1/Trish:Character1_LeftHandRing2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandRing1/Trish:Character1_LeftHandRing2/Trish:Character1_LeftHandRing3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandRing1/Trish:Character1_LeftHandRing2/Trish:Character1_LeftHandRing3/Trish:Character1_LeftHandRing4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandThumb1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandThumb1/Trish:Character1_LeftHandThumb2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandThumb1/Trish:Character1_LeftHandThumb2/Trish:Character1_LeftHandThumb3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/Trish:Character1_LeftHandThumb1/Trish:Character1_LeftHandThumb2/Trish:Character1_LeftHandThumb3/Trish:Character1_LeftHandThumb4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/transform15
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/transform15/RightEye
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/transform16
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/transform16/LeftEye
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform15
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform16
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform17
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform18
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform19
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform20
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform21
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform22
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform23
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/Neck/Head/Trish:transform24
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandIndex1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandIndex1/Trish:Character1_RightHandIndex2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandIndex1/Trish:Character1_RightHandIndex2/Trish:Character1_RightHandIndex3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandIndex1/Trish:Character1_RightHandIndex2/Trish:Character1_RightHandIndex3/Trish:Character1_RightHandIndex4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandMiddle1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandMiddle1/Trish:Character1_RightHandMiddle2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandMiddle1/Trish:Character1_RightHandMiddle2/Trish:Character1_RightHandMiddle3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandMiddle1/Trish:Character1_RightHandMiddle2/Trish:Character1_RightHandMiddle3/Trish:Character1_RightHandMiddle4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandPinky1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandPinky1/Trish:Character1_RightHandPinky2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandPinky1/Trish:Character1_RightHandPinky2/Trish:Character1_RightHandPinky3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandPinky1/Trish:Character1_RightHandPinky2/Trish:Character1_RightHandPinky3/Trish:Character1_RightHandPinky4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandRing1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandRing1/Trish:Character1_RightHandRing2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandRing1/Trish:Character1_RightHandRing2/Trish:Character1_RightHandRing3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandRing1/Trish:Character1_RightHandRing2/Trish:Character1_RightHandRing3/Trish:Character1_RightHandRing4
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandThumb1
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandThumb1/Trish:Character1_RightHandThumb2
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandThumb1/Trish:Character1_RightHandThumb2/Trish:Character1_RightHandThumb3
+        weight: 1
+      - path: Trish:transform27/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/transform22/RightForeArm/transform21/RightHand/Trish:Character1_RightHandThumb1/Trish:Character1_RightHandThumb2/Trish:Character1_RightHandThumb3/Trish:Character1_RightHandThumb4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
