@@ -307,18 +307,18 @@ MonoBehaviour:
     unhandledCombineActionList: {fileID: 0}
     combineID: 
   - count: 1
-    tex: {fileID: 2800000, guid: 279f107139a144b54983fac4b9a2a288, type: 3}
+    tex: {fileID: 2800000, guid: 68fba11af0de5d344931938aaa376eb0, type: 3}
     activeTex: {fileID: 0}
     carryOnStart: 0
     canCarryMultiple: 0
     useSeparateSlots: 0
     label: Record
-    altLabel: Possibly a Snoop Dogg album
+    altLabel: Possibly a Cypress Hill album?
     id: 14
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 0
+    isEditing: 1
     recipeSlot: -1
     useActionList: {fileID: 0}
     lookActionList: {fileID: 0}
@@ -339,7 +339,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 1
+    isEditing: 0
     recipeSlot: -1
     useActionList: {fileID: 0}
     lookActionList: {fileID: 0}
