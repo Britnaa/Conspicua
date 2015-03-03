@@ -249,7 +249,7 @@ ModelImporter:
     bakeSimulation: 0
     optimizeGameObjects: 0
     motionNodeName: 
-    animationCompression: 1
+    animationCompression: 0
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
@@ -510,7 +510,7 @@ ModelImporter:
       name: Idle
       takeName: Take 001
       firstFrame: 40
-      lastFrame: 209
+      lastFrame: 359
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

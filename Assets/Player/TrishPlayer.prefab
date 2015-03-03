@@ -4827,7 +4827,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 8bfb217166e00d742925e2ee781c461a, type: 2}
+  - {fileID: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -4838,150 +4838,14 @@ SkinnedMeshRenderer:
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
-  m_Mesh: {fileID: 4300004, guid: 36a841296c8193c449b5ed2317671fa7, type: 3}
-  m_Bones:
-  - {fileID: 400312}
-  - {fileID: 400198}
-  - {fileID: 400204}
-  - {fileID: 400250}
-  - {fileID: 400200}
-  - {fileID: 400196}
-  - {fileID: 400194}
-  - {fileID: 400192}
-  - {fileID: 400202}
-  - {fileID: 400252}
-  - {fileID: 400248}
-  - {fileID: 400246}
-  - {fileID: 400212}
-  - {fileID: 400210}
-  - {fileID: 400208}
-  - {fileID: 400206}
-  - {fileID: 400244}
-  - {fileID: 400242}
-  - {fileID: 400240}
-  - {fileID: 400238}
-  - {fileID: 400236}
-  - {fileID: 400234}
-  - {fileID: 400232}
-  - {fileID: 400230}
-  - {fileID: 400220}
-  - {fileID: 400218}
-  - {fileID: 400216}
-  - {fileID: 400214}
-  - {fileID: 400228}
-  - {fileID: 400226}
-  - {fileID: 400224}
-  - {fileID: 400222}
-  - {fileID: 400254}
-  - {fileID: 400314}
-  - {fileID: 400154}
-  - {fileID: 400174}
-  - {fileID: 400188}
-  - {fileID: 400176}
-  - {fileID: 400164}
-  - {fileID: 400162}
-  - {fileID: 400120}
-  - {fileID: 400118}
-  - {fileID: 400116}
-  - {fileID: 400114}
-  - {fileID: 400112}
-  - {fileID: 400110}
-  - {fileID: 400108}
-  - {fileID: 400106}
-  - {fileID: 400104}
-  - {fileID: 400102}
-  - {fileID: 400100}
-  - {fileID: 400098}
-  - {fileID: 400096}
-  - {fileID: 400094}
-  - {fileID: 400092}
-  - {fileID: 400090}
-  - {fileID: 400088}
-  - {fileID: 400086}
-  - {fileID: 400084}
-  - {fileID: 400082}
-  - {fileID: 400080}
-  - {fileID: 400078}
-  - {fileID: 400076}
-  - {fileID: 400072}
-  - {fileID: 400070}
-  - {fileID: 400068}
-  - {fileID: 400066}
-  - {fileID: 400064}
-  - {fileID: 400062}
-  - {fileID: 400060}
-  - {fileID: 400056}
-  - {fileID: 400122}
-  - {fileID: 400132}
-  - {fileID: 400074}
-  - {fileID: 400058}
-  - {fileID: 400186}
-  - {fileID: 400184}
-  - {fileID: 400182}
-  - {fileID: 400180}
-  - {fileID: 400178}
-  - {fileID: 400172}
-  - {fileID: 400170}
-  - {fileID: 400168}
-  - {fileID: 400166}
-  - {fileID: 400160}
-  - {fileID: 400158}
-  - {fileID: 400156}
-  - {fileID: 400152}
-  - {fileID: 400150}
-  - {fileID: 400148}
-  - {fileID: 400146}
-  - {fileID: 400144}
-  - {fileID: 400142}
-  - {fileID: 400140}
-  - {fileID: 400138}
-  - {fileID: 400136}
-  - {fileID: 400134}
-  - {fileID: 400130}
-  - {fileID: 400128}
-  - {fileID: 400126}
-  - {fileID: 400124}
-  - {fileID: 400032}
-  - {fileID: 400034}
-  - {fileID: 400044}
-  - {fileID: 400042}
-  - {fileID: 400040}
-  - {fileID: 400038}
-  - {fileID: 400036}
-  - {fileID: 400260}
-  - {fileID: 400310}
-  - {fileID: 400306}
-  - {fileID: 400304}
-  - {fileID: 400270}
-  - {fileID: 400268}
-  - {fileID: 400266}
-  - {fileID: 400264}
-  - {fileID: 400302}
-  - {fileID: 400300}
-  - {fileID: 400298}
-  - {fileID: 400296}
-  - {fileID: 400294}
-  - {fileID: 400292}
-  - {fileID: 400290}
-  - {fileID: 400288}
-  - {fileID: 400278}
-  - {fileID: 400276}
-  - {fileID: 400274}
-  - {fileID: 400272}
-  - {fileID: 400286}
-  - {fileID: 400284}
-  - {fileID: 400282}
-  - {fileID: 400280}
-  - {fileID: 400256}
-  - {fileID: 400262}
-  - {fileID: 400308}
-  - {fileID: 400258}
+  m_Mesh: {fileID: 4300004, guid: 5a15500476e819a428511c1f439a8670, type: 3}
+  m_Bones: []
   m_BlendShapeWeights: []
-  m_RootBone: {fileID: 400312}
+  m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: .0272264481, y: .24187088, z: 3.40216637}
-    m_Extent: {x: 17.8757744, y: 41.0626335, z: 20.1880627}
-  m_DirtyAABB: 0
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_DirtyAABB: 1
 --- !u!137 &13700002
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
