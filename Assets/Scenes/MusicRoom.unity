@@ -7226,10 +7226,10 @@ MonoBehaviour:
   constantID: 0
   linkedProp: {fileID: 398511803}
   transitionTime: 1
-  newVector: {x: -23, y: 6.82460022, z: -27}
+  newVector: {x: 9, y: 0, z: 0}
   transformType: 0
   moveMethod: 0
-  toBy: 0
+  toBy: 1
 --- !u!1 &261631726
 GameObject:
   m_ObjectHideFlags: 0
@@ -8486,7 +8486,7 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isMarked: 0
-  isEnabled: 1
+  isEnabled: 0
   isAssetFile: 0
   nodeRect:
     serializedVersion: 2
@@ -15886,7 +15886,7 @@ MonoBehaviour:
   constantID: 0
   linkedProp: {fileID: 579328150}
   transitionTime: 1
-  newVector: {x: -23, y: 6.82460022, z: -27}
+  newVector: {x: 9, y: 0, z: 0}
   transformType: 0
   moveMethod: 0
   toBy: 0
@@ -27142,7 +27142,7 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isMarked: 0
-  isEnabled: 1
+  isEnabled: 0
   isAssetFile: 0
   nodeRect:
     serializedVersion: 2
