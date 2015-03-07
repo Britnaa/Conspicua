@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Candlestick
-  m_Shader: {fileID: 22, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 3, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -22,16 +22,34 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
           name: _Cube
         second:
           m_Texture: {fileID: 8900000, guid: d608284b47ca6ba498d60a2e11bb121d, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
           name: _Shininess
-        second: .078125
+        second: .0944682583
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
     m_Colors:
       data:
         first:
@@ -40,8 +58,8 @@ Material:
       data:
         first:
           name: _SpecColor
-        second: {r: .279411793, g: .279411793, b: .279411793, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _ReflectColor
-        second: {r: .352941155, g: .352941155, b: .352941155, a: .501960814}
+        second: {r: .0588235259, g: .0588235259, b: .0588235259, a: .501960814}
