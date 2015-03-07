@@ -21,7 +21,7 @@ MonoBehaviour:
   - playerOb: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
     ID: 0
     isDefault: 1
-  - playerOb: {fileID: 11400004, guid: 1bdb9b62fd2b2aa42bc5318784c2e478, type: 2}
+  - playerOb: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
     ID: 1
     isDefault: 0
   shareInventory: 1
@@ -49,7 +49,7 @@ MonoBehaviour:
   reverseInventoryCombinations: 1
   canMoveWhenActive: 1
   clickPrefab: {fileID: 400000, guid: 5afa28bedf2ed4d77b1485bcdd7c48d9, type: 2}
-  directMovementType: 0
+  directMovementType: 1
   destinationAccuracy: .899999976
   walkableClickRange: .5
   dragAffects: 0
