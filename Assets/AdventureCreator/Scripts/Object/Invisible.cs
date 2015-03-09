@@ -17,7 +17,7 @@ public class Invisible : MonoBehaviour
 	
 	void Awake ()
 	{
-		this.renderer.enabled = false;
+		this.GetComponent<Renderer>().enabled = false;
 	}
 
 }

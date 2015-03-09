@@ -1458,11 +1458,11 @@ namespace AC
 				}
 				else
 				{
-					spriteChild.renderer.sortingOrder = order;
+					spriteChild.GetComponent<Renderer>().sortingOrder = order;
 				}
 			}
 
-			if (renderer)
+			if (GetComponent<Renderer>())
 			{
 				if (GetComponent <FollowSortingMap>())
 				{
@@ -1470,7 +1470,7 @@ namespace AC
 				}
 				else
 				{
-					renderer.sortingOrder = order;
+					GetComponent<Renderer>().sortingOrder = order;
 				}
 			}
 		}
@@ -1486,11 +1486,11 @@ namespace AC
 				}
 				else
 				{
-					spriteChild.renderer.sortingLayerName = layer;
+					spriteChild.GetComponent<Renderer>().sortingLayerName = layer;
 				}
 			}
 
-			if (renderer)
+			if (GetComponent<Renderer>())
 			{
 				if (GetComponent <FollowSortingMap>())
 				{
@@ -1498,7 +1498,7 @@ namespace AC
 				}
 				else
 				{
-					renderer.sortingLayerName = layer;
+					GetComponent<Renderer>().sortingLayerName = layer;
 				}
 			}
 		}
@@ -1506,12 +1506,12 @@ namespace AC
 
 		public void ReleaseSorting ()
 		{
-			if (spriteChild && spriteChild.renderer && spriteChild.GetComponent <FollowSortingMap>())
+			if (spriteChild && spriteChild.GetComponent<Renderer>() && spriteChild.GetComponent <FollowSortingMap>())
 			{
 				spriteChild.GetComponent <FollowSortingMap>().lockSorting = false;
 			}
 
-			if (renderer && GetComponent <FollowSortingMap>())
+			if (GetComponent<Renderer>() && GetComponent <FollowSortingMap>())
 			{
 				GetComponent <FollowSortingMap>().lockSorting = false;
 			}

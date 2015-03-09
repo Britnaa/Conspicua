@@ -41,9 +41,9 @@ public class AutoLipSync : MonoBehaviour
 	
 	private void FixedUpdate ()
 	{
-		if (audio.isPlaying)
+		if (GetComponent<AudioSource>().isPlaying)
 		{
-			audio.GetOutputData(array, 0);
+			GetComponent<AudioSource>().GetOutputData(array, 0);
 			float num3 = 0f;
 			for (int i = 0; i < width; i++)
 			{

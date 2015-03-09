@@ -114,7 +114,7 @@ namespace AC
 				settingsManager = AdvGame.GetReferences ().settingsManager;
 			}
 
-			if (!camera)
+			if (!GetComponent<Camera>())
 			{
 				Debug.LogError ("The MainCamera script requires a Camera component.");
 				return;
@@ -504,7 +504,7 @@ namespace AC
 				LookAtCentre ();
 				isSmoothChanging = false;
 				
-				_camera.isOrthoGraphic = attachedCamera._camera.isOrthoGraphic;
+				_camera.orthographic = attachedCamera._camera.orthographic;
 				_camera.fieldOfView = attachedCamera._camera.fieldOfView;
 				_camera.orthographicSize = attachedCamera._camera.orthographicSize;
 				transform.position = attachedCamera.transform.position;
@@ -884,7 +884,7 @@ namespace AC
 			if (!borderCam)
 			{
 				// Make a new camera behind the normal camera which displays black; otherwise the unused space is undefined
-				borderCam = new GameObject ("BorderCamera", typeof (Camera)).camera;
+				borderCam = new GameObject ("BorderCamera", typeof (Camera)).GetComponent<Camera>();
 				borderCam.transform.parent = this.transform;
 				borderCam.depth = int.MinValue;
 				borderCam.clearFlags = CameraClearFlags.SolidColor;

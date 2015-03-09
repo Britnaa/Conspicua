@@ -73,7 +73,7 @@ namespace AC
 				mainCamera.transform.parent = this.transform;
 				mainCamera.transform.localPosition = Vector3.zero;
 				mainCamera.transform.localEulerAngles = Vector3.zero;
-				mainCamera.GetComponent <Camera>().isOrthoGraphic = this.GetComponent <Camera>().isOrthoGraphic;
+				mainCamera.GetComponent <Camera>().orthographic = this.GetComponent <Camera>().orthographic;
 				mainCamera.GetComponent <Camera>().fieldOfView = this.GetComponent <Camera>().fieldOfView;
 				mainCamera.GetComponent <Camera>().farClipPlane = this.GetComponent <Camera>().farClipPlane;
 				mainCamera.GetComponent <Camera>().nearClipPlane = this.GetComponent <Camera>().nearClipPlane;

@@ -51,9 +51,9 @@ namespace AC
 		{
 			if (element && setTextLabels)
 			{
-				if (guiText)
+				if (GetComponent<GUIText>())
 				{
-					guiText.text = GetLabel ();
+					GetComponent<GUIText>().text = GetLabel ();
 				}
 				if (GetComponent <TextMesh>())
 				{

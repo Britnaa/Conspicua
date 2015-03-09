@@ -91,23 +91,23 @@ namespace AC
 			{
 				if (!canShowHardwareCursor)
 				{
-					Screen.showCursor = false;
+					Cursor.visible = false;
 				}
 				else if (playerInput.dragState == DragState.Moveable)
 				{
-					Screen.showCursor = false;
+					Cursor.visible = false;
 				}
 				else if (settingsManager && cursorManager && (!cursorManager.allowMainCursor || cursorManager.pointerIcon.texture == null) && runtimeInventory.selectedItem == null && settingsManager.inputMethod == InputMethod.MouseAndKeyboard && stateHandler.gameState != GameState.Cutscene)
 				{
-					Screen.showCursor = true;
+					Cursor.visible = true;
 				}
 				else if (cursorManager == null)
 				{
-					Screen.showCursor = true;
+					Cursor.visible = true;
 				}
 				else
 				{
-					Screen.showCursor = false;
+					Cursor.visible = false;
 				}
 			}
 
@@ -167,7 +167,7 @@ namespace AC
 
 			if (cursorManager.cursorRendering == CursorRendering.Hardware)
 			{
-				Screen.showCursor = showCursor;
+				Cursor.visible = showCursor;
 			}
 		}
 		

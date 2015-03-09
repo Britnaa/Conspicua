@@ -293,7 +293,7 @@ namespace AC
 			if (sceneSettings.navigationMethod == AC_NavigationMethod.PolygonCollider)
 			{
 				RaycastHit2D hit;
-				if (Camera.main.isOrthoGraphic)
+				if (Camera.main.orthographic)
 				{
 					hit = Physics2D.Raycast (Camera.main.ScreenToWorldPoint (new Vector2 (mousePosition.x, mousePosition.y)), Vector2.zero, settingsManager.navMeshRaycastLength);
 				}
@@ -638,7 +638,7 @@ namespace AC
 			if (sceneSettings.navigationMethod == AC_NavigationMethod.PolygonCollider)
 			{
 				RaycastHit2D hit;
-				if (Camera.main.isOrthoGraphic)
+				if (Camera.main.orthographic)
 				{
 					hit = Physics2D.Raycast (Camera.main.ScreenToWorldPoint (new Vector2 (mousePosition.x, mousePosition.y)), Vector2.zero, settingsManager.navMeshRaycastLength);
 				}

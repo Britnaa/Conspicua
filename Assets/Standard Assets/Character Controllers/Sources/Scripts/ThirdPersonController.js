@@ -242,7 +242,7 @@ function ApplyJumping ()
 		if (canJump && Time.time < lastJumpButtonTime + jumpTimeout) {
 			verticalSpeed = CalculateJumpVerticalSpeed (jumpHeight);
 			SendMessage("DidJump", SendMessageOptions.DontRequireReceiver);
-			audio.PlayOneShot(jumpSound);
+			GetComponent.<AudioSource>().PlayOneShot(jumpSound);
 		}
 	}
 }

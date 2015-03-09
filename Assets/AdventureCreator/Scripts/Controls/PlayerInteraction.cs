@@ -186,7 +186,7 @@ namespace AC
 				if (settingsManager && settingsManager.IsUnity2D ())
 				{
 					RaycastHit2D hit;
-					if (Camera.main.isOrthoGraphic)
+					if (Camera.main.orthographic)
 					{
 						hit = Physics2D.Raycast (Camera.main.ScreenToWorldPoint (playerInput.GetMousePosition ()), Vector2.zero, settingsManager.navMeshRaycastLength, 1 << LayerMask.NameToLayer (settingsManager.hotspotLayer));
 					}
@@ -923,7 +923,7 @@ namespace AC
 			else if (hotspot._collider2D && hotspot._collider2D is BoxCollider2D)
 			{
 				BoxCollider2D boxCollider = (BoxCollider2D) hotspot._collider2D;
-				screenPosition.y += hotspot.transform.localScale.y * boxCollider.center.y / Screen.height * 100f;
+				screenPosition.y += hotspot.transform.localScale.y * boxCollider.offset.y / Screen.height * 100f;
 			}
 			
 			return (new Vector2 (screenPosition.x, 1 - screenPosition.y));
@@ -943,7 +943,7 @@ namespace AC
 			{
 				RaycastHit2D hit = new RaycastHit2D ();
 
-				if (Camera.main.isOrthoGraphic)
+				if (Camera.main.orthographic)
 				{
 					hit = Physics2D.Raycast (Camera.main.ScreenToWorldPoint (playerInput.GetMousePosition ()), Vector2.zero, settingsManager.navMeshRaycastLength);
 				}

@@ -73,7 +73,7 @@ namespace AC
 				newSoundOb.name = this.name + " (Move sound)";
 				newSoundOb.transform.parent = this.transform;
 				newSoundOb.AddComponent <Sound>();
-				newSoundOb.audio.playOnAwake = false;
+				newSoundOb.GetComponent<AudioSource>().playOnAwake = false;
 				moveSound = newSoundOb.GetComponent <Sound>();
 			}
 
@@ -160,7 +160,7 @@ namespace AC
 				moveSound.SetMaxVolume ();
 				if (slidePitchFactor > 0f)
 				{
-					moveSound.audio.pitch = Mathf.Lerp (audio.pitch, Mathf.Min (1f, speed), Time.deltaTime * 5f);
+					moveSound.GetComponent<AudioSource>().pitch = Mathf.Lerp (GetComponent<AudioSource>().pitch, Mathf.Min (1f, speed), Time.deltaTime * 5f);
 				}
 			}
 

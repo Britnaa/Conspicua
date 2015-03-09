@@ -43,9 +43,9 @@ namespace AC
 		private void Awake ()
 		{
 			// Go through own materials
-			if (renderer)
+			if (GetComponent<Renderer>())
 			{
-				foreach (Material material in renderer.materials)
+				foreach (Material material in GetComponent<Renderer>().materials)
 				{
 					if (material.HasProperty ("_Color"))
 					{
@@ -68,9 +68,9 @@ namespace AC
 				}
 			}
 
-			if (guiTexture)
+			if (GetComponent<GUITexture>())
 			{
-				originalColors.Add (guiTexture.color);
+				originalColors.Add (GetComponent<GUITexture>().color);
 			}
 		}
 		
@@ -225,9 +225,9 @@ namespace AC
 			float alpha;
 
 			// Go through own materials
-			if (renderer)
+			if (GetComponent<Renderer>())
 			{
-				foreach (Material material in renderer.materials)
+				foreach (Material material in GetComponent<Renderer>().materials)
 				{
 					if (material.HasProperty ("_Color"))
 					{
@@ -263,12 +263,12 @@ namespace AC
 				}
 			}
 			
-			if (guiTexture)
+			if (GetComponent<GUITexture>())
 			{
 				alpha = Mathf.Lerp (0.2f, 1f, highlight - 1f); // highlight is between 1 and 2
 				Color newColor = originalColors[i];
 				newColor.a = alpha;
-				guiTexture.color = newColor;
+				GetComponent<GUITexture>().color = newColor;
 			}
 		}
 

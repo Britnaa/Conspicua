@@ -79,7 +79,7 @@ namespace AC
 		{
 			offsets = new List<int>();
 			
-			if (offsetOriginal && renderer)
+			if (offsetOriginal && GetComponent<Renderer>())
 			{
 				if (affectChildren)
 				{
@@ -91,7 +91,7 @@ namespace AC
 				}
 				else
 				{
-					offsets.Add (renderer.sortingOrder);
+					offsets.Add (GetComponent<Renderer>().sortingOrder);
 				}
 			}
 		}
@@ -181,7 +181,7 @@ namespace AC
 		
 		private void UpdateRenderers ()
 		{
-			if (lockSorting || !followSortingMap || sortingMap == null || renderer == null)
+			if (lockSorting || !followSortingMap || sortingMap == null || GetComponent<Renderer>() == null)
 			{
 				return;
 			}
@@ -236,16 +236,16 @@ namespace AC
 			{
 				if (sortingMap.mapType == SortingMapType.OrderInLayer)
 				{
-					renderer.sortingOrder = sortingOrder;
+					GetComponent<Renderer>().sortingOrder = sortingOrder;
 					
 					if (offsetOriginal && offsets.Count > 0)
 					{
-						renderer.sortingOrder += offsets[0];
+						GetComponent<Renderer>().sortingOrder += offsets[0];
 					}
 				}
 				else if (sortingMap.mapType == SortingMapType.SortingLayer)
 				{
-					renderer.sortingLayerName = sortingLayer;
+					GetComponent<Renderer>().sortingLayerName = sortingLayer;
 				}
 				
 				return;
@@ -273,13 +273,13 @@ namespace AC
 		
 		public void LockSortingOrder (int order)
 		{
-			if (renderer == null) return;
+			if (GetComponent<Renderer>() == null) return;
 			
 			lockSorting = true;
 			
 			if (!affectChildren)
 			{
-				renderer.sortingOrder = order;
+				GetComponent<Renderer>().sortingOrder = order;
 				return;
 			}
 			
@@ -293,13 +293,13 @@ namespace AC
 		
 		public void LockSortingLayer (string layer)
 		{
-			if (renderer == null) return;
+			if (GetComponent<Renderer>() == null) return;
 			
 			lockSorting = true;
 			
 			if (!affectChildren)
 			{
-				renderer.sortingLayerName = layer;
+				GetComponent<Renderer>().sortingLayerName = layer;
 				return;
 			}
 			

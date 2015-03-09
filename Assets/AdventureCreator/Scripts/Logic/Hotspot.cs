@@ -284,7 +284,7 @@ namespace AC
 				if (_collider2D is BoxCollider2D)
 				{
 					BoxCollider2D boxCollider = (BoxCollider2D) _collider2D;
-					worldPoint += new Vector3 (boxCollider.center.x, boxCollider.center.y * transform.localScale.y, 0f);
+					worldPoint += new Vector3 (boxCollider.offset.x, boxCollider.offset.y * transform.localScale.y, 0f);
 				}
 			}
 			

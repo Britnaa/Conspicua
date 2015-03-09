@@ -39,24 +39,24 @@ public class ParticleSwitch : MonoBehaviour
 
 	public void Interact ()
 	{
-		if (this.particleSystem)
+		if (this.GetComponent<ParticleSystem>())
 		{
-			this.particleSystem.Emit (this.particleSystem.maxParticles);
+			this.GetComponent<ParticleSystem>().Emit (this.GetComponent<ParticleSystem>().maxParticles);
 		}
 	}
 	
 	
 	private void Switch (bool turnOn)
 	{
-		if (this.particleSystem)
+		if (this.GetComponent<ParticleSystem>())
 		{
 			if (turnOn)
 			{
-				this.particleSystem.Play ();
+				this.GetComponent<ParticleSystem>().Play ();
 			}
 			else
 			{
-				this.particleSystem.Stop ();
+				this.GetComponent<ParticleSystem>().Stop ();
 			}
 		}
 	}

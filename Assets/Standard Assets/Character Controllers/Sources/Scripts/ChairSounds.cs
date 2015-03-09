@@ -11,7 +11,7 @@ public AudioClip Hit;
 	void OnCollisionEnter(Collision collision) {
 		if(collision.gameObject.name == "Spencer")
 		{
-			audio.PlayOneShot(Hit);
+			GetComponent<AudioSource>().PlayOneShot(Hit);
 		}
 	}
 }

@@ -46,7 +46,7 @@ namespace AC
 			{
 				obToAffect = KickStarter.player.gameObject;
 
-				if (KickStarter.player && KickStarter.player.spriteChild && KickStarter.player.spriteChild.renderer)
+				if (KickStarter.player && KickStarter.player.spriteChild && KickStarter.player.spriteChild.GetComponent<Renderer>())
 				{
 				    obToAffect = KickStarter.player.spriteChild.gameObject;
 				}
@@ -60,11 +60,11 @@ namespace AC
 		
 		override public float Run ()
 		{
-			if (obToAffect && obToAffect.renderer && newMaterial)
+			if (obToAffect && obToAffect.GetComponent<Renderer>() && newMaterial)
 			{
-				Material[] mats = obToAffect.renderer.materials;
+				Material[] mats = obToAffect.GetComponent<Renderer>().materials;
 				mats[materialIndex] = newMaterial;
-				obToAffect.renderer.materials = mats;
+				obToAffect.GetComponent<Renderer>().materials = mats;
 			}
 			return 0f;
 		}

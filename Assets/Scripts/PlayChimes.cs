@@ -9,7 +9,7 @@ public class PlayChimes : MonoBehaviour {
 	{
 		if(gameObject.name == "Trish")
 		{
-			audio.PlayOneShot(windchimes);
+			GetComponent<AudioSource>().PlayOneShot(windchimes);
 		}
 	}
 }

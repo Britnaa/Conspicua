@@ -632,15 +632,15 @@ namespace AC
 			}
 			playerData.playerSpriteDirection = player.spriteDirection;
 			playerData.playerSpriteScale = player.spriteScale;
-			if (player.spriteChild && player.spriteChild.renderer)
+			if (player.spriteChild && player.spriteChild.GetComponent<Renderer>())
 			{
-				playerData.playerSortingOrder = player.spriteChild.renderer.sortingOrder;
-				playerData.playerSortingLayer = player.spriteChild.renderer.sortingLayerName;
+				playerData.playerSortingOrder = player.spriteChild.GetComponent<Renderer>().sortingOrder;
+				playerData.playerSortingLayer = player.spriteChild.GetComponent<Renderer>().sortingLayerName;
 			}
-			else if (player.renderer)
+			else if (player.GetComponent<Renderer>())
 			{
-				playerData.playerSortingOrder = player.renderer.sortingOrder;
-				playerData.playerSortingLayer = player.renderer.sortingLayerName;
+				playerData.playerSortingOrder = player.GetComponent<Renderer>().sortingOrder;
+				playerData.playerSortingLayer = player.GetComponent<Renderer>().sortingLayerName;
 			}
 			
 			if (player.GetPath ())
@@ -1163,15 +1163,15 @@ namespace AC
 			}
 			if (playerData.playerLockSorting)
 			{
-				if (player.spriteChild && player.spriteChild.renderer)
+				if (player.spriteChild && player.spriteChild.GetComponent<Renderer>())
 				{
-					player.spriteChild.renderer.sortingOrder = playerData.playerSortingOrder;
-					player.spriteChild.renderer.sortingLayerName = playerData.playerSortingLayer;
+					player.spriteChild.GetComponent<Renderer>().sortingOrder = playerData.playerSortingOrder;
+					player.spriteChild.GetComponent<Renderer>().sortingLayerName = playerData.playerSortingLayer;
 				}
-				else if (player.renderer)
+				else if (player.GetComponent<Renderer>())
 				{
-					player.renderer.sortingOrder = playerData.playerSortingOrder;
-					player.renderer.sortingLayerName = playerData.playerSortingLayer;
+					player.GetComponent<Renderer>().sortingOrder = playerData.playerSortingOrder;
+					player.GetComponent<Renderer>().sortingLayerName = playerData.playerSortingLayer;
 				}
 			}
 			

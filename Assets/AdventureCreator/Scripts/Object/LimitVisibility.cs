@@ -58,9 +58,9 @@ namespace AC
 
 		private void SetVisibility (bool state)
 		{
-			if (this.renderer)
+			if (this.GetComponent<Renderer>())
 			{
-				this.renderer.enabled = state;
+				this.GetComponent<Renderer>().enabled = state;
 			}
 			else if (this.gameObject.GetComponent <SpriteRenderer>())
 			{

@@ -114,10 +114,10 @@ namespace AC
 					}
 				}
 
-				if (newPlayer.animation)
+				if (newPlayer.GetComponent<Animation>())
 				{
 					// Hack: Force idle of Legacy characters
-					AdvGame.PlayAnimClip (newPlayer.animation, AdvGame.GetAnimLayerInt (AnimLayer.Base), newPlayer.idleAnim, AnimationBlendMode.Blend, WrapMode.Loop, 0f, null, false);
+					AdvGame.PlayAnimClip (newPlayer.GetComponent<Animation>(), AdvGame.GetAnimLayerInt (AnimLayer.Base), newPlayer.idleAnim, AnimationBlendMode.Blend, WrapMode.Loop, 0f, null, false);
 				}
 				else if (newPlayer.spriteChild)
 				{

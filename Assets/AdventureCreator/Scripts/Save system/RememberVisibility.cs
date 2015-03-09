@@ -33,18 +33,18 @@ namespace AC
 					state = true;
 				}
 
-				if (renderer)
+				if (GetComponent<Renderer>())
 				{
-					renderer.enabled = state;
+					GetComponent<Renderer>().enabled = state;
 				}
 
 				if (affectChildren)
 				{
 					foreach (Transform child in transform)
 					{
-						if (child.gameObject.renderer)
+						if (child.gameObject.GetComponent<Renderer>())
 						{
-							child.gameObject.renderer.enabled = state;
+							child.gameObject.GetComponent<Renderer>().enabled = state;
 						}
 					}
 				}
@@ -57,17 +57,17 @@ namespace AC
 			VisibilityData visibilityData = new VisibilityData ();
 			visibilityData.objectID = constantID;
 			
-			if (renderer)
+			if (GetComponent<Renderer>())
 			{
-				visibilityData.isOn = renderer.enabled;
+				visibilityData.isOn = GetComponent<Renderer>().enabled;
 			}
 			else if (affectChildren)
 			{
 				foreach (Transform child in transform)
 				{
-					if (child.gameObject.renderer)
+					if (child.gameObject.GetComponent<Renderer>())
 					{
-						visibilityData.isOn = child.gameObject.renderer.enabled;
+						visibilityData.isOn = child.gameObject.GetComponent<Renderer>().enabled;
 						break;
 					}
 				}
@@ -79,18 +79,18 @@ namespace AC
 
 		public void LoadData (VisibilityData data)
 		{
-			if (renderer)
+			if (GetComponent<Renderer>())
 			{
-				renderer.enabled = data.isOn;
+				GetComponent<Renderer>().enabled = data.isOn;
 			}
 
 			if (affectChildren)
 			{
 				foreach (Transform child in transform)
 				{
-					if (child.gameObject.renderer)
+					if (child.gameObject.GetComponent<Renderer>())
 					{
-						child.gameObject.renderer.enabled = data.isOn;
+						child.gameObject.GetComponent<Renderer>().enabled = data.isOn;
 					}
 				}
 			}

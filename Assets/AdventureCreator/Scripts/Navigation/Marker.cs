@@ -21,9 +21,9 @@ namespace AC
 
 		protected void Awake ()
 		{
-			if (this.renderer)
+			if (this.GetComponent<Renderer>())
 			{
-				this.renderer.enabled = false;
+				this.GetComponent<Renderer>().enabled = false;
 			}
 			
 			if (AdvGame.GetReferences ().settingsManager && AdvGame.GetReferences ().settingsManager.IsUnity2D ())

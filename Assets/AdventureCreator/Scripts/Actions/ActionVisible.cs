@@ -55,18 +55,18 @@ namespace AC
 			
 			if (obToAffect)
 			{
-				if (obToAffect.renderer)
+				if (obToAffect.GetComponent<Renderer>())
 				{
-					obToAffect.renderer.enabled = state;
+					obToAffect.GetComponent<Renderer>().enabled = state;
 				}
 
 				if (affectChildren)
 				{
 					foreach (Transform child in obToAffect.transform)
 					{
-						if (child.gameObject.renderer)
+						if (child.gameObject.GetComponent<Renderer>())
 						{
-							child.gameObject.renderer.enabled = state;
+							child.gameObject.GetComponent<Renderer>().enabled = state;
 						}
 					}
 				}

@@ -106,7 +106,7 @@ namespace AC
 			fixedJoint = go.AddComponent <FixedJoint>();
 			fixedJoint.breakForce = fixedJoint.breakTorque = breakForce;
 			//fixedJoint.enableCollision = false;
-			go.AddComponent ("JointBreaker");
+			go.AddComponent <JointBreaker>();
 		}
 		
 		

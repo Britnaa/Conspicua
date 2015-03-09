@@ -112,15 +112,15 @@ namespace AC
 				}
 				npcData.spriteDirection = npc.spriteDirection;
 				npcData.spriteScale = npc.spriteScale;
-				if (npc.spriteChild && npc.spriteChild.renderer)
+				if (npc.spriteChild && npc.spriteChild.GetComponent<Renderer>())
 				{
-					npcData.sortingOrder = npc.spriteChild.renderer.sortingOrder;
-					npcData.sortingLayer = npc.spriteChild.renderer.sortingLayerName;
+					npcData.sortingOrder = npc.spriteChild.GetComponent<Renderer>().sortingOrder;
+					npcData.sortingLayer = npc.spriteChild.GetComponent<Renderer>().sortingLayerName;
 				}
-				else if (npc.renderer)
+				else if (npc.GetComponent<Renderer>())
 				{
-					npcData.sortingOrder = npc.renderer.sortingOrder;
-					npcData.sortingLayer = npc.renderer.sortingLayerName;
+					npcData.sortingOrder = npc.GetComponent<Renderer>().sortingOrder;
+					npcData.sortingLayer = npc.GetComponent<Renderer>().sortingLayerName;
 				}
 				
 				if (npc.GetPath ())
@@ -280,15 +280,15 @@ namespace AC
 				}
 				if (data.lockSorting)
 				{
-					if (npc.spriteChild && npc.spriteChild.renderer)
+					if (npc.spriteChild && npc.spriteChild.GetComponent<Renderer>())
 					{
-						npc.spriteChild.renderer.sortingOrder = data.sortingOrder;
-						npc.spriteChild.renderer.sortingLayerName = data.sortingLayer;
+						npc.spriteChild.GetComponent<Renderer>().sortingOrder = data.sortingOrder;
+						npc.spriteChild.GetComponent<Renderer>().sortingLayerName = data.sortingLayer;
 					}
-					else if (npc.renderer)
+					else if (npc.GetComponent<Renderer>())
 					{
-						npc.renderer.sortingOrder = data.sortingOrder;
-						npc.renderer.sortingLayerName = data.sortingLayer;
+						npc.GetComponent<Renderer>().sortingOrder = data.sortingOrder;
+						npc.GetComponent<Renderer>().sortingLayerName = data.sortingLayer;
 					}
 				}
 			
