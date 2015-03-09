@@ -3564,7 +3564,7 @@ MonoBehaviour:
   doEulerRotation: 0
   parameterID: -1
   constantID: 0
-  linkedProp: {fileID: 0}
+  linkedProp: {fileID: 1355488879}
   transitionTime: 1
   newVector: {x: 0, y: -90, z: 0}
   transformType: 1
@@ -19945,15 +19945,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.68642366
+      value: -1.68599999
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -5.00283766
+      value: -4.93300009
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -4.55069399
+      value: -4.55100012
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
       propertyPath: m_LocalRotation.x
@@ -19990,6 +19990,18 @@ Prefab:
     - target: {fileID: 100000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
       propertyPath: m_Name
       value: OwlTrish
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
+      propertyPath: m_LocalScale.x
+      value: .0350000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
+      propertyPath: m_LocalScale.y
+      value: .0350000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
+      propertyPath: m_LocalScale.z
+      value: .0350000001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
@@ -22122,15 +22134,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: .452702999
+      value: .453000009
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -5.00283766
+      value: -4.93499994
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -4.54192114
+      value: -4.54199982
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
       propertyPath: m_LocalRotation.x
@@ -22167,6 +22179,18 @@ Prefab:
     - target: {fileID: 100000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
       propertyPath: m_Name
       value: OwlTrish
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
+      propertyPath: m_LocalScale.x
+      value: .0350000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
+      propertyPath: m_LocalScale.y
+      value: .0350000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
+      propertyPath: m_LocalScale.z
+      value: .0350000001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
@@ -40404,7 +40428,7 @@ MonoBehaviour:
   doEulerRotation: 0
   parameterID: -1
   constantID: 0
-  linkedProp: {fileID: 0}
+  linkedProp: {fileID: 936427499}
   transitionTime: 1
   newVector: {x: 0, y: -90, z: 0}
   transformType: 1
@@ -77063,6 +77087,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1248165292}
   m_Mesh: {fileID: 4300046, guid: 1b7474b91a097ff41b7fc94b94170530, type: 3}
+--- !u!1 &1248483756
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
+  m_PrefabInternal: {fileID: 1816274090}
+--- !u!65 &1248483760
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1248483756}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 14.8559551, y: 33.9346161, z: 15.1029816}
+  m_Center: {x: 34.8141022, y: 159.41806, z: 168.017517}
 --- !u!1 &1249033433
 GameObject:
   m_ObjectHideFlags: 0
@@ -79641,7 +79681,7 @@ MonoBehaviour:
   doEulerRotation: 0
   parameterID: -1
   constantID: 0
-  linkedProp: {fileID: 0}
+  linkedProp: {fileID: 1374104272}
   transitionTime: 1
   newVector: {x: 0, y: -90, z: 0}
   transformType: 1
@@ -85450,7 +85490,7 @@ MonoBehaviour:
   doEulerRotation: 0
   parameterID: -1
   constantID: 0
-  linkedProp: {fileID: 0}
+  linkedProp: {fileID: 1971170076}
   transitionTime: 1
   newVector: {x: 0, y: -90, z: 0}
   transformType: 1
@@ -109880,6 +109920,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .0350000001
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
+      propertyPath: m_Name
+      value: Owl04
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
   m_IsPrefabParent: 0
@@ -116885,7 +116929,7 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: .316176474, g: .773630738, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -121500,6 +121544,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .0350000001
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
+      propertyPath: m_Name
+      value: Owl03
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
   m_IsPrefabParent: 0
@@ -121677,6 +121725,10 @@ Prefab:
     - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
       propertyPath: m_LocalScale.z
       value: .0350000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
+      propertyPath: m_Name
+      value: Owl01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
@@ -127220,6 +127272,10 @@ Prefab:
     - target: {fileID: 400000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
       propertyPath: m_LocalScale.z
       value: .0350000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
+      propertyPath: m_Name
+      value: Owl02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c37c4ddaa34d3ab4fb7fac8d284bf9b0, type: 2}
