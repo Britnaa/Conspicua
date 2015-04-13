@@ -318,7 +318,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 1
+    isEditing: 0
     recipeSlot: -1
     useActionList: {fileID: 0}
     lookActionList: {fileID: 0}
@@ -340,6 +340,90 @@ MonoBehaviour:
     useIconID: 0
     binID: -1
     isEditing: 0
+    recipeSlot: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    combineID: 
+  - count: 1
+    tex: {fileID: 2800000, guid: b78e44a2bd3794959853cec49ff0b2df, type: 3}
+    activeTex: {fileID: 0}
+    carryOnStart: 0
+    canCarryMultiple: 0
+    useSeparateSlots: 0
+    label: bedroomKey
+    altLabel: key
+    id: 16
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    isEditing: 0
+    recipeSlot: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    combineID: 
+  - count: 1
+    tex: {fileID: 2800000, guid: a3b8c47b8581749bb9faeb8a49be8134, type: 3}
+    activeTex: {fileID: 0}
+    carryOnStart: 0
+    canCarryMultiple: 0
+    useSeparateSlots: 0
+    label: Lighter
+    altLabel: Lighter
+    id: 17
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    isEditing: 0
+    recipeSlot: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    combineID: 
+  - count: 1
+    tex: {fileID: 2800000, guid: b08d599c44b14e142b02857bd34b80e4, type: 3}
+    activeTex: {fileID: 0}
+    carryOnStart: 0
+    canCarryMultiple: 0
+    useSeparateSlots: 0
+    label: Hairpins
+    altLabel: Hairpins
+    id: 18
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    isEditing: 0
+    recipeSlot: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    combineID: 
+  - count: 1
+    tex: {fileID: 2800000, guid: 26b2b568881754006a518d2635cb05e1, type: 3}
+    activeTex: {fileID: 0}
+    carryOnStart: 0
+    canCarryMultiple: 0
+    useSeparateSlots: 0
+    label: Blanket
+    altLabel: Blanket
+    id: 19
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    isEditing: 1
     recipeSlot: -1
     useActionList: {fileID: 0}
     lookActionList: {fileID: 0}
