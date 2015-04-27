@@ -1,0 +1,467 @@
+fileFormatVersion: 2
+guid: a79b2e13de7d2994da9df5fc287c3fa4
+timeCreated: 1428883148
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: bed
+    100002: book_group
+    100004: book_open
+    100006: camera2
+    100008: ceiling
+    100010: chest
+    100012: desk
+    100014: deskChair
+    100016: development_bins
+    100018: door_average
+    100020: door_bathroom
+    100022: door_closet
+    100024: end_table01
+    100026: end_table02
+    100028: floor
+    100030: frame01
+    100032: frame02
+    100034: //RootNode
+    100036: moulding_Ceiling
+    100038: moulding_floor
+    100040: musicStand
+    100042: pasted__all_bookshelf_books
+    100044: pasted__book_bunch_F2
+    100046: pasted__book_series_08
+    100048: pasted__books_freeFloating
+    100050: pasted__butter_knife
+    100052: pasted__desk
+    100054: pasted__door
+    100056: pasted__door 1
+    100058: pasted__door 2
+    100060: pasted__door_diningRoom
+    100062: pasted__door_diningRoom 1
+    100064: pasted__door_diningRoom 2
+    100066: pasted__fork
+    100068: pasted__group4
+    100070: pasted__handle_01
+    100072: pasted__handle_01 1
+    100074: pasted__handle_01 2
+    100076: pasted__handle_02
+    100078: pasted__handle_02 1
+    100080: pasted__handle_02 2
+    100082: pasted__handles
+    100084: pasted__plate
+    100086: pasted__polySurface100
+    100088: pasted__polySurface101
+    100090: pasted__polySurface102
+    100092: pasted__polySurface103
+    100094: pasted__polySurface53
+    100096: pasted__polySurface54
+    100098: pasted__polySurface55
+    100100: pasted__polySurface56
+    100102: pasted__polySurface57
+    100104: pasted__polySurface77
+    100106: pasted__polySurface78
+    100108: pasted__polySurface79
+    100110: pasted__polySurface80
+    100112: pasted__polySurface81
+    100114: pasted__polySurface82
+    100116: pasted__polySurface83
+    100118: pasted__polySurface84
+    100120: pasted__polySurface85
+    100122: pasted__polySurface86
+    100124: pasted__polySurface87
+    100126: pasted__polySurface88
+    100128: pasted__polySurface89
+    100130: pasted__polySurface90
+    100132: pasted__polySurface91
+    100134: pasted__polySurface92
+    100136: pasted__polySurface93
+    100138: pasted__polySurface94
+    100140: pasted__polySurface95
+    100142: pasted__polySurface96
+    100144: pasted__polySurface97
+    100146: pasted__polySurface98
+    100148: pasted__polySurface99
+    100150: pasted__side_table
+    100152: pasted__simgle_book_open
+    100154: pCube32
+    100156: pCube33
+    100158: pCube34
+    100160: pCube35
+    100162: pCube36
+    100164: photoWall_01
+    100166: photoWall_02
+    100168: polySurface59
+    100170: polySurface61
+    100172: silverware
+    100174: table
+    100176: wall01
+    100178: wall02
+    100180: wall03
+    100182: wall04
+    100184: window_frames
+    100186: windows
+    400000: bed
+    400002: book_group
+    400004: book_open
+    400006: camera2
+    400008: ceiling
+    400010: chest
+    400012: desk
+    400014: deskChair
+    400016: development_bins
+    400018: door_average
+    400020: door_bathroom
+    400022: door_closet
+    400024: end_table01
+    400026: end_table02
+    400028: floor
+    400030: frame01
+    400032: frame02
+    400034: //RootNode
+    400036: moulding_Ceiling
+    400038: moulding_floor
+    400040: musicStand
+    400042: pasted__all_bookshelf_books
+    400044: pasted__book_bunch_F2
+    400046: pasted__book_series_08
+    400048: pasted__books_freeFloating
+    400050: pasted__butter_knife
+    400052: pasted__desk
+    400054: pasted__door
+    400056: pasted__door 1
+    400058: pasted__door 2
+    400060: pasted__door_diningRoom
+    400062: pasted__door_diningRoom 1
+    400064: pasted__door_diningRoom 2
+    400066: pasted__fork
+    400068: pasted__group4
+    400070: pasted__handle_01
+    400072: pasted__handle_01 1
+    400074: pasted__handle_01 2
+    400076: pasted__handle_02
+    400078: pasted__handle_02 1
+    400080: pasted__handle_02 2
+    400082: pasted__handles
+    400084: pasted__plate
+    400086: pasted__polySurface100
+    400088: pasted__polySurface101
+    400090: pasted__polySurface102
+    400092: pasted__polySurface103
+    400094: pasted__polySurface53
+    400096: pasted__polySurface54
+    400098: pasted__polySurface55
+    400100: pasted__polySurface56
+    400102: pasted__polySurface57
+    400104: pasted__polySurface77
+    400106: pasted__polySurface78
+    400108: pasted__polySurface79
+    400110: pasted__polySurface80
+    400112: pasted__polySurface81
+    400114: pasted__polySurface82
+    400116: pasted__polySurface83
+    400118: pasted__polySurface84
+    400120: pasted__polySurface85
+    400122: pasted__polySurface86
+    400124: pasted__polySurface87
+    400126: pasted__polySurface88
+    400128: pasted__polySurface89
+    400130: pasted__polySurface90
+    400132: pasted__polySurface91
+    400134: pasted__polySurface92
+    400136: pasted__polySurface93
+    400138: pasted__polySurface94
+    400140: pasted__polySurface95
+    400142: pasted__polySurface96
+    400144: pasted__polySurface97
+    400146: pasted__polySurface98
+    400148: pasted__polySurface99
+    400150: pasted__side_table
+    400152: pasted__simgle_book_open
+    400154: pCube32
+    400156: pCube33
+    400158: pCube34
+    400160: pCube35
+    400162: pCube36
+    400164: photoWall_01
+    400166: photoWall_02
+    400168: polySurface59
+    400170: polySurface61
+    400172: silverware
+    400174: table
+    400176: wall01
+    400178: wall02
+    400180: wall03
+    400182: wall04
+    400184: window_frames
+    400186: windows
+    2300000: bed
+    2300002: camera2
+    2300004: ceiling
+    2300006: chest
+    2300008: deskChair
+    2300010: end_table01
+    2300012: end_table02
+    2300014: floor
+    2300016: frame01
+    2300018: frame02
+    2300020: musicStand
+    2300022: pasted__book_bunch_F2
+    2300024: pasted__butter_knife
+    2300026: pasted__desk
+    2300028: pasted__door
+    2300030: pasted__door 1
+    2300032: pasted__door 2
+    2300034: pasted__fork
+    2300036: pasted__handle_01
+    2300038: pasted__handle_01 1
+    2300040: pasted__handle_01 2
+    2300042: pasted__handle_02
+    2300044: pasted__handle_02 1
+    2300046: pasted__handle_02 2
+    2300048: pasted__plate
+    2300050: pasted__polySurface100
+    2300052: pasted__polySurface101
+    2300054: pasted__polySurface102
+    2300056: pasted__polySurface103
+    2300058: pasted__polySurface53
+    2300060: pasted__polySurface54
+    2300062: pasted__polySurface55
+    2300064: pasted__polySurface56
+    2300066: pasted__polySurface57
+    2300068: pasted__polySurface77
+    2300070: pasted__polySurface78
+    2300072: pasted__polySurface79
+    2300074: pasted__polySurface80
+    2300076: pasted__polySurface81
+    2300078: pasted__polySurface82
+    2300080: pasted__polySurface83
+    2300082: pasted__polySurface84
+    2300084: pasted__polySurface85
+    2300086: pasted__polySurface86
+    2300088: pasted__polySurface87
+    2300090: pasted__polySurface88
+    2300092: pasted__polySurface89
+    2300094: pasted__polySurface90
+    2300096: pasted__polySurface91
+    2300098: pasted__polySurface92
+    2300100: pasted__polySurface93
+    2300102: pasted__polySurface94
+    2300104: pasted__polySurface95
+    2300106: pasted__polySurface96
+    2300108: pasted__polySurface97
+    2300110: pasted__polySurface98
+    2300112: pasted__polySurface99
+    2300114: pasted__simgle_book_open
+    2300116: pCube32
+    2300118: pCube33
+    2300120: pCube34
+    2300122: pCube35
+    2300124: pCube36
+    2300126: photoWall_01
+    2300128: photoWall_02
+    2300130: polySurface59
+    2300132: polySurface61
+    2300134: wall01
+    2300136: wall02
+    2300138: wall03
+    2300140: wall04
+    3300000: bed
+    3300002: camera2
+    3300004: ceiling
+    3300006: chest
+    3300008: deskChair
+    3300010: end_table01
+    3300012: end_table02
+    3300014: floor
+    3300016: frame01
+    3300018: frame02
+    3300020: musicStand
+    3300022: pasted__book_bunch_F2
+    3300024: pasted__butter_knife
+    3300026: pasted__desk
+    3300028: pasted__door
+    3300030: pasted__door 1
+    3300032: pasted__door 2
+    3300034: pasted__fork
+    3300036: pasted__handle_01
+    3300038: pasted__handle_01 1
+    3300040: pasted__handle_01 2
+    3300042: pasted__handle_02
+    3300044: pasted__handle_02 1
+    3300046: pasted__handle_02 2
+    3300048: pasted__plate
+    3300050: pasted__polySurface100
+    3300052: pasted__polySurface101
+    3300054: pasted__polySurface102
+    3300056: pasted__polySurface103
+    3300058: pasted__polySurface53
+    3300060: pasted__polySurface54
+    3300062: pasted__polySurface55
+    3300064: pasted__polySurface56
+    3300066: pasted__polySurface57
+    3300068: pasted__polySurface77
+    3300070: pasted__polySurface78
+    3300072: pasted__polySurface79
+    3300074: pasted__polySurface80
+    3300076: pasted__polySurface81
+    3300078: pasted__polySurface82
+    3300080: pasted__polySurface83
+    3300082: pasted__polySurface84
+    3300084: pasted__polySurface85
+    3300086: pasted__polySurface86
+    3300088: pasted__polySurface87
+    3300090: pasted__polySurface88
+    3300092: pasted__polySurface89
+    3300094: pasted__polySurface90
+    3300096: pasted__polySurface91
+    3300098: pasted__polySurface92
+    3300100: pasted__polySurface93
+    3300102: pasted__polySurface94
+    3300104: pasted__polySurface95
+    3300106: pasted__polySurface96
+    3300108: pasted__polySurface97
+    3300110: pasted__polySurface98
+    3300112: pasted__polySurface99
+    3300114: pasted__simgle_book_open
+    3300116: pCube32
+    3300118: pCube33
+    3300120: pCube34
+    3300122: pCube35
+    3300124: pCube36
+    3300126: photoWall_01
+    3300128: photoWall_02
+    3300130: polySurface59
+    3300132: polySurface61
+    3300134: wall01
+    3300136: wall02
+    3300138: wall03
+    3300140: wall04
+    4300000: ceiling
+    4300002: floor
+    4300004: wall01
+    4300006: wall02
+    4300008: wall03
+    4300010: wall04
+    4300012: bed
+    4300014: chest
+    4300016: end_table01
+    4300018: pCube32
+    4300020: pCube35
+    4300022: pCube36
+    4300024: pCube33
+    4300026: pCube34
+    4300028: polySurface61
+    4300030: polySurface59
+    4300032: frame01
+    4300034: frame02
+    4300036: end_table02
+    4300038: camera2
+    4300040: pasted__polySurface53
+    4300042: pasted__polySurface54
+    4300044: pasted__polySurface55
+    4300046: pasted__polySurface56
+    4300048: pasted__polySurface57
+    4300050: pasted__door
+    4300052: pasted__handle_01
+    4300054: pasted__handle_02
+    4300056: pasted__door
+    4300058: pasted__handle_01
+    4300060: pasted__handle_02
+    4300062: pasted__desk
+    4300064: pasted__polySurface77
+    4300066: pasted__polySurface78
+    4300068: pasted__polySurface79
+    4300070: pasted__polySurface80
+    4300072: pasted__polySurface81
+    4300074: pasted__polySurface82
+    4300076: pasted__polySurface83
+    4300078: pasted__polySurface84
+    4300080: pasted__polySurface85
+    4300082: pasted__polySurface86
+    4300084: pasted__polySurface87
+    4300086: pasted__polySurface88
+    4300088: pasted__polySurface89
+    4300090: pasted__polySurface90
+    4300092: pasted__polySurface91
+    4300094: pasted__polySurface92
+    4300096: pasted__polySurface93
+    4300098: pasted__polySurface94
+    4300100: pasted__polySurface95
+    4300102: pasted__polySurface96
+    4300104: pasted__polySurface97
+    4300106: pasted__polySurface98
+    4300108: pasted__polySurface99
+    4300110: pasted__polySurface100
+    4300112: pasted__polySurface101
+    4300114: pasted__polySurface102
+    4300116: pasted__polySurface103
+    4300118: deskChair
+    4300120: pasted__door
+    4300122: pasted__handle_01
+    4300124: pasted__handle_02
+    4300126: musicStand
+    4300128: pasted__book_bunch_F2
+    4300130: pasted__simgle_book_open
+    4300132: photoWall_01
+    4300134: photoWall_02
+    4300136: pasted__butter_knife
+    4300138: pasted__fork
+    4300140: pasted__plate
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
