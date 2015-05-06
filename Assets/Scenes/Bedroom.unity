@@ -324,6 +324,44 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &43505356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac25eb7cbe8345d6baaf5efb8fc62e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Inventory: Add or remove'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  invAction: 1
+  parameterID: -1
+  invID: 16
+  setAmount: 0
+  amount: 1
 --- !u!1001 &56085061
 Prefab:
   m_ObjectHideFlags: 0
@@ -681,7 +719,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
 --- !u!4 &103920653 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
@@ -725,6 +763,41 @@ MonoBehaviour:
   transitionTime: 0
   moveMethod: 0
   returnToLast: 0
+--- !u!114 &107241555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Engine: Pause game'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  timeToPause: 0
 --- !u!1001 &122154610
 Prefab:
   m_ObjectHideFlags: 0
@@ -1440,6 +1513,40 @@ MonoBehaviour:
     height: 60
   parameterID: -1
   timeToPause: 0
+--- !u!114 &232274851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d11677f69f745f88dbe9922511d53f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 0
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Engine: Change scene'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  sceneNumber: 5
 --- !u!1001 &247701895
 Prefab:
   m_ObjectHideFlags: 0
@@ -1826,6 +1933,88 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1013121725}
   m_RootOrder: 0
+--- !u!1001 &337926683
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 545025937}
+    m_Modifications:
+    - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: useButtons.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -14.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.74000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1.66999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: m_Name
+      value: MOVEFORWARDS 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: provideLookInteraction
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: lookButton.interaction
+      value: 
+      objectReference: {fileID: 1340193650}
+    - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.40534949
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.49612451
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: provideUseInteraction
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: useButtons.Array.data[0].proximity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: useButtons.Array.data[0].interaction
+      value: 
+      objectReference: {fileID: 2109247880}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &337926684 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+  m_PrefabInternal: {fileID: 337926683}
 --- !u!114 &338094976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2875,6 +3064,7 @@ Transform:
   - {fileID: 1834662773}
   - {fileID: 1265418994}
   - {fileID: 1090094329}
+  - {fileID: 337926684}
   m_Father: {fileID: 1013121725}
   m_RootOrder: 2
 --- !u!1001 &549812849
@@ -3061,6 +3251,55 @@ Transform:
   - {fileID: 1581579328}
   m_Father: {fileID: 1490892416}
   m_RootOrder: 2
+--- !u!114 &594371571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Dialogue: Play speech'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 0
+  parameterID: -1
+  isPlayer: 0
+  speaker: {fileID: 0}
+  messageText: It's locked up tighter than our current administration's sense of ethics.
+  lineID: -1
+  isBackground: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!1001 &596680712
 Prefab:
   m_ObjectHideFlags: 0
@@ -3829,40 +4068,6 @@ Transform:
   - {fileID: 1414485335}
   m_Father: {fileID: 1490892416}
   m_RootOrder: 4
---- !u!114 &760903534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1d11677f69f745f88dbe9922511d53f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numSockets: 0
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult: -10
-  id: 0
-  isDisplayed: 1
-  title: 'Engine: Change scene'
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isMarked: 0
-  isEnabled: 1
-  isAssetFile: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  sceneNumber: 5
 --- !u!114 &776778876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4714,6 +4919,55 @@ MonoBehaviour:
     height: 60
   parameterID: -1
   timeToPause: 0
+--- !u!114 &991583361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Dialogue: Play speech'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 0
+  parameterID: -1
+  isPlayer: 0
+  speaker: {fileID: 0}
+  messageText: IM GOIN' IN! YEE HAW! BUSH CHENEY 2016!!!!!!!!!!!!!!!!!!!!!
+  lineID: -1
+  isBackground: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &991727393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5018,17 +5272,21 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 545025937}
     m_Modifications:
+    - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: useButtons.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -22.7999992
+      value: -14.21
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -9.5
+      value: -9.78999996
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -3.02999997
+      value: -1.66999996
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -5062,6 +5320,26 @@ Prefab:
       propertyPath: lookButton.interaction
       value: 
       objectReference: {fileID: 1340193650}
+    - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.40534949
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.49612451
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: provideUseInteraction
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: useButtons.Array.data[0].proximity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: useButtons.Array.data[0].interaction
+      value: 
+      objectReference: {fileID: 2109247880}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
   m_IsPrefabParent: 0
@@ -5113,6 +5391,7 @@ Transform:
   - {fileID: 1239266352}
   - {fileID: 596680713}
   - {fileID: 1340193651}
+  - {fileID: 2109247881}
   m_Father: {fileID: 0}
   m_RootOrder: 18
 --- !u!4 &1110719895 stripped
@@ -5551,6 +5830,54 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1239266351}
   m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
+--- !u!114 &1244487574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6077d013acc8544208576e85caf44b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 2
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Inventory: Check'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  resultActionTrue: 0
+  skipActionTrue: -1
+  skipActionTrueActual: {fileID: 0}
+  linkedCutsceneTrue: {fileID: 0}
+  linkedAssetTrue: {fileID: 0}
+  resultActionFail: 2
+  skipActionFail: 5
+  skipActionFailActual: {fileID: 594371571}
+  linkedCutsceneFail: {fileID: 0}
+  linkedAssetFail: {fileID: 0}
+  parameterID: -1
+  invID: 16
+  doCount: 0
+  intValue: 1
+  intCondition: 0
 --- !u!4 &1261632059 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 4e4d49fd1ed164d27b03fc4e366bd29a, type: 2}
@@ -6530,7 +6857,7 @@ Prefab:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[1]
       value: 
-      objectReference: {fileID: 760903534}
+      objectReference: {fileID: 1878252106}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_IsPrefabParent: 0
@@ -8361,6 +8688,55 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 032b4d5560d8664439da27541bcaaa6f, type: 3}
   m_IsPrefabParent: 0
+--- !u!114 &1878252106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Dialogue: Play speech'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 0
+  parameterID: -1
+  isPlayer: 0
+  speaker: {fileID: 0}
+  messageText: DOOR! I LOVE DOORS!
+  lineID: -1
+  isBackground: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &1880314237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9508,6 +9884,90 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1779138837}
   m_RootOrder: 0
+--- !u!1001 &2109247879
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1099324214}
+    m_Modifications:
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_Name
+      value: 'Use: MOVEFORWARDS'
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[0]
+      value: 
+      objectReference: {fileID: 107241555}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[1]
+      value: 
+      objectReference: {fileID: 1244487574}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[2]
+      value: 
+      objectReference: {fileID: 43505356}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[3]
+      value: 
+      objectReference: {fileID: 991583361}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[4]
+      value: 
+      objectReference: {fileID: 232274851}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[5]
+      value: 
+      objectReference: {fileID: 594371571}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &2109247880 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33,
+    type: 2}
+  m_PrefabInternal: {fileID: 2109247879}
+  m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
+--- !u!4 &2109247881 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+  m_PrefabInternal: {fileID: 2109247879}
 --- !u!1001 &2123211258
 Prefab:
   m_ObjectHideFlags: 0
