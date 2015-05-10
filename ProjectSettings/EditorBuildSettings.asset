@@ -9,9 +9,11 @@ EditorBuildSettings:
     path: Assets/AdventureCreator/Demo/Scenes/Basement.unity
   - enabled: 0
     path: Assets/Scenes/Foyer.unity
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/Foyer_changed.unity
+  - enabled: 1
     path: Assets/Scenes/DiningRoom0.unity
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MusicRoom.unity
   - enabled: 1
     path: Assets/Scenes/Library.unity
