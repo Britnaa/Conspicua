@@ -1685,7 +1685,7 @@ GameObject:
   - 114: {fileID: 11400000}
   - 114: {fileID: 11400004}
   m_Layer: 10
-  m_Name: SpencerPlay
+  m_Name: spenceAngry
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3309,16 +3309,16 @@ MonoBehaviour:
   animationEngine: 0
   animEngine: {fileID: 0}
   talkingAnimation: 0
-  speechLabel: 'Spencer:'
+  speechLabel: 
   portraitIcon:
-    texture: {fileID: 2800000, guid: af3a16f8c4329a34bbff186680a0e504, type: 3}
+    texture: {fileID: 0}
     isAnimated: 0
     numFrames: 1
     size: .0149999997
     animSpeed: 4
     endAnimOnLastFrame: 0
     clickOffset: {x: 0, y: 0}
-  speechColor: {r: 0, g: 0, b: 0, a: 1}
+  speechColor: {r: 1, g: 1, b: 1, a: 1}
   heightChange: 0
   leftHandBone: {fileID: 0}
   rightHandBone: {fileID: 0}

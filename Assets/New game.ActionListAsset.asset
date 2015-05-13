@@ -51,7 +51,7 @@ MonoBehaviour:
     x: 28
     y: 220
     width: 300
-    height: 10
+    height: 147
   changeType: 1
   menuToChange: Credits
   menuToChangeParameterID: -1
@@ -92,7 +92,7 @@ MonoBehaviour:
     x: 170
     y: 387
     width: 300
-    height: 10
+    height: 67
   sceneNumber: 1
 --- !u!114 &11494406
 MonoBehaviour:
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numSockets: 1
-  willWait: 1
+  willWait: 0
   defaultPauseTime: .100000001
   isRunning: 0
   lastResult: -3
@@ -126,12 +126,12 @@ MonoBehaviour:
     x: 50
     y: 50
     width: 300
-    height: 10
+    height: 147
   changeType: 1
   menuToChange: Title
   menuToChangeParameterID: -1
   elementToChange: 
   elementToChangeParameterID: -1
   journalText: 
-  doFade: 0
+  doFade: 1
   lineID: -1

@@ -113,7 +113,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 21
 --- !u!1 &3338700
 GameObject:
   m_ObjectHideFlags: 0
@@ -140,7 +140,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 27
 --- !u!114 &11564682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,7 +335,7 @@ Transform:
   m_LocalScale: {x: .393700778, y: .393700778, z: .393700778}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 14
 --- !u!1001 &42943705
 Prefab:
   m_ObjectHideFlags: 0
@@ -449,7 +449,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -2.53999996
+      value: -2.33200002
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -481,7 +481,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalScale.x
-      value: .592073321
+      value: .8803913
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalScale.z
@@ -693,103 +693,82 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1993986361}
   m_RootOrder: 0
---- !u!1 &102046960
-GameObject:
+--- !u!114 &85683508
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 102046962}
-  - 82: {fileID: 102046961}
-  m_Layer: 0
-  m_Name: Audio Source 1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &102046961
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 102046960}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7ee3ffcae1ed00648815fec28aef25d8, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 8.60000038
-  Pan2D: 0
-  rolloffMode: 2
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
     serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: .993117332
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
---- !u!4 &102046962
-Transform:
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 1140540
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: af3a16f8c4329a34bbff186680a0e504, type: 3}
+--- !u!114 &99013750
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 102046960}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20, y: 3.80999994, z: 2.0999999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 8a25b1d0ceb3f5041a86e75cc6a3a1b2, type: 3}
 --- !u!4 &103920653
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
@@ -881,15 +860,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -22.0699997
+      value: -22.0179996
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -10.1499996
+      value: -9.97500038
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -1.35000002
+      value: -1.35899997
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -909,7 +888,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_Name
@@ -917,7 +896,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalScale.y
-      value: 2.73487234
+      value: 3.33568907
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: provideUseInteraction
@@ -933,12 +912,12 @@ Prefab:
       objectReference: {fileID: 1336539918}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: provideLookInteraction
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: lookButton.interaction
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 564647263}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: hotspotName
       value: Spencer
@@ -950,6 +929,10 @@ Prefab:
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: useButtons.Array.data[0].isDisabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: m_LocalScale.z
+      value: .800150573
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
@@ -1064,10 +1047,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 654590
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
   messageText: Seemed she'd been doing plenty of research on ghost stories.
   lineID: -1
   isBackground: 0
@@ -1113,10 +1096,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 654590
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
   messageText: She hid a key under his pillow. I wonder what it's for?
   lineID: -1
   isBackground: 0
@@ -1162,10 +1145,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 654590
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
   messageText: Her old camera, passed on through generations.
   lineID: -1
   isBackground: 0
@@ -1178,6 +1161,83 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &148030644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 8a25b1d0ceb3f5041a86e75cc6a3a1b2, type: 3}
+--- !u!114 &161308984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a23cea76e14804ca49ce03fec05afd8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Camera: Switch'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 0
+  parameterID: -1
+  linkedCamera: {fileID: 398422730}
+  transitionTime: 0
+  moveMethod: 0
+  returnToLast: 0
 --- !u!1 &183615145
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,10 +1356,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 1140540
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
   messageText: Something feels.... off....
   lineID: -1
   isBackground: 0
@@ -1478,12 +1538,12 @@ Prefab:
       objectReference: {fileID: 212771756}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: provideLookInteraction
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: lookButton.interaction
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1402192007}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: hotspotName
       value: Trish
@@ -1667,7 +1727,7 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  sceneNumber: 2
+  sceneNumber: 3
 --- !u!114 &236318283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2091,7 +2151,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 25
 --- !u!1001 &280331949
 Prefab:
   m_ObjectHideFlags: 0
@@ -2174,7 +2234,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: useButtons.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.x
@@ -2230,7 +2290,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: provideUseInteraction
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: useButtons.Array.data[0].proximity
@@ -2252,6 +2312,41 @@ Transform:
   m_PrefabParentObject: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
   m_PrefabInternal: {fileID: 337926683}
 --- !u!114 &338094976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Engine: Pause game'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  timeToPause: 0
+--- !u!114 &340125318
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -2351,7 +2446,7 @@ Transform:
   m_Children:
   - {fileID: 2037619248}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 22
 --- !u!1001 &349184787
 Prefab:
   m_ObjectHideFlags: 0
@@ -2651,7 +2746,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.size
-      value: 4
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_LocalPosition.x
@@ -2700,9 +2795,65 @@ Prefab:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[2]
       value: 
-      objectReference: {fileID: 2124001774}
+      objectReference: {fileID: 1524084536}
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[3]
+      value: 
+      objectReference: {fileID: 2124001774}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[4]
+      value: 
+      objectReference: {fileID: 917437482}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[5]
+      value: 
+      objectReference: {fileID: 397412054}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[6]
+      value: 
+      objectReference: {fileID: 649257489}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[7]
+      value: 
+      objectReference: {fileID: 1482926314}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[8]
+      value: 
+      objectReference: {fileID: 1904995115}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[9]
+      value: 
+      objectReference: {fileID: 161308984}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[10]
+      value: 
+      objectReference: {fileID: 1183462379}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[11]
+      value: 
+      objectReference: {fileID: 761346921}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[12]
+      value: 
+      objectReference: {fileID: 2078726537}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[13]
+      value: 
+      objectReference: {fileID: 2078723186}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[14]
+      value: 
+      objectReference: {fileID: 1217458569}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[15]
+      value: 
+      objectReference: {fileID: 1901910940}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[16]
+      value: 
+      objectReference: {fileID: 148030644}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[17]
       value: 
       objectReference: {fileID: 1478270930}
     m_RemovedComponents: []
@@ -2788,6 +2939,44 @@ MonoBehaviour:
     height: 60
   parameterID: -1
   timeToPause: 0
+--- !u!114 &397412054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 1a6bafd82a9c1714c98713d97ce3f2cd, type: 3}
 --- !u!4 &398422729
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
@@ -2914,6 +3103,44 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1213962513}
   m_RootOrder: 5
+--- !u!114 &443868330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 49b9009bb8afc7947aeb2f2fdb288b10, type: 3}
 --- !u!4 &458889012
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: de525c6a191de4aa9a4bb9179093db28, type: 2}
@@ -3046,11 +3273,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.3900001
+      value: 2.1500001
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 5.53499985
+      value: 5.28000021
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -3078,15 +3305,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalScale.z
-      value: 2.93779421
+      value: 4.27438736
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalScale.x
-      value: 2.19544673
+      value: 3.97651601
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalScale.y
-      value: 2.06570053
+      value: 1.93292129
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: provideLookInteraction
@@ -3100,6 +3327,14 @@ Prefab:
       propertyPath: hotspotName
       value: Musty bed
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: lookButton.playerAction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: lookButton.setProximity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
   m_IsPrefabParent: 0
@@ -3112,7 +3347,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_LocalPosition.x
@@ -3157,9 +3392,17 @@ Prefab:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[1]
       value: 
-      objectReference: {fileID: 991727393}
+      objectReference: {fileID: 748577878}
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[2]
+      value: 
+      objectReference: {fileID: 991727393}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[3]
+      value: 
+      objectReference: {fileID: 1342199265}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[4]
       value: 
       objectReference: {fileID: 1867749286}
     m_RemovedComponents: []
@@ -3208,10 +3451,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 1140540
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
   messageText: She kept the process all in this room. Isn't there supposed to be a
     lot of chemicals involved in this?
   lineID: -1
@@ -3234,7 +3477,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_LocalPosition.x
@@ -3279,7 +3522,15 @@ Prefab:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[1]
       value: 
+      objectReference: {fileID: 443868330}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[2]
+      value: 
       objectReference: {fileID: 644305048}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[3]
+      value: 
+      objectReference: {fileID: 99013750}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_IsPrefabParent: 0
@@ -3293,6 +3544,44 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_PrefabInternal: {fileID: 494809846}
+--- !u!114 &514610014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 1140540
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: af3a16f8c4329a34bbff186680a0e504, type: 3}
 --- !u!1 &544150996
 GameObject:
   m_ObjectHideFlags: 0
@@ -3416,6 +3705,112 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 549812849}
   m_Script: {fileID: 11500000, guid: 3ffb48ecf9de44666b3779fe84044e36, type: 3}
+--- !u!114 &550759437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 8a25b1d0ceb3f5041a86e75cc6a3a1b2, type: 3}
+--- !u!1001 &564647261
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1099324214}
+    m_Modifications:
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_Name
+      value: 'Look: Spencer'
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[0]
+      value: 
+      objectReference: {fileID: 1979100801}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[1]
+      value: 
+      objectReference: {fileID: 1128939479}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &564647262
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+  m_PrefabInternal: {fileID: 564647261}
+--- !u!114 &564647263
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33,
+    type: 2}
+  m_PrefabInternal: {fileID: 564647261}
+  m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
 --- !u!1 &570705968
 GameObject:
   m_ObjectHideFlags: 0
@@ -3475,7 +3870,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 32
 --- !u!1 &574259752
 GameObject:
   m_ObjectHideFlags: 0
@@ -3699,10 +4094,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 654590
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
   messageText: It's locked up tight.
   lineID: -1
   isBackground: 0
@@ -3722,6 +4117,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1099324214}
     m_Modifications:
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3761,7 +4160,15 @@ Prefab:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[0]
       value: 
+      objectReference: {fileID: 613344192}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[1]
+      value: 
       objectReference: {fileID: 805863786}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[2]
+      value: 
+      objectReference: {fileID: 1073136419}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_IsPrefabParent: 0
@@ -3775,6 +4182,44 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 596680712}
   m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
+--- !u!114 &613344192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 49b9009bb8afc7947aeb2f2fdb288b10, type: 3}
 --- !u!114 &613392033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3808,10 +4253,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 1140540
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
   messageText: It looks to have some strange symbols carved into it.
   lineID: -1
   isBackground: 0
@@ -3999,10 +4444,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 654590
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
   messageText: '"James visited me again. He opened his mouth to speak, but I only
     heard our song." Her life must have been a troubled one.'
   lineID: -1
@@ -4049,12 +4494,61 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 654590
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
   messageText: Wait a minute... I recognize this one! It's this old collection of
     ghost stories. My grandmother gave me a copy. They were all very romantic.
+  lineID: -1
+  isBackground: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
+--- !u!114 &649257489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Dialogue: Play speech'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 654590
+  parameterID: -1
+  isPlayer: 0
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  messageText: Okay, this is kind of freaky.
   lineID: -1
   isBackground: 0
   headClip: {fileID: 0}
@@ -4342,7 +4836,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 24
 --- !u!1001 &711163605
 Prefab:
   m_ObjectHideFlags: 0
@@ -4525,6 +5019,44 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
   m_PrefabInternal: {fileID: 745558464}
+--- !u!114 &748577878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 49b9009bb8afc7947aeb2f2fdb288b10, type: 3}
 --- !u!1 &756281060
 GameObject:
   m_ObjectHideFlags: 0
@@ -4553,6 +5085,55 @@ Transform:
   - {fileID: 1414485335}
   m_Father: {fileID: 1490892416}
   m_RootOrder: 4
+--- !u!114 &761346921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Dialogue: Play speech'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 654590
+  parameterID: -1
+  isPlayer: 0
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  messageText: ' It was consuming her life. No wonder the kids went.'
+  lineID: -1
+  isBackground: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &776778876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4683,10 +5264,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 654590
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
   messageText: I'm not sure she was handling the film well here. It's known to cause
     all kinds of errors.
   lineID: -1
@@ -4749,7 +5330,7 @@ Transform:
   m_LocalScale: {x: 3.26696706, y: 1.88745022, z: 4.48072433}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
 --- !u!114 &818257300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4783,10 +5364,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 1140540
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
   messageText: The bed is very well preserved, all things told.
   lineID: -1
   isBackground: 0
@@ -4825,7 +5406,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 26
 --- !u!1 &827879849
 GameObject:
   m_ObjectHideFlags: 0
@@ -5012,7 +5593,7 @@ Transform:
   - {fileID: 2061117893}
   - {fileID: 1857598166}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 16
 --- !u!114 &883689203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5113,6 +5694,93 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b07bb0a21ed9e1e4196effbfcef38687, type: 3}
   m_IsPrefabParent: 0
+--- !u!114 &891894142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 49b9009bb8afc7947aeb2f2fdb288b10, type: 3}
+--- !u!114 &917437482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Dialogue: Play speech'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 654590
+  parameterID: -1
+  isPlayer: 0
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  messageText: Photographs of every room, any aberration carefully labelled.
+  lineID: -1
+  isBackground: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!1001 &924283270
 Prefab:
   m_ObjectHideFlags: 0
@@ -5122,7 +5790,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_LocalPosition.x
@@ -5171,7 +5839,15 @@ Prefab:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[2]
       value: 
+      objectReference: {fileID: 1002503821}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[3]
+      value: 
       objectReference: {fileID: 191115018}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[4]
+      value: 
+      objectReference: {fileID: 85683508}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_IsPrefabParent: 0
@@ -5332,11 +6008,11 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 654590
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
-  messageText: 'She''s changed it '
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  messageText: 'She''s changed it. '
   lineID: -1
   isBackground: 0
   headClip: {fileID: 0}
@@ -5504,7 +6180,52 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 33
+--- !u!114 &975782786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6c39f7a0fa0d4487a745a8e86ca197e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Player: Switch'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  playerID: 0
+  playerNumber: 0
+  newPlayerPosition: 0
+  oldPlayer: 0
+  restorePreviousData: 0
+  newPlayerScene: 0
+  oldPlayerNPC_ID: 0
+  oldPlayerNPC: {fileID: 0}
+  newPlayerNPC_ID: 0
+  newPlayerNPC: {fileID: 0}
+  newPlayerMarker_ID: 0
+  newPlayerMarker: {fileID: 0}
 --- !u!1 &976099722
 GameObject:
   m_ObjectHideFlags: 0
@@ -5545,6 +6266,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1099324214}
     m_Modifications:
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5580,11 +6305,19 @@ Prefab:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[0]
       value: 
-      objectReference: {fileID: 818257300}
+      objectReference: {fileID: 1935652220}
     - target: {fileID: 100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_Name
       value: 'Look: SpenceBed'
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[1]
+      value: 
+      objectReference: {fileID: 818257300}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[2]
+      value: 
+      objectReference: {fileID: 2073434733}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_IsPrefabParent: 0
@@ -5656,10 +6389,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 654590
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
   messageText: Now Let's see.... what could be in here?
   lineID: -1
   isBackground: 0
@@ -5705,10 +6438,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 654590
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
   messageText: Still set for two people. James' place only barely disturbed.
   lineID: -1
   isBackground: 0
@@ -5766,6 +6499,44 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1112120729}
   m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
+--- !u!114 &1002503821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 1140540
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 1a6bafd82a9c1714c98713d97ce3f2cd, type: 3}
 --- !u!1 &1006477022
 GameObject:
   m_ObjectHideFlags: 0
@@ -5796,6 +6567,44 @@ Transform:
   - {fileID: 1802527710}
   m_Father: {fileID: 827879850}
   m_RootOrder: 2
+--- !u!114 &1011813155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 8a25b1d0ceb3f5041a86e75cc6a3a1b2, type: 3}
 --- !u!1 &1013121724
 GameObject:
   m_ObjectHideFlags: 0
@@ -5827,7 +6636,7 @@ Transform:
   - {fileID: 976099723}
   - {fileID: 1283231282}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 20
 --- !u!114 &1017758543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5910,10 +6719,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 1140540
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
   messageText: One of those old chests kept at the foot of the bed.
   lineID: -1
   isBackground: 0
@@ -6090,6 +6899,44 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1064986944}
   m_Mesh: {fileID: 4300104, guid: 28b0fb1db89f3394f9505720ce0d2971, type: 3}
+--- !u!114 &1073136419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 8a25b1d0ceb3f5041a86e75cc6a3a1b2, type: 3}
 --- !u!1001 &1090094328
 Prefab:
   m_ObjectHideFlags: 0
@@ -6139,7 +6986,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: provideLookInteraction
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: lookButton.interaction
@@ -6222,8 +7069,10 @@ Transform:
   - {fileID: 1340193651}
   - {fileID: 2109247881}
   - {fileID: 1001992456}
+  - {fileID: 564647262}
+  - {fileID: 1402192006}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 19
 --- !u!4 &1110719895
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
@@ -6366,6 +7215,55 @@ MonoBehaviour:
   transitionTime: 0
   moveMethod: 0
   returnToLast: 0
+--- !u!114 &1128939479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Dialogue: Play speech'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 654590
+  parameterID: -1
+  isPlayer: 0
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  messageText: Nerd alert!
+  lineID: -1
+  isBackground: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!1 &1145080111
 GameObject:
   m_ObjectHideFlags: 0
@@ -6403,7 +7301,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_LocalPosition.x
@@ -6448,7 +7346,15 @@ Prefab:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[1]
       value: 
+      objectReference: {fileID: 1863085961}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[2]
+      value: 
       objectReference: {fileID: 947163535}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[3]
+      value: 
+      objectReference: {fileID: 1011813155}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_IsPrefabParent: 0
@@ -6462,6 +7368,44 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1170960262}
   m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
+--- !u!114 &1183462379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 1a6bafd82a9c1714c98713d97ce3f2cd, type: 3}
 --- !u!114 &1188700565
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11400000, guid: ac8da0983da1047639d0d518a4d05319,
@@ -6627,6 +7571,44 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 400078, guid: 28b0fb1db89f3394f9505720ce0d2971, type: 3}
   m_PrefabInternal: {fileID: 1278820808}
+--- !u!114 &1217458569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: af3a16f8c4329a34bbff186680a0e504, type: 3}
 --- !u!114 &1219981816
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33,
@@ -6663,7 +7645,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 17
 --- !u!1001 &1239266351
 Prefab:
   m_ObjectHideFlags: 0
@@ -6671,6 +7653,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1099324214}
     m_Modifications:
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6710,7 +7696,15 @@ Prefab:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[0]
       value: 
+      objectReference: {fileID: 891894142}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[1]
+      value: 
       objectReference: {fileID: 635907860}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[2]
+      value: 
+      objectReference: {fileID: 550759437}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_IsPrefabParent: 0
@@ -6798,7 +7792,7 @@ MonoBehaviour:
   linkedCutsceneTrue: {fileID: 0}
   linkedAssetTrue: {fileID: 0}
   resultActionFail: 2
-  skipActionFail: 5
+  skipActionFail: 6
   skipActionFailActual: {fileID: 594371571}
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
@@ -6995,7 +7989,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: .550000012
+      value: .851000011
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -7572,7 +8566,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 23
 --- !u!4 &1290621225
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
@@ -7742,11 +8736,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -9.18000031
+      value: -10.3900003
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 4.75500011
+      value: 5.4000001
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -7774,15 +8768,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1.39145112
+      value: 1.8365829
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalScale.x
-      value: 1.90143704
+      value: 3.7791791
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalScale.z
-      value: 2.89200234
+      value: 4.31728983
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: provideLookInteraction
@@ -8244,6 +9238,44 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_PrefabInternal: {fileID: 1340193649}
+--- !u!114 &1342199265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 8a25b1d0ceb3f5041a86e75cc6a3a1b2, type: 3}
 --- !u!4 &1350569452
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 4e4d49fd1ed164d27b03fc4e366bd29a, type: 2}
@@ -8287,7 +9319,7 @@ Transform:
   m_LocalScale: {x: 3.26696706, y: 1.88745022, z: 4.48072433}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 31
 --- !u!114 &1368091606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8391,6 +9423,112 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: de525c6a191de4aa9a4bb9179093db28, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1400258534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 1140540
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 1a6bafd82a9c1714c98713d97ce3f2cd, type: 3}
+--- !u!1001 &1402192005
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1099324214}
+    m_Modifications:
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: m_Name
+      value: 'Look: Trish'
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[0]
+      value: 
+      objectReference: {fileID: 340125318}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[1]
+      value: 
+      objectReference: {fileID: 1691137836}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1402192006
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+  m_PrefabInternal: {fileID: 1402192005}
+--- !u!114 &1402192007
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33,
+    type: 2}
+  m_PrefabInternal: {fileID: 1402192005}
+  m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
 --- !u!1 &1414485334
 GameObject:
   m_ObjectHideFlags: 0
@@ -8418,6 +9556,44 @@ Transform:
   m_Children: []
   m_Father: {fileID: 756281061}
   m_RootOrder: 0
+--- !u!114 &1429077171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 49b9009bb8afc7947aeb2f2fdb288b10, type: 3}
 --- !u!1 &1434800735
 GameObject:
   m_ObjectHideFlags: 0
@@ -8581,7 +9757,7 @@ Transform:
   m_LocalScale: {x: .393700778, y: .393700778, z: .393700778}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 13
 --- !u!1001 &1461102521
 Prefab:
   m_ObjectHideFlags: 0
@@ -8679,6 +9855,44 @@ MonoBehaviour:
   transitionTime: 0
   moveMethod: 0
   returnToLast: 1
+--- !u!114 &1482926314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 49b9009bb8afc7947aeb2f2fdb288b10, type: 3}
 --- !u!4 &1483340497
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: de525c6a191de4aa9a4bb9179093db28, type: 2}
@@ -8882,10 +10096,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 1140540
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
   messageText: Locked up closet.  The floor's seeming awfully weak....
   lineID: -1
   isBackground: 0
@@ -8898,6 +10112,44 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1524084536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: c8acb6a5c62ed684d9e5268d8a366a33, type: 3}
 --- !u!1 &1556394340
 GameObject:
   m_ObjectHideFlags: 0
@@ -8988,7 +10240,7 @@ Transform:
   - {fileID: 1740557395}
   - {fileID: 1467750589}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 15
 --- !u!4 &1576317331
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
@@ -9496,7 +10748,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_LocalPosition.x
@@ -9541,9 +10793,17 @@ Prefab:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[1]
       value: 
-      objectReference: {fileID: 140085635}
+      objectReference: {fileID: 1429077171}
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[2]
+      value: 
+      objectReference: {fileID: 140085635}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[3]
+      value: 
+      objectReference: {fileID: 1815423718}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[4]
       value: 
       objectReference: {fileID: 1052787042}
     m_RemovedComponents: []
@@ -9568,7 +10828,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: m_LocalPosition.x
@@ -9613,7 +10873,15 @@ Prefab:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[1]
       value: 
+      objectReference: {fileID: 1400258534}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[2]
+      value: 
       objectReference: {fileID: 613392033}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[3]
+      value: 
+      objectReference: {fileID: 514610014}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_IsPrefabParent: 0
@@ -9767,6 +11035,55 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1691137836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Dialogue: Play speech'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 1140540
+  parameterID: -1
+  isPlayer: 0
+  speaker: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
+  messageText: Here comes the geek squad.
+  lineID: -1
+  isBackground: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!4 &1696911100
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: de525c6a191de4aa9a4bb9179093db28, type: 2}
@@ -9857,7 +11174,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 30
 --- !u!1 &1740557394
 GameObject:
   m_ObjectHideFlags: 0
@@ -10140,6 +11457,44 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1006477023}
   m_RootOrder: 2
+--- !u!114 &1815423718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 8a25b1d0ceb3f5041a86e75cc6a3a1b2, type: 3}
 --- !u!1001 &1834662772
 Prefab:
   m_ObjectHideFlags: 0
@@ -10157,7 +11512,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: .38499999
+      value: .760999978
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -10202,6 +11557,10 @@ Prefab:
     - target: {fileID: 11400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
       propertyPath: hotspotName
       value: Photo development tools
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.70772123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe86ccd22fa03454eacf90df8d7944f9, type: 2}
@@ -10311,6 +11670,44 @@ MonoBehaviour:
     height: 60
   parameterID: -1
   timeToPause: 0
+--- !u!114 &1863085961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 49b9009bb8afc7947aeb2f2fdb288b10, type: 3}
 --- !u!1001 &1865776151
 Prefab:
   m_ObjectHideFlags: 0
@@ -10576,6 +11973,22 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 032b4d5560d8664439da27541bcaaa6f, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1869618788
+GameObject:
+  m_PrefabParentObject: {fileID: 100314, guid: 032b4d5560d8664439da27541bcaaa6f, type: 3}
+  m_PrefabInternal: {fileID: 1869618787}
+--- !u!65 &1869618789
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1869618788}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.41000009, z: 1}
+  m_Center: {x: 0, y: 1.37, z: 0}
 --- !u!114 &1878252106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10658,10 +12071,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 1140540
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
   messageText: Every corner was a ghost to her. She was very... through.
   lineID: -1
   isBackground: 0
@@ -10896,6 +12309,56 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_PrefabInternal: {fileID: 1895197307}
+--- !u!114 &1901910940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Dialogue: Play speech'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 654590
+  parameterID: -1
+  isPlayer: 0
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  messageText: And sometimes you just want to be gone.  Lets be real. Would you stick
+    around?
+  lineID: -1
+  isBackground: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!1001 &1904320054
 Prefab:
   m_ObjectHideFlags: 0
@@ -11278,6 +12741,55 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.8448329, y: 3.50299716, z: 2.81229806}
   m_Center: {x: -15.2125807, y: 1.74549615, z: -7.67807245}
+--- !u!114 &1904995115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Dialogue: Play speech'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 654590
+  parameterID: -1
+  isPlayer: 0
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  messageText: It is, but oh how troubled she must have been.
+  lineID: -1
+  isBackground: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &1913202810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11353,10 +12865,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 1140540
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
   messageText: It rattles but won't budge.
   lineID: -1
   isBackground: 0
@@ -11427,6 +12939,44 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4e4d49fd1ed164d27b03fc4e366bd29a, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1935652220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 1140540
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 92ddca97b77d86e4996f993cc259001e, type: 3}
 --- !u!114 &1951228820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11567,7 +13117,42 @@ Transform:
   - {fileID: 791967725}
   - {fileID: 183615146}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 18
+--- !u!114 &1979100801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Engine: Pause game'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  timeToPause: 0
 --- !u!4 &1981264430
 Transform:
   m_PrefabParentObject: {fileID: 400062, guid: 28b0fb1db89f3394f9505720ce0d2971, type: 3}
@@ -11633,10 +13218,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 1140540
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
   messageText: It's an old camera, I don't recognize the model.
   lineID: -1
   isBackground: 0
@@ -11649,103 +13234,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!1 &1998510778
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1998510780}
-  - 82: {fileID: 1998510779}
-  m_Layer: 0
-  m_Name: Audio Source
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &1998510779
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1998510778}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 99c4266c90c96af408530d84e868102c, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 8.60000038
-  Pan2D: 0
-  rolloffMode: 2
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: .993117332
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
---- !u!4 &1998510780
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1998510778}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20, y: -10.1899996, z: 2.0999999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
 --- !u!1 &2011562824
 GameObject:
   m_ObjectHideFlags: 0
@@ -11865,7 +13353,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
 --- !u!4 &2021304324
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 4e4d49fd1ed164d27b03fc4e366bd29a, type: 2}
@@ -12098,7 +13586,45 @@ Transform:
   - {fileID: 1490892416}
   - {fileID: 827879850}
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 29
+--- !u!114 &2073434733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 1140540
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 333d0d9629fbe34429f1741446d6b208, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: af3a16f8c4329a34bbff186680a0e504, type: 3}
 --- !u!114 &2078312141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12141,6 +13667,94 @@ MonoBehaviour:
   obToMove: {fileID: 0}
   teleporter: {fileID: 549812850}
   copyRotation: 0
+--- !u!114 &2078723186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Dialogue: Play speech'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  constantID: 654590
+  parameterID: -1
+  isPlayer: 0
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  messageText: ' They didn''t... I''m sure they didn''t want to leave.  Alexander
+    was writing letters. Sometimes you''re just needed somewhere.'
+  lineID: -1
+  isBackground: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
+--- !u!114 &2078726537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -10
+  id: 0
+  isDisplayed: 1
+  title: 'Character: Switch Portrait'
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  parameterID: -1
+  constantID: 654590
+  isPlayer: 0
+  _char: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
+  newPortraitGraphic: {fileID: 2800000, guid: 8a25b1d0ceb3f5041a86e75cc6a3a1b2, type: 3}
 --- !u!1 &2091440019
 GameObject:
   m_ObjectHideFlags: 0
@@ -12234,13 +13848,17 @@ Prefab:
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[4]
       value: 
-      objectReference: {fileID: 232274851}
+      objectReference: {fileID: 975782786}
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[5]
       value: 
-      objectReference: {fileID: 594371571}
+      objectReference: {fileID: 232274851}
     - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
       propertyPath: actions.Array.data[6]
+      value: 
+      objectReference: {fileID: 594371571}
+    - target: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
+      propertyPath: actions.Array.data[7]
       value: 
       objectReference: {fileID: 1239785599}
     m_RemovedComponents: []
@@ -12341,10 +13959,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 60
-  constantID: 0
+  constantID: 654590
   parameterID: -1
   isPlayer: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400004, guid: 447bb51df2835bb4abd08e6d593deb9e, type: 2}
   messageText: It seems like she'd beed conducting extensive research on her own house.
   lineID: -1
   isBackground: 0

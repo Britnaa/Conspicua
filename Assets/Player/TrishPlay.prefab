@@ -4798,14 +4798,14 @@ MonoBehaviour:
   talkingAnimation: 0
   speechLabel: 
   portraitIcon:
-    texture: {fileID: 0}
+    texture: {fileID: 2800000, guid: 8a25b1d0ceb3f5041a86e75cc6a3a1b2, type: 3}
     isAnimated: 0
     numFrames: 1
     size: .0149999997
     animSpeed: 4
     endAnimOnLastFrame: 0
     clickOffset: {x: 0, y: 0}
-  speechColor: {r: 1, g: 1, b: 1, a: 1}
+  speechColor: {r: 0, g: 0, b: 0, a: 1}
   heightChange: 0
   leftHandBone: {fileID: 0}
   rightHandBone: {fileID: 0}
@@ -4813,8 +4813,8 @@ MonoBehaviour:
   walkAnim: {fileID: 7400000, guid: 032b4d5560d8664439da27541bcaaa6f, type: 3}
   runAnim: {fileID: 0}
   talkAnim: {fileID: 0}
-  turnLeftAnim: {fileID: 0}
-  turnRightAnim: {fileID: 0}
+  turnLeftAnim: {fileID: 7400000, guid: 032b4d5560d8664439da27541bcaaa6f, type: 3}
+  turnRightAnim: {fileID: 7400000, guid: 032b4d5560d8664439da27541bcaaa6f, type: 3}
   headLookLeftAnim: {fileID: 0}
   headLookRightAnim: {fileID: 0}
   headLookUpAnim: {fileID: 0}
@@ -4850,11 +4850,11 @@ MonoBehaviour:
   isTalking: 0
   frameFlipping: 0
   flipCustomAnims: 0
-  walkSpeedScale: 2.29999995
+  walkSpeedScale: 1.60000002
   runSpeedScale: 6
   turnSpeed: 6
   acceleration: 6
-  deceleration: 0
+  deceleration: 32
   sortingMapScale: 1
   isReversing: 0
   turnBeforeWalking: 0
