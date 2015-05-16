@@ -7861,7 +7861,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 6
   m_Type: 0
-  m_Color: {r: .845588207, g: .656059802, b: .317095578, a: 1}
+  m_Color: {r: .77269268, g: .845588207, b: .317095578, a: 1}
   m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 149
@@ -11967,6 +11967,14 @@ Prefab:
       value: TrishAnimated 1
       objectReference: {fileID: 0}
     - target: {fileID: 13700004, guid: 032b4d5560d8664439da27541bcaaa6f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700002, guid: 032b4d5560d8664439da27541bcaaa6f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 032b4d5560d8664439da27541bcaaa6f, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}

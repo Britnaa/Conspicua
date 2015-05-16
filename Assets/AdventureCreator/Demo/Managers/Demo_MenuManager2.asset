@@ -51,7 +51,7 @@ MonoBehaviour:
   isLocked: 0
   id: 0
   title: Options
-  manualSize: {x: 37, y: 30.3374233}
+  manualSize: {x: 36.9999962, y: 30.3981228}
   positionType: 0
   manualPosition: {x: 50, y: 50}
   alignment: 0
@@ -81,16 +81,16 @@ MonoBehaviour:
   - {fileID: 11400028}
   - {fileID: 11400142}
   - {fileID: 11400144}
-  biggestElementSize: {x: 211.699997, y: 96}
+  biggestElementSize: {x: 419.019958, y: 188.200012}
   spacing: .5
   sizeType: 0
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 182.700012
-    y: 113.550003
-    width: 214.599991
-    height: 98.9000015
+    x: 361.620026
+    y: 222.029999
+    width: 424.759949
+    height: 193.940018
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -113,7 +113,7 @@ MonoBehaviour:
   isLocked: 0
   id: 1
   title: Save
-  manualSize: {x: 30.9999981, y: 33.5582809}
+  manualSize: {x: 30.9999981, y: 33.5987511}
   positionType: 0
   manualPosition: {x: 50, y: 50}
   alignment: 0
@@ -137,16 +137,16 @@ MonoBehaviour:
   - {fileID: 11400030}
   - {fileID: 11400032}
   - {fileID: 11400034}
-  biggestElementSize: {x: 176.899994, y: 106.5}
+  biggestElementSize: {x: 350.139984, y: 208.620026}
   spacing: .5
   sizeType: 0
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 200.100006
-    y: 108.300003
-    width: 179.799988
-    height: 109.400002
+    x: 396.059998
+    y: 211.819977
+    width: 355.879974
+    height: 214.360031
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -169,7 +169,7 @@ MonoBehaviour:
   isLocked: 0
   id: 2
   title: Load
-  manualSize: {x: 30.9999981, y: 33.5582809}
+  manualSize: {x: 30.9999981, y: 33.5987511}
   positionType: 0
   manualPosition: {x: 50, y: 50}
   alignment: 0
@@ -193,16 +193,16 @@ MonoBehaviour:
   - {fileID: 11400036}
   - {fileID: 11400038}
   - {fileID: 11400040}
-  biggestElementSize: {x: 176.899994, y: 106.5}
+  biggestElementSize: {x: 350.139984, y: 208.620026}
   spacing: .5
   sizeType: 0
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 200.100006
-    y: 108.300003
-    width: 179.799988
-    height: 109.400002
+    x: 396.059998
+    y: 211.819977
+    width: 355.879974
+    height: 214.360031
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEditing: 1
+  isEditing: 0
   isLocked: 0
   id: 3
   title: Inventory
@@ -255,8 +255,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 580
-    height: 41.0858765
+    width: 1148
+    height: 80.4073257
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -281,7 +281,7 @@ MonoBehaviour:
   title: InGame
   manualSize: {x: 11.999999, y: 6.91479826}
   positionType: 1
-  manualPosition: {x: 5.99999905, y: 96.5426025}
+  manualPosition: {x: 5.99999952, y: 96.5426025}
   alignment: 6
   toggleKey: 
   ignoreMouseClicks: 0
@@ -306,9 +306,9 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 0
-    y: 303.457764
-    width: 69.5999908
-    height: 22.5422421
+    y: 593.883606
+    width: 137.759995
+    height: 44.1164131
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -331,7 +331,7 @@ MonoBehaviour:
   isLocked: 0
   id: 5
   title: Conversation
-  manualSize: {x: 35.9999962, y: 24.4687138}
+  manualSize: {x: 35.9999962, y: 24.4990616}
   positionType: 2
   manualPosition: {x: 24, y: 69.6999969}
   alignment: 0
@@ -353,16 +353,16 @@ MonoBehaviour:
   elements:
   - {fileID: 11400052}
   - {fileID: 11400054}
-  biggestElementSize: {x: 205.899994, y: 76.8680038}
+  biggestElementSize: {x: 407.539978, y: 150.564011}
   spacing: .5
   sizeType: 0
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 34.8000031
-    y: 187.337982
-    width: 208.799988
-    height: 79.7680054
+    x: 68.8800049
+    y: 366.533966
+    width: 413.279968
+    height: 156.304016
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -385,7 +385,7 @@ MonoBehaviour:
   isLocked: 0
   id: 6
   title: Interaction
-  manualSize: {x: 17.9017258, y: 10.7766886}
+  manualSize: {x: 9.71236992, y: 6.97166157}
   positionType: 4
   manualPosition: {x: 50, y: 50}
   alignment: 4
@@ -411,16 +411,16 @@ MonoBehaviour:
   - {fileID: 11400058}
   - {fileID: 11400060}
   - {fileID: 11400062}
-  biggestElementSize: {x: 102.264008, y: 33.5660019}
+  biggestElementSize: {x: 108.398407, y: 41.3796005}
   spacing: .270000011
   sizeType: 0
   orientation: 0
   rect:
     serializedVersion: 2
-    x: 238.084991
-    y: 145.43399
-    width: 103.830009
-    height: 35.1320038
+    x: 518.250977
+    y: 296.760406
+    width: 111.498009
+    height: 44.4792023
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -477,10 +477,10 @@ MonoBehaviour:
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 89.2557068
-    y: 40.1582413
-    width: 401.488586
-    height: 245.683517
+    x: 176.664734
+    y: 78.5919037
+    width: 794.670532
+    height: 480.816193
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -547,10 +547,10 @@ MonoBehaviour:
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 128.595963
-    y: 97.3145447
-    width: 322.808075
-    height: 131.370911
+    x: 254.531311
+    y: 190.449936
+    width: 638.937378
+    height: 257.100128
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -591,10 +591,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 2.9000001
-    width: 208.800003
-    height: 16.2999992
+    x: 5.73999977
+    y: 5.73999977
+    width: 413.279968
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Options
@@ -638,10 +638,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 22.0999985
-    width: 208.800003
-    height: 16.2999992
+    x: 5.73999977
+    y: 43.3800049
+    width: 413.279968
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Speech volume
@@ -688,10 +688,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 41.2999992
-    width: 208.800003
-    height: 16.2999992
+    x: 5.73999977
+    y: 81.0200043
+    width: 413.279968
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Music volume
@@ -738,10 +738,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 60.5
-    width: 208.800003
-    height: 16.2999992
+    x: 5.73999977
+    y: 118.660004
+    width: 413.279968
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: SFX volume
@@ -790,8 +790,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4.26999998
     y: 110.549995
-    width: 208.800003
-    height: 16.2999992
+    width: 413.279968
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Language
@@ -834,10 +834,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 2.9000001
-    width: 174
-    height: 16.2999992
+    x: 5.73999977
+    y: 5.73999977
+    width: 344.399994
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Save game
@@ -881,10 +881,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 22.0999985
-    width: 174
-    height: 65.1999969
+    x: 5.73999977
+    y: 43.3800049
+    width: 344.399994
+    height: 127.600006
   relativePosition: {x: 0, y: 0}
   numSlots: 4
   newSaveText: New save
@@ -928,10 +928,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 90.1999969
-    width: 174
-    height: 16.2999992
+    x: 5.73999977
+    y: 176.720016
+    width: 344.399994
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Back
@@ -986,10 +986,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 2.9000001
-    width: 174
-    height: 16.2999992
+    x: 5.73999977
+    y: 5.73999977
+    width: 344.399994
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Load game
@@ -1033,10 +1033,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 22.0999985
-    width: 174
-    height: 65.1999969
+    x: 5.73999977
+    y: 43.3800049
+    width: 344.399994
+    height: 127.600006
   relativePosition: {x: 0, y: 0}
   numSlots: 4
   newSaveText: New save
@@ -1080,10 +1080,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 90.1999969
-    width: 174
-    height: 16.2999992
+    x: 5.73999977
+    y: 176.720016
+    width: 344.399994
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Back
@@ -1196,10 +1196,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 40.6000023
-    y: 2.87601137
-    width: 487.200012
-    height: 35.8600006
+    x: 80.3600006
+    y: 5.62851286
+    width: 964.319946
+    height: 70.1800003
   relativePosition: {x: 7, y: 7}
   numSlots: 12
   textEffects: 0
@@ -1796,10 +1796,10 @@ MonoBehaviour:
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 136.300003
-    y: 216.463989
-    width: 307.399994
-    height: 88.0200043
+    x: 269.780029
+    y: 423.632019
+    width: 608.439941
+    height: 172.26001
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -1842,8 +1842,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 69.6000061
-    height: 22.8199997
+    width: 137.759995
+    height: 44.6599998
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Menu
@@ -1898,10 +1898,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 2.9000001
-    width: 203
-    height: 67.8079987
+    x: 5.73999977
+    y: 5.73999977
+    width: 401.799988
+    height: 132.703995
   relativePosition: {x: 0, y: 0}
   numSlots: 4
   textEffects: 0
@@ -1944,10 +1944,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 73.6080017
-    width: 203
-    height: 3.25999999
+    x: 5.73999977
+    y: 144.184006
+    width: 401.799988
+    height: 6.38000011
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   timerTexture: {fileID: 2800000, guid: 681d61a077bb84b4aa05cc6d42d19cfd, type: 3}
@@ -1965,7 +1965,7 @@ MonoBehaviour:
   ID: 1
   isEditing: 0
   title: Use
-  slotSize: {x: 5.51724148, y: 9.81595135}
+  slotSize: {x: 2.78745651, y: 5.01567411}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -1984,8 +1984,8 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 1.5660001
-    y: 1.5660001
+    x: 3.09960008
+    y: 3.09960008
     width: 32
     height: 32
   relativePosition: {x: 0, y: 0}
@@ -2008,7 +2008,7 @@ MonoBehaviour:
   ID: 3
   isEditing: 0
   title: Talk
-  slotSize: {x: 5.51724148, y: 9.81595135}
+  slotSize: {x: 2.78745651, y: 5.01567411}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -2027,8 +2027,8 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 35.1320038
-    y: 1.5660001
+    x: 38.1992035
+    y: 3.09960008
     width: 32
     height: 32
   relativePosition: {x: 0, y: 0}
@@ -2051,7 +2051,7 @@ MonoBehaviour:
   ID: 0
   isEditing: 0
   title: Look
-  slotSize: {x: 5.51724148, y: 9.81595135}
+  slotSize: {x: 2.78745651, y: 5.01567411}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -2070,8 +2070,8 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 68.6980057
-    y: 1.5660001
+    x: 73.2988052
+    y: 3.09960008
     width: 32
     height: 32
   relativePosition: {x: 0, y: 0}
@@ -2113,10 +2113,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 102.264008
-    y: 1.5660001
+    x: 108.398407
+    y: 3.09960008
     width: 0
-    height: 19.5599995
+    height: 38.2799988
   relativePosition: {x: 0, y: 0}
   numSlots: 0
   textEffects: 0
@@ -2691,8 +2691,8 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 216.803833
-    y: 29.4820232
+    x: 429.122101
+    y: 57.6979408
     width: 190
     height: 219.082794
   relativePosition: {x: 54, y: 12}
@@ -2738,10 +2738,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 2.9000001
-    width: 316.679993
-    height: 10.0115166
+    x: 5.73999977
+    y: 5.73999977
+    width: 626.807983
+    height: 19.5930901
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Container
@@ -2785,10 +2785,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 19.3684845
-    y: 17.0782185
-    width: 290
-    height: 32.5999985
+    x: 38.3362427
+    y: 33.4230156
+    width: 574
+    height: 63.8000031
   relativePosition: {x: 6, y: 13}
   numSlots: 5
   textEffects: 0
@@ -3297,7 +3297,7 @@ MonoBehaviour:
   ID: 0
   isEditing: 0
   title: CloseButton
-  slotSize: {x: 5.17241383, y: 3.98773003}
+  slotSize: {x: 5.05226469, y: 4.07523489}
   sizeType: 0
   positionType: 2
   slotSpacing: 0
@@ -3316,10 +3316,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 288.913239
-    y: 118.496559
-    width: 30.0000019
-    height: 13
+    x: 571.848938
+    y: 231.904312
+    width: 57.9999962
+    height: 26
   relativePosition: {x: 89.5, y: 90.1999969}
   numSlots: 1
   label: Close
@@ -3355,7 +3355,7 @@ MonoBehaviour:
   ID: 3
   isEditing: 0
   title: TakeAllButton
-  slotSize: {x: 7.93103456, y: 3.98773003}
+  slotSize: {x: 7.57839727, y: 4.07523489}
   sizeType: 0
   positionType: 2
   slotSpacing: 0
@@ -3374,10 +3374,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 274.064056
-    y: 57.2777176
-    width: 46.0000038
-    height: 13
+    x: 542.457825
+    y: 112.09565
+    width: 87
+    height: 26
   relativePosition: {x: 84.9000015, y: 43.5999985}
   numSlots: 1
   label: Take all
@@ -3432,10 +3432,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 19.3684845
-    y: 84.0773849
-    width: 290
-    height: 32.5999985
+    x: 38.3362427
+    y: 164.544083
+    width: 574
+    height: 63.8000031
   relativePosition: {x: 6, y: 64}
   numSlots: 5
   textEffects: 0
@@ -3963,10 +3963,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 3.22808075
-    y: 70.9402924
-    width: 316.679993
-    height: 9.38579655
+    x: 6.38937378
+    y: 138.834076
+    width: 626.807983
+    height: 18.3685226
   relativePosition: {x: 1, y: 54}
   numSlots: 1
   label: Inventory
@@ -4010,10 +4010,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 4.84212112
-    y: 17.7350731
-    width: 11.6000004
-    height: 32.5999985
+    x: 9.58406067
+    y: 34.708519
+    width: 22.9599991
+    height: 63.8000031
   relativePosition: {x: 1.5, y: 13.5}
   numSlots: 1
   label: 
@@ -4069,7 +4069,7 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 0
-    y: 113.01442
+    y: 221.175446
     width: 45
     height: 45
   relativePosition: {x: 0, y: 46}
@@ -4110,7 +4110,7 @@ MonoBehaviour:
   title: Crafting
   manualSize: {x: 46, y: 63}
   positionType: 1
-  manualPosition: {x: 23.0000019, y: 31.5}
+  manualPosition: {x: 23, y: 31.5}
   alignment: 0
   toggleKey: i
   ignoreMouseClicks: 0
@@ -4154,8 +4154,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 266.800018
-    height: 205.380005
+    width: 528.080017
+    height: 401.940002
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -4196,10 +4196,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 29.8816013
-    y: 135.550812
-    width: 208.800003
-    height: 52.1599998
+    x: 59.1449623
+    y: 265.280396
+    width: 413.279968
+    height: 102.080002
   relativePosition: {x: 11.1999998, y: 66}
   numSlots: 4
   textEffects: 0
@@ -4727,10 +4727,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 8.00400066
-    y: 20.538002
-    width: 104.400002
-    height: 104.32
+    x: 15.8424015
+    y: 40.1940002
+    width: 206.639984
+    height: 204.160004
   relativePosition: {x: 3, y: 10}
   numSlots: 4
   textEffects: 0
@@ -4770,10 +4770,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 10.6720009
-    y: 135.550812
-    width: 11.6000004
-    height: 52.1599998
+    x: 21.1232014
+    y: 265.280396
+    width: 22.9599991
+    height: 102.080002
   relativePosition: {x: 4, y: 66}
   numSlots: 1
   label: 
@@ -4828,10 +4828,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 245.456024
-    y: 135.550812
-    width: 11.6000004
-    height: 52.1599998
+    x: 485.833618
+    y: 265.280396
+    width: 22.9599991
+    height: 102.080002
   relativePosition: {x: 92, y: 66}
   numSlots: 1
   label: 
@@ -4886,10 +4886,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 192.096008
-    y: 20.538002
-    width: 52.2000008
-    height: 52.1599998
+    x: 380.217621
+    y: 40.1940002
+    width: 103.319992
+    height: 102.080002
   relativePosition: {x: 72, y: 10}
   numSlots: 1
   textEffects: 0
@@ -4910,7 +4910,7 @@ MonoBehaviour:
   ID: 5
   isEditing: 0
   title: CreateButton
-  slotSize: {x: 6.20689678, y: 3.98773003}
+  slotSize: {x: 6.01045275, y: 4.07523489}
   sizeType: 0
   positionType: 2
   slotSpacing: 0
@@ -4929,10 +4929,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 192.096008
-    y: 77.8390274
-    width: 36.0000038
-    height: 13
+    x: 380.217621
+    y: 152.335266
+    width: 68.9999924
+    height: 26
   relativePosition: {x: 72, y: 37.9000015}
   numSlots: 1
   label: Create
@@ -4968,7 +4968,7 @@ MonoBehaviour:
   ID: 6
   isEditing: 0
   title: CloseButton
-  slotSize: {x: 5.17241383, y: 3.98773003}
+  slotSize: {x: 5.05226469, y: 4.07523489}
   sizeType: 0
   positionType: 2
   slotSpacing: 0
@@ -4987,10 +4987,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 225.979614
-    y: 188.949615
-    width: 30.0000019
-    height: 13
+    x: 447.283783
+    y: 369.784821
+    width: 57.9999962
+    height: 26
   relativePosition: {x: 84.6999969, y: 92}
   numSlots: 1
   label: Close
@@ -5026,7 +5026,7 @@ MonoBehaviour:
   ID: 7
   isEditing: 0
   title: IngredientsLabel
-  slotSize: {x: 10.8620691, y: 3.98773003}
+  slotSize: {x: 10.7142859, y: 4.07523489}
   sizeType: 0
   positionType: 2
   slotSpacing: 0
@@ -5045,10 +5045,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 8.00400066
-    y: 6.16140032
-    width: 63.0000038
-    height: 13
+    x: 15.8424015
+    y: 12.0582008
+    width: 123
+    height: 26
   relativePosition: {x: 3, y: 3}
   numSlots: 1
   label: Ingredients
@@ -5073,7 +5073,7 @@ MonoBehaviour:
   ID: 8
   isEditing: 0
   title: InventoryLabel
-  slotSize: {x: 8.96551704, y: 3.98773003}
+  slotSize: {x: 9.05923367, y: 4.07523489}
   sizeType: 0
   positionType: 2
   slotSpacing: 0
@@ -5092,10 +5092,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 9.8716011
-    y: 123.228004
-    width: 52
-    height: 13
+    x: 19.5389614
+    y: 241.164001
+    width: 104
+    height: 26
   relativePosition: {x: 3.70000005, y: 60}
   numSlots: 1
   label: Inventory
@@ -5120,7 +5120,7 @@ MonoBehaviour:
   ID: 9
   isEditing: 0
   title: OutputLabel
-  slotSize: {x: 6.37931013, y: 3.98773003}
+  slotSize: {x: 6.44599295, y: 4.07523489}
   sizeType: 0
   positionType: 2
   slotSpacing: 0
@@ -5139,10 +5139,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 192.096008
-    y: 6.16140032
-    width: 37
-    height: 13
+    x: 380.217621
+    y: 12.0582008
+    width: 73.9999924
+    height: 26
   relativePosition: {x: 72, y: 3}
   numSlots: 1
   label: Output
@@ -5168,7 +5168,7 @@ MonoBehaviour:
   isLocked: 0
   id: 11
   title: Hotspot
-  manualSize: {x: 34.0000038, y: 5.03999949}
+  manualSize: {x: 33.9999962, y: 5.03999996}
   positionType: 3
   manualPosition: {x: 50, y: 44.4000015}
   alignment: 0
@@ -5188,16 +5188,16 @@ MonoBehaviour:
   selected_slot: 0
   elements:
   - {fileID: 11400110}
-  biggestElementSize: {x: 197.200012, y: 16.4303989}
+  biggestElementSize: {x: 390.319977, y: 32.155201}
   spacing: 0
   sizeType: 0
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 191.399994
-    y: 136.528809
-    width: 197.200012
-    height: 16.4303989
+    x: 378.840027
+    y: 267.194397
+    width: 390.319977
+    height: 32.155201
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -5240,8 +5240,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 197.200012
-    height: 16.4303989
+    width: 390.319977
+    height: 32.155201
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Test
@@ -5285,8 +5285,8 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 369.369507
-    y: 113.01442
+    x: 731.096863
+    y: 221.175446
     width: 45
     height: 45
   relativePosition: {x: 92, y: 46}
@@ -5327,7 +5327,7 @@ MonoBehaviour:
   title: OpenJournalTrish
   manualSize: {x: 16, y: 7}
   positionType: 1
-  manualPosition: {x: 92, y: 96.5}
+  manualPosition: {x: 92, y: 96.5000076}
   alignment: 8
   toggleKey: 
   ignoreMouseClicks: 0
@@ -5350,10 +5350,10 @@ MonoBehaviour:
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 487.200012
-    y: 303.179993
-    width: 92.7999954
-    height: 22.8199997
+    x: 964.320007
+    y: 593.340027
+    width: 183.679993
+    height: 44.6599998
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -5376,7 +5376,7 @@ MonoBehaviour:
   isLocked: 0
   id: 14
   title: FoundSketch
-  manualSize: {x: 17.3793125, y: 6.38036776}
+  manualSize: {x: 17.5505219, y: 6.50156736}
   positionType: 0
   manualPosition: {x: 50, y: 50}
   alignment: 4
@@ -5396,16 +5396,16 @@ MonoBehaviour:
   selected_slot: 0
   elements:
   - {fileID: 11400124}
-  biggestElementSize: {x: 97.9000092, y: 17.8999996}
+  biggestElementSize: {x: 195.73999, y: 35.7399979}
   spacing: .5
   sizeType: 0
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 239.599991
-    y: 152.600006
-    width: 100.800011
-    height: 20.7999992
+    x: 473.26001
+    y: 298.26001
+    width: 201.479996
+    height: 41.4799995
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -5448,8 +5448,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 385.120026
-    height: 256.888
+    width: 762.271973
+    height: 502.744019
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   graphic:
@@ -5532,7 +5532,7 @@ MonoBehaviour:
   ID: 5
   isEditing: 1
   title: CloseJournal
-  slotSize: {x: 4.82758617, y: 4.60122681}
+  slotSize: {x: 5.05226469, y: 4.70219421}
   sizeType: 0
   positionType: 2
   slotSpacing: 0
@@ -5551,10 +5551,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 184.684753
-    y: 223.572006
-    width: 28
-    height: 14.999999
+    x: 365.548431
+    y: 437.542725
+    width: 57.9999962
+    height: 30
   relativePosition: {x: 46, y: 91}
   numSlots: 1
   label: Close
@@ -5590,7 +5590,7 @@ MonoBehaviour:
   ID: 0
   isEditing: 1
   title: Notification
-  slotSize: {x: 16.3793106, y: 4.60122681}
+  slotSize: {x: 16.5505219, y: 4.70219421}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -5609,10 +5609,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 2.9000001
-    width: 95.0000076
-    height: 14.999999
+    x: 5.73999977
+    y: 5.73999977
+    width: 189.999985
+    height: 30
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Sketch Picked Up!
@@ -5638,7 +5638,7 @@ MonoBehaviour:
   isLocked: 0
   id: 12
   title: Pause
-  manualSize: {x: 17.0000019, y: 30.3374233}
+  manualSize: {x: 17, y: 30.3981228}
   positionType: 0
   manualPosition: {x: 50, y: 50}
   alignment: 4
@@ -5666,16 +5666,16 @@ MonoBehaviour:
   - {fileID: 11400136}
   - {fileID: 11400138}
   - {fileID: 11400140}
-  biggestElementSize: {x: 95.7000046, y: 96}
+  biggestElementSize: {x: 189.419998, y: 188.200012}
   spacing: .5
   sizeType: 0
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 240.699997
-    y: 113.550003
-    width: 98.6000061
-    height: 98.9000015
+    x: 476.419983
+    y: 222.029999
+    width: 195.160004
+    height: 193.940018
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -5716,10 +5716,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 2.9000001
-    width: 92.8000031
-    height: 16.2999992
+    x: 5.73999977
+    y: 5.73999977
+    width: 183.679993
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Resume
@@ -5774,10 +5774,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 22.0999985
-    width: 92.8000031
-    height: 16.2999992
+    x: 5.73999977
+    y: 43.3800049
+    width: 183.679993
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Options
@@ -5832,10 +5832,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 41.2999992
-    width: 92.8000031
-    height: 16.2999992
+    x: 5.73999977
+    y: 81.0200043
+    width: 183.679993
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Save
@@ -5890,10 +5890,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 60.5
-    width: 92.8000031
-    height: 16.2999992
+    x: 5.73999977
+    y: 118.660004
+    width: 183.679993
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Load
@@ -5948,10 +5948,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 79.6999969
-    width: 92.8000031
-    height: 16.2999992
+    x: 5.73999977
+    y: 156.300018
+    width: 183.679993
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Quit
@@ -6008,8 +6008,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4.26999998
     y: 110.549995
-    width: 208.800003
-    height: 16.2999992
+    width: 413.279968
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Subtitles
@@ -6054,10 +6054,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 79.6999969
-    width: 208.800003
-    height: 16.2999992
+    x: 5.73999977
+    y: 156.300018
+    width: 413.279968
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Back
@@ -6112,10 +6112,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 306.667664
-    y: 17.7350731
-    width: 11.6000004
-    height: 32.5999985
+    x: 606.990479
+    y: 34.708519
+    width: 22.9599991
+    height: 63.8000031
   relativePosition: {x: 95, y: 13.5}
   numSlots: 1
   label: 
@@ -6170,10 +6170,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 4.84212112
-    y: 84.0773849
-    width: 11.6000004
-    height: 32.5999985
+    x: 9.58406067
+    y: 164.544083
+    width: 22.9599991
+    height: 63.8000031
   relativePosition: {x: 1.5, y: 64}
   numSlots: 1
   label: 
@@ -6228,10 +6228,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 306.667664
-    y: 84.0773849
-    width: 11.6000004
-    height: 32.5999985
+    x: 606.990479
+    y: 164.544083
+    width: 22.9599991
+    height: 63.8000031
   relativePosition: {x: 95, y: 64}
   numSlots: 1
   label: 
@@ -6286,10 +6286,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 41.2999992
-    width: 208.800003
-    height: 16.2999992
+    x: 5.73999977
+    y: 81.0200043
+    width: 413.279968
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Music volume
@@ -6338,8 +6338,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4.26999998
     y: 110.549995
-    width: 208.800003
-    height: 16.2999992
+    width: 413.279968
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Language
@@ -6360,7 +6360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEditing: 0
+  isEditing: 1
   isLocked: 0
   id: 15
   title: Title
@@ -6371,7 +6371,7 @@ MonoBehaviour:
   toggleKey: Menu
   ignoreMouseClicks: 0
   pauseWhenEnabled: 1
-  enabledOnStart: 1
+  enabledOnStart: 0
   actionListOnTurnOn: {fileID: 11400000, guid: a2ff949914e5545ef872566bb4e1dfc2, type: 2}
   backgroundTexture: {fileID: 2800000, guid: 39e622a5c6c9347e99fcf324423bf064, type: 3}
   sliderTexture: {fileID: 0}
@@ -6401,8 +6401,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 580
-    height: 326
+    width: 1148
+    height: 638
   transitionType: 4
   panDirection: 0
   panMovement: 0
@@ -6443,10 +6443,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 89.1459961
-    y: 14.0832005
-    width: 185.600006
-    height: 58.6800003
+    x: 176.447571
+    y: 27.5616016
+    width: 367.359985
+    height: 114.840004
   relativePosition: {x: 29, y: 16}
   numSlots: 1
   label: Label
@@ -6490,10 +6490,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 79.6999969
-    width: 208.800003
-    height: 16.2999992
+    x: 5.73999977
+    y: 156.300018
+    width: 413.279968
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Back
@@ -6548,10 +6548,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 90.1999969
-    width: 174
-    height: 16.2999992
+    x: 5.73999977
+    y: 176.720016
+    width: 344.399994
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Back
@@ -6606,10 +6606,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 60.5
-    width: 208.800003
-    height: 16.2999992
+    x: 5.73999977
+    y: 118.660004
+    width: 413.279968
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: SFX volume
@@ -6656,10 +6656,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 2.9000001
-    width: 295.800018
-    height: 218.419998
+    x: 5.73999977
+    y: 5.73999977
+    width: 585.47998
+    height: 427.460022
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   graphic:
@@ -6703,10 +6703,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 22.0999985
-    width: 174
-    height: 65.1999969
+    x: 5.73999977
+    y: 43.3800049
+    width: 344.399994
+    height: 127.600006
   relativePosition: {x: 0, y: 0}
   numSlots: 4
   newSaveText: New save
@@ -6790,7 +6790,7 @@ MonoBehaviour:
   isLocked: 0
   id: 19
   title: Load (Title)
-  manualSize: {x: 30.9999981, y: 33.5582809}
+  manualSize: {x: 30.9999981, y: 33.5987511}
   positionType: 0
   manualPosition: {x: 50, y: 50}
   alignment: 0
@@ -6814,16 +6814,16 @@ MonoBehaviour:
   - {fileID: 11434508}
   - {fileID: 11425428}
   - {fileID: 11416210}
-  biggestElementSize: {x: 176.899994, y: 106.5}
+  biggestElementSize: {x: 350.139984, y: 208.620026}
   spacing: .5
   sizeType: 0
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 200.100006
-    y: 108.300003
-    width: 179.799988
-    height: 109.400002
+    x: 396.059998
+    y: 211.819977
+    width: 355.879974
+    height: 214.360031
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -6864,10 +6864,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 388.600006
-    y: 22.8199997
-    width: 133.400009
-    height: 61.9399986
+    x: 769.159973
+    y: 44.6599998
+    width: 264.039978
+    height: 121.220001
   relativePosition: {x: 67, y: 7}
   numSlots: 1
   graphic:
@@ -6911,10 +6911,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 2.9000001
-    width: 174
-    height: 16.2999992
+    x: 5.73999977
+    y: 5.73999977
+    width: 344.399994
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Load game
@@ -6939,7 +6939,7 @@ MonoBehaviour:
   ID: 0
   isEditing: 1
   title: credits
-  slotSize: {x: 6.55172396, y: 4.60122681}
+  slotSize: {x: 6.70731688, y: 4.70219421}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -6958,10 +6958,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 69.8000031
-    width: 38
-    height: 14.999999
+    x: 5.73999977
+    y: 75.4799957
+    width: 76.9999924
+    height: 30
   relativePosition: {x: 50, y: 14}
   numSlots: 1
   label: Credits
@@ -7016,10 +7016,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 411.800018
-    y: 104.32
-    width: 92.8000031
-    height: 16.2999992
+    x: 815.079956
+    y: 204.160004
+    width: 183.679993
+    height: 31.9000015
   relativePosition: {x: 71, y: 32}
   numSlots: 1
   label: New Game
@@ -7074,10 +7074,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 411.800018
-    y: 172.779999
-    width: 92.8000031
-    height: 16.2999992
+    x: 815.079956
+    y: 338.140015
+    width: 183.679993
+    height: 31.9000015
   relativePosition: {x: 71, y: 53}
   numSlots: 1
   label: Instructions
@@ -7132,10 +7132,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 2.9000001
-    width: 208.800003
-    height: 16.2999992
+    x: 5.73999977
+    y: 5.73999977
+    width: 413.279968
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Options
@@ -7160,7 +7160,7 @@ MonoBehaviour:
   ID: 1
   isEditing: 0
   title: logo
-  slotSize: {x: 11.034483, y: 19.6319027}
+  slotSize: {x: 5.57491302, y: 10.0313482}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -7179,8 +7179,8 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 2.9000001
+    x: 5.73999977
+    y: 5.73999977
     width: 64
     height: 64
   relativePosition: {x: 0, y: 0}
@@ -7218,7 +7218,7 @@ MonoBehaviour:
   ID: 1
   isEditing: 0
   title: Close
-  slotSize: {x: 4.82758617, y: 4.60122681}
+  slotSize: {x: 5.05226469, y: 4.70219421}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -7237,10 +7237,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 224.219986
-    width: 28
-    height: 14.999999
+    x: 5.73999977
+    y: 438.940002
+    width: 57.9999962
+    height: 30
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Close
@@ -7297,8 +7297,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4.26999998
     y: 110.549995
-    width: 208.800003
-    height: 16.2999992
+    width: 413.279968
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Subtitles
@@ -7343,10 +7343,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 27.6659985
-    y: 10.5624008
-    width: 58
-    height: 65.526001
+    x: 54.759594
+    y: 20.6712017
+    width: 114.799995
+    height: 128.238007
   relativePosition: {x: 9, y: 12}
   numSlots: 1
   label: Label
@@ -7390,10 +7390,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 411.800018
-    y: 149.960007
-    width: 92.8000031
-    height: 16.2999992
+    x: 815.079956
+    y: 293.480011
+    width: 183.679993
+    height: 31.9000015
   relativePosition: {x: 71, y: 46}
   numSlots: 1
   label: Load
@@ -7448,10 +7448,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 2.9000001
-    y: 22.0999985
-    width: 208.800003
-    height: 16.2999992
+    x: 5.73999977
+    y: 43.3800049
+    width: 413.279968
+    height: 31.9000015
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Speech volume
@@ -7480,7 +7480,7 @@ MonoBehaviour:
   isLocked: 0
   id: 17
   title: instructions_list
-  manualSize: {x: 52, y: 74.2699356}
+  manualSize: {x: 51.9999962, y: 74.4012527}
   positionType: 2
   manualPosition: {x: 42, y: 63}
   alignment: 3
@@ -7502,16 +7502,16 @@ MonoBehaviour:
   elements:
   - {fileID: 11423702}
   - {fileID: 11463544}
-  biggestElementSize: {x: 298.700012, y: 239.219986}
+  biggestElementSize: {x: 591.219971, y: 468.940002}
   spacing: .5
   sizeType: 0
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 92.7999878
-    y: 83.8800201
-    width: 301.600006
-    height: 242.11998
+    x: 183.679993
+    y: 163.320007
+    width: 596.959961
+    height: 474.679993
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -7552,10 +7552,10 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 411.800018
-    y: 127.139999
-    width: 92.8000031
-    height: 16.2999992
+    x: 815.079956
+    y: 248.820007
+    width: 183.679993
+    height: 31.9000015
   relativePosition: {x: 71, y: 39}
   numSlots: 1
   label: Options
@@ -7592,9 +7592,9 @@ MonoBehaviour:
   isLocked: 0
   id: 16
   title: Credits
-  manualSize: {x: 12.034483, y: 26.9018421}
+  manualSize: {x: 7.70731592, y: 17.4326}
   positionType: 1
-  manualPosition: {x: 93.9827576, y: 86.5490799}
+  manualPosition: {x: 96.1463394, y: 91.2837067}
   alignment: 8
   toggleKey: 
   ignoreMouseClicks: 0
@@ -7614,16 +7614,16 @@ MonoBehaviour:
   elements:
   - {fileID: 11447786}
   - {fileID: 11435630}
-  biggestElementSize: {x: 66.9000015, y: 84.8000031}
+  biggestElementSize: {x: 82.7399902, y: 105.479996}
   spacing: .5
   sizeType: 0
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 510.200012
-    y: 238.299988
-    width: 69.8000031
-    height: 87.7000046
+    x: 1059.52002
+    y: 526.780029
+    width: 88.4799881
+    height: 111.219994
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -7646,7 +7646,7 @@ MonoBehaviour:
   isLocked: 0
   id: 18
   title: Options (Title)
-  manualSize: {x: 37, y: 30.3374233}
+  manualSize: {x: 36.9999962, y: 30.3981228}
   positionType: 0
   manualPosition: {x: 50, y: 50}
   alignment: 0
@@ -7676,16 +7676,16 @@ MonoBehaviour:
   - {fileID: 11402806}
   - {fileID: 11480086}
   - {fileID: 11415490}
-  biggestElementSize: {x: 211.699997, y: 96}
+  biggestElementSize: {x: 419.019958, y: 188.200012}
   spacing: .5
   sizeType: 0
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 182.700012
-    y: 113.550003
-    width: 214.599991
-    height: 98.9000015
+    x: 361.620026
+    y: 222.029999
+    width: 424.759949
+    height: 193.940018
   transitionType: 0
   panDirection: 0
   panMovement: 0
