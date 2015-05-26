@@ -1684,6 +1684,7 @@ GameObject:
   - 114: {fileID: 11400002}
   - 114: {fileID: 11400000}
   - 114: {fileID: 11400004}
+  - 81: {fileID: 8177366}
   m_Layer: 10
   m_Name: SpencerPlay
   m_TagString: Player
@@ -3252,6 +3253,13 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!81 &8177366
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100222}
+  m_Enabled: 1
 --- !u!111 &11100000
 Animation:
   m_ObjectHideFlags: 1
@@ -3375,8 +3383,8 @@ MonoBehaviour:
   ignoreGravity: 0
   freezeRigidbodyWhenIdle: 0
   _collider: {fileID: 0}
-  walkSound: {fileID: 0}
-  runSound: {fileID: 0}
+  walkSound: {fileID: 8300000, guid: 1b77c9e27e9ad264ebfed010712379a5, type: 3}
+  runSound: {fileID: 8300000, guid: 1b77c9e27e9ad264ebfed010712379a5, type: 3}
   soundChild: {fileID: 0}
   activePath: {fileID: 0}
   charState: 0
