@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: OpenInventory
   m_EditorClassIdentifier: 
   isSkippable: 1
-  actionListType: 0
+  actionListType: 1
   useParameters: 0
   parameters: []
   actions:
@@ -34,7 +34,7 @@ MonoBehaviour:
   willWait: 0
   defaultPauseTime: .100000001
   isRunning: 0
-  lastResult: -10
+  lastResult: -1
   id: 0
   isDisplayed: 1
   title: 'Menu: Change state'
@@ -48,10 +48,10 @@ MonoBehaviour:
   isAssetFile: 1
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 50
+    y: 50
     width: 300
-    height: 60
+    height: 10
   changeType: 0
   menuToChange: Inventory
   menuToChangeParameterID: -1
@@ -89,10 +89,10 @@ MonoBehaviour:
   isAssetFile: 1
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 400
+    y: 50
     width: 300
-    height: 60
+    height: 10
   changeType: 1
   menuToChange: OpenInventory
   menuToChangeParameterID: -1
@@ -126,14 +126,14 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isMarked: 0
-  isEnabled: 1
+  isEnabled: 0
   isAssetFile: 1
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 750
+    y: 50
     width: 300
-    height: 60
+    height: 10
   changeType: 0
   menuToChange: CloseInventory
   menuToChangeParameterID: -1

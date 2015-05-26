@@ -18,6 +18,7 @@ MonoBehaviour:
   actions:
   - {fileID: 11494406}
   - {fileID: 11417314}
+  - {fileID: 11460890}
   - {fileID: 11488652}
   - {fileID: 11406112}
 --- !u!114 &11406112
@@ -49,10 +50,10 @@ MonoBehaviour:
   isAssetFile: 1
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 520
+    y: 387
     width: 300
-    height: 60
+    height: 10
   parameterID: -1
   timeToPause: 0
 --- !u!114 &11417314
@@ -87,9 +88,50 @@ MonoBehaviour:
     x: 28
     y: 220
     width: 300
-    height: 147
+    height: 10
   changeType: 1
   menuToChange: Credits
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  doFade: 1
+  lineID: -1
+--- !u!114 &11460890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult: -3
+  id: 0
+  isDisplayed: 1
+  title: 'Menu: Change state'
+  endAction: 0
+  skipAction: 1
+  skipActionActual: {fileID: 11488652}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 1
+  nodeRect:
+    serializedVersion: 2
+    x: 28
+    y: 220
+    width: 300
+    height: 10
+  changeType: 1
+  menuToChange: instructions_list
   menuToChangeParameterID: -1
   elementToChange: 
   elementToChangeParameterID: -1
@@ -128,7 +170,7 @@ MonoBehaviour:
     x: 170
     y: 387
     width: 300
-    height: 67
+    height: 10
   sceneNumber: 1
 --- !u!114 &11494406
 MonoBehaviour:
@@ -162,7 +204,7 @@ MonoBehaviour:
     x: 50
     y: 50
     width: 300
-    height: 147
+    height: 10
   changeType: 1
   menuToChange: Title
   menuToChangeParameterID: -1
