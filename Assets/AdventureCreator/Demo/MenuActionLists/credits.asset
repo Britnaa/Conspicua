@@ -9,101 +9,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
-  m_Name: TitleOptions
+  m_Name: credits
   m_EditorClassIdentifier: 
   isSkippable: 1
   actionListType: 0
   useParameters: 0
   parameters: []
   actions:
-  - {fileID: 11488762}
-  - {fileID: 11462592}
-  - {fileID: 11474126}
-  - {fileID: 11451640}
-  - {fileID: 11409748}
---- !u!114 &11409748
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult: -1
-  id: 0
-  isDisplayed: 1
-  title: 'Menu: Change state'
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isMarked: 0
-  isEnabled: 1
-  isAssetFile: 1
-  nodeRect:
-    serializedVersion: 2
-    x: 1450
-    y: 50
-    width: 300
-    height: 10
-  changeType: 0
-  menuToChange: Options (Title)
-  menuToChangeParameterID: -1
-  elementToChange: 
-  elementToChangeParameterID: -1
-  journalText: 
-  doFade: 0
-  lineID: -1
---- !u!114 &11451640
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult: -3
-  id: 0
-  isDisplayed: 1
-  title: 'Menu: Change state'
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isMarked: 0
-  isEnabled: 1
-  isAssetFile: 1
-  nodeRect:
-    serializedVersion: 2
-    x: 1100
-    y: 50
-    width: 300
-    height: 10
-  changeType: 1
-  menuToChange: instructions_list
-  menuToChangeParameterID: -1
-  elementToChange: 
-  elementToChangeParameterID: -1
-  journalText: 
-  doFade: 0
-  lineID: -1
---- !u!114 &11462592
+  - {fileID: 11487388}
+  - {fileID: 11471284}
+  - {fileID: 11426932}
+--- !u!114 &11426932
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -132,11 +48,11 @@ MonoBehaviour:
   isAssetFile: 1
   nodeRect:
     serializedVersion: 2
-    x: 400
-    y: 50
+    x: 0
+    y: 0
     width: 300
-    height: 10
-  changeType: 1
+    height: 60
+  changeType: 0
   menuToChange: credits_list
   menuToChangeParameterID: -1
   elementToChange: 
@@ -144,7 +60,7 @@ MonoBehaviour:
   journalText: 
   doFade: 0
   lineID: -1
---- !u!114 &11474126
+--- !u!114 &11471284
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -152,17 +68,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 590f52ec054444a8e8d6aa6f503ee8a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numSockets: 2
+  numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
   isRunning: 0
-  lastResult: -3
+  lastResult: -10
   id: 0
   isDisplayed: 1
-  title: 'Menu: Check state'
+  title: 'Menu: Change state'
   endAction: 0
   skipAction: -1
   skipActionActual: {fileID: 0}
@@ -173,26 +89,19 @@ MonoBehaviour:
   isAssetFile: 1
   nodeRect:
     serializedVersion: 2
-    x: 750
-    y: 50
+    x: 0
+    y: 0
     width: 300
-    height: 10
-  resultActionTrue: 0
-  skipActionTrue: -1
-  skipActionTrueActual: {fileID: 0}
-  linkedCutsceneTrue: {fileID: 0}
-  linkedAssetTrue: {fileID: 0}
-  resultActionFail: 2
-  skipActionFail: 4
-  skipActionFailActual: {fileID: 11409748}
-  linkedCutsceneFail: {fileID: 0}
-  linkedAssetFail: {fileID: 0}
-  checkType: 0
-  menuToCheck: instructions_list
-  menuToCheckParameterID: -1
-  elementToCheck: 
-  elementToCheckParameterID: -1
---- !u!114 &11488762
+    height: 60
+  changeType: 1
+  menuToChange: instructions_list
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  doFade: 0
+  lineID: -1
+--- !u!114 &11487388
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -200,17 +109,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 590f52ec054444a8e8d6aa6f503ee8a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numSockets: 2
+  numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
   isRunning: 0
-  lastResult: 2
+  lastResult: -10
   id: 0
   isDisplayed: 1
-  title: 'Menu: Check state'
+  title: 'Menu: Change state'
   endAction: 0
   skipAction: -1
   skipActionActual: {fileID: 0}
@@ -221,22 +130,15 @@ MonoBehaviour:
   isAssetFile: 1
   nodeRect:
     serializedVersion: 2
-    x: 50
-    y: 50
+    x: 0
+    y: 0
     width: 300
-    height: 10
-  resultActionTrue: 0
-  skipActionTrue: -1
-  skipActionTrueActual: {fileID: 0}
-  linkedCutsceneTrue: {fileID: 0}
-  linkedAssetTrue: {fileID: 0}
-  resultActionFail: 2
-  skipActionFail: 2
-  skipActionFailActual: {fileID: 11474126}
-  linkedCutsceneFail: {fileID: 0}
-  linkedAssetFail: {fileID: 0}
-  checkType: 0
-  menuToCheck: credits_list
-  menuToCheckParameterID: -1
-  elementToCheck: 
-  elementToCheckParameterID: -1
+    height: 60
+  changeType: 1
+  menuToChange: Options (Title)
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  doFade: 0
+  lineID: -1

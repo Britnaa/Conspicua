@@ -77,7 +77,7 @@ MonoBehaviour:
   willWait: 0
   defaultPauseTime: .100000001
   isRunning: 0
-  lastResult: -10
+  lastResult: 2
   id: 0
   isDisplayed: 1
   title: 'Menu: Check state'
@@ -125,7 +125,7 @@ MonoBehaviour:
   willWait: 0
   defaultPauseTime: .100000001
   isRunning: 0
-  lastResult: -10
+  lastResult: 4
   id: 0
   isDisplayed: 1
   title: 'Menu: Check state'
@@ -154,7 +154,7 @@ MonoBehaviour:
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
   checkType: 0
-  menuToCheck: Load (Title)
+  menuToCheck: credits_list
   menuToCheckParameterID: -1
   elementToCheck: 
   elementToCheckParameterID: -1
@@ -192,7 +192,7 @@ MonoBehaviour:
     width: 300
     height: 60
   changeType: 1
-  menuToChange: Load (Title)
+  menuToChange: credits_list
   menuToChangeParameterID: -1
   elementToChange: 
   elementToChangeParameterID: -1
