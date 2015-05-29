@@ -1834,7 +1834,7 @@ MonoBehaviour:
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  highlightTexture: {fileID: 2800000, guid: 7efd55d6d0d2a447cbb5231b43d43fd5, type: 3}
+  highlightTexture: {fileID: 2800000, guid: d88a3d92d9a7946eba96b56db23c59cf, type: 3}
   isVisible: 1
   isClickable: 1
   orientation: 0
@@ -5642,7 +5642,7 @@ MonoBehaviour:
   isLocked: 0
   id: 12
   title: Pause
-  manualSize: {x: 17, y: 30.3340797}
+  manualSize: {x: 17, y: 18.5560532}
   positionType: 0
   manualPosition: {x: 50, y: 50}
   alignment: 4
@@ -5656,8 +5656,6 @@ MonoBehaviour:
   visibleElements:
   - {fileID: 11400132}
   - {fileID: 11400134}
-  - {fileID: 11400136}
-  - {fileID: 11400138}
   - {fileID: 11400140}
   transitionProgress: 0
   appearType: 3
@@ -5670,16 +5668,16 @@ MonoBehaviour:
   - {fileID: 11400136}
   - {fileID: 11400138}
   - {fileID: 11400140}
-  biggestElementSize: {x: 130.845001, y: 131.324997}
+  biggestElementSize: {x: 130.845001, y: 78.7949982}
   spacing: .5
   sizeType: 0
   orientation: 1
   rect:
     serializedVersion: 2
     x: 329.095001
-    y: 155.355011
+    y: 181.619995
     width: 134.809998
-    height: 135.289993
+    height: 82.7599945
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -5710,7 +5708,7 @@ MonoBehaviour:
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  highlightTexture: {fileID: 2800000, guid: 7efd55d6d0d2a447cbb5231b43d43fd5, type: 3}
+  highlightTexture: {fileID: 2800000, guid: d88a3d92d9a7946eba96b56db23c59cf, type: 3}
   isVisible: 1
   isClickable: 1
   orientation: 0
@@ -5768,7 +5766,7 @@ MonoBehaviour:
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  highlightTexture: {fileID: 2800000, guid: 7efd55d6d0d2a447cbb5231b43d43fd5, type: 3}
+  highlightTexture: {fileID: 2800000, guid: d88a3d92d9a7946eba96b56db23c59cf, type: 3}
   isVisible: 1
   isClickable: 1
   orientation: 0
@@ -5826,8 +5824,8 @@ MonoBehaviour:
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  highlightTexture: {fileID: 2800000, guid: 7efd55d6d0d2a447cbb5231b43d43fd5, type: 3}
-  isVisible: 1
+  highlightTexture: {fileID: 2800000, guid: d88a3d92d9a7946eba96b56db23c59cf, type: 3}
+  isVisible: 0
   isClickable: 1
   orientation: 0
   gridWidth: 3
@@ -5884,8 +5882,8 @@ MonoBehaviour:
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  highlightTexture: {fileID: 2800000, guid: 7efd55d6d0d2a447cbb5231b43d43fd5, type: 3}
-  isVisible: 1
+  highlightTexture: {fileID: 2800000, guid: d88a3d92d9a7946eba96b56db23c59cf, type: 3}
+  isVisible: 0
   isClickable: 1
   orientation: 0
   gridWidth: 3
@@ -5895,7 +5893,7 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 3.96499991
-    y: 82.7599945
+    y: 56.4949989
     width: 126.879997
     height: 22.2999992
   relativePosition: {x: 0, y: 0}
@@ -5942,7 +5940,7 @@ MonoBehaviour:
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  highlightTexture: {fileID: 2800000, guid: 7efd55d6d0d2a447cbb5231b43d43fd5, type: 3}
+  highlightTexture: {fileID: 2800000, guid: d88a3d92d9a7946eba96b56db23c59cf, type: 3}
   isVisible: 1
   isClickable: 1
   orientation: 0
@@ -5953,7 +5951,7 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 3.96499991
-    y: 109.024994
+    y: 56.4949989
     width: 126.879997
     height: 22.2999992
   relativePosition: {x: 0, y: 0}
@@ -6364,7 +6362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEditing: 0
+  isEditing: 1
   isLocked: 0
   id: 15
   title: Title
@@ -6383,6 +6381,7 @@ MonoBehaviour:
   - {fileID: 11434448}
   - {fileID: 11436196}
   - {fileID: 11496078}
+  - {fileID: 11428600}
   - {fileID: 11436536}
   - {fileID: 11498494}
   transitionProgress: 0
@@ -6443,7 +6442,7 @@ MonoBehaviour:
   isClickable: 1
   orientation: 1
   gridWidth: 3
-  backgroundTexture: {fileID: 0}
+  backgroundTexture: {fileID: 2800000, guid: e200c877aaa904de1991d02b715d93fc, type: 3}
   hoverSound: {fileID: 0}
   clickSound: {fileID: 0}
   relativeRect:
@@ -6850,19 +6849,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 4
-  isEditing: 0
+  isEditing: 1
   title: QuitButton
   slotSize: {x: 16, y: 5}
   sizeType: 1
-  positionType: 0
+  positionType: 2
   slotSpacing: 0
   lineID: 70
   font: {fileID: 12800000, guid: c69dd33416c02074d891d89d733269dc, type: 3}
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  highlightTexture: {fileID: 2800000, guid: 7efd55d6d0d2a447cbb5231b43d43fd5, type: 3}
-  isVisible: 0
+  highlightTexture: {fileID: 2800000, guid: d88a3d92d9a7946eba96b56db23c59cf, type: 3}
+  isVisible: 1
   isClickable: 1
   orientation: 0
   gridWidth: 3
@@ -6871,11 +6870,11 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   relativeRect:
     serializedVersion: 2
-    x: 4.26999998
-    y: 30.8400002
-    width: 136.639999
+    x: 563.029968
+    y: 267.600006
+    width: 126.879997
     height: 22.2999992
-  relativePosition: {x: 0, y: 0}
+  relativePosition: {x: 71, y: 60}
   numSlots: 1
   label: Quit
   hotspotLabel: 
@@ -7857,7 +7856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 1
-  isEditing: 1
+  isEditing: 0
   title: OptionsButton
   slotSize: {x: 16, y: 5}
   sizeType: 1
@@ -7972,7 +7971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEditing: 1
+  isEditing: 0
   isLocked: 0
   id: 18
   title: Options (Title)
