@@ -34,7 +34,7 @@ MonoBehaviour:
   cycleInventoryCursors: 1
   hideLockedCursor: 0
   lockCursorOnStart: 0
-  inventoryDragDrop: 1
+  inventoryDragDrop: 0
   inventoryDropLook: 0
   useOuya: 0
   inventoryInteractions: 1
@@ -73,7 +73,7 @@ MonoBehaviour:
   cameraPerspective: 2
   movingTurning: 3
   hotspotDetection: 0
-  hotspotsInVicinity: 1
+  hotspotsInVicinity: 0
   hotspotIconDisplay: 0
   hotspotIcon: 1
   hotspotIconTexture: {fileID: 0}
