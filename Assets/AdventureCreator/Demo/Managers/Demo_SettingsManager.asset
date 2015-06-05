@@ -34,7 +34,7 @@ MonoBehaviour:
   cycleInventoryCursors: 1
   hideLockedCursor: 0
   lockCursorOnStart: 0
-  inventoryDragDrop: 1
+  inventoryDragDrop: 0
   inventoryDropLook: 0
   useOuya: 0
   inventoryInteractions: 1
@@ -46,7 +46,7 @@ MonoBehaviour:
   canReorderItems: 0
   hideSelectedFromMenu: 0
   rightClickInventory: 0
-  reverseInventoryCombinations: 1
+  reverseInventoryCombinations: 0
   canMoveWhenActive: 1
   clickPrefab: {fileID: 400000, guid: 5afa28bedf2ed4d77b1485bcdd7c48d9, type: 2}
   directMovementType: 1
